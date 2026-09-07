@@ -10,7 +10,7 @@ Di Buccio, E., **Di Nunzio, G. M.**, & Silvello, G.
 
 *International Journal of Metadata, Semantics and Ontologies*, vol. 9, no. 1, pp. 29-41
 
-[PDF](paper.pdf) [DOI](https://doi.org/10.1504/IJMSO.2014.059125) [BibTeX](cite.bib)
+[DOI](https://doi.org/10.1504/IJMSO.2014.059125) [BibTeX](cite.bib)
 
 ## Abstract
 

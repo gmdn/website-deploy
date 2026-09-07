@@ -10,7 +10,7 @@ September 1, 2014
 
 *Information Processing & Management*, vol. 50, no. 5, pp. 653-674
 
-[PDF](paper.pdf) [DOI](https://doi.org/10.1016/j.ipm.2014.04.008) [BibTeX](cite.bib)
+[DOI](https://doi.org/10.1016/j.ipm.2014.04.008) [BibTeX](cite.bib)
 
 ## Abstract
 

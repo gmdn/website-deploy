@@ -8,4 +8,4 @@ January 1, 2024
 
 *Springer Nature Switzerland*, vol. 14958
 
-[PDF](paper.pdf) [DOI](https://doi.org/10.1007/978-3-031-71736-9) [BibTeX](cite.bib)
+[DOI](https://doi.org/10.1007/978-3-031-71736-9) [BibTeX](cite.bib)

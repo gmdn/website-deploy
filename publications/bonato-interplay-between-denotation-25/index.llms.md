@@ -10,7 +10,7 @@ Bonato, V., **Di Nunzio, G. M.**, & Vezzani, F.
 
 *Cahiers de lexicologie 2024 – 2, n° 125. La connotation et la dénotation en terminologie*, pp. 19-45
 
-[PDF](paper.pdf) [DOI](https://doi.org/10.48611/isbn.978-2-406-17959-7.p.0019) [BibTeX](cite.bib)
+[DOI](https://doi.org/10.48611/isbn.978-2-406-17959-7.p.0019) [BibTeX](cite.bib)
 
 ## Abstract
 

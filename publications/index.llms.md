@@ -112,7 +112,7 @@ Conference Paper
 
 Bonato, V., **Di Nunzio, G. M.**, & Vezzani, F. (2025). *Cahiers de lexicologie 2024 – 2, n° 125. La connotation et la dénotation en terminologie*.
 
-Journal Article [DOI](https://doi.org/10.48611/isbn.978-2-406-17959-7.p.0019) [PDF](../publications/bonato-interplay-between-denotation-25/paper.pdf)
+Journal Article [DOI](https://doi.org/10.48611/isbn.978-2-406-17959-7.p.0019)
 
 [Overview of iDPP@CLEF 2024: The Intelligent Disease Progression Prediction Challenge](../publications/birolo-overview-idpp-clef-24/index.llms.md)
 
@@ -278,19 +278,11 @@ Conference Paper [DOI](https://doi.org/10.1145/3331184.3331289) [PDF](../publica
 
 Book Chapter [DOI](https://doi.org/10.1007/978-3-319-46135-9_2)
 
-[A Love-Hate Relationship for Big Data and Linguistics: Present Issues and Future Possibilities.](../publications/di-nunzio-love-hate-relationship-16/index.llms.md)
-
-**Di Nunzio, G. M.** & Poletto, C. (2015). *Proceedings of the First International Workshop on Accessing Cultural Heritage at Scale co-located with Joint Conference on Digital Libraries 2016 (JCDL 2016), Newark, USA, June 22, 2016.*.
-
-Conference Paper
-
-[Source](https://ceur-ws.org/Vol-1611/paper3.pdf)
-
 [A new decision to take for cost-sensitive Naïve Bayes classifiers](../publications/di-nunzio-new-decision-take-14/index.llms.md)
 
 **Di Nunzio, G. M.** (2014). *Information Processing & Management*.
 
-Journal Article [DOI](https://doi.org/10.1016/j.ipm.2014.04.008) [PDF](../publications/di-nunzio-new-decision-take-14/paper.pdf)
+Journal Article [DOI](https://doi.org/10.1016/j.ipm.2014.04.008)
 
 [A Vector Space Model for Syntactic Distances Between Dialects](../publications/di-buccio-vector-space-model-14/index.llms.md)
 
@@ -304,13 +296,13 @@ Conference Paper
 
 **Di Nunzio, G. M.**, Bruza, P., & Sitbon, L. (2013). *Quantum Interaction*.
 
-Conference Paper [DOI](https://doi.org/10.1007/978-3-642-54943-4_3) [PDF](../publications/di-nunzio-interference-text-categorisation-14/paper.pdf)
+Conference Paper [DOI](https://doi.org/10.1007/978-3-642-54943-4_3)
 
 [A linked open data approach for geolinguistics applications](../publications/di-buccio-linked-open-data-14/index.llms.md)
 
 Di Buccio, E., **Di Nunzio, G. M.**, & Silvello, G. (2013). *International Journal of Metadata, Semantics and Ontologies*.
 
-Journal Article [DOI](https://doi.org/10.1504/IJMSO.2014.059125) [PDF](../publications/di-buccio-linked-open-data-14/paper.pdf)
+Journal Article [DOI](https://doi.org/10.1504/IJMSO.2014.059125)
 
 [Web log analysis: a review of a decade of studies about information acquisition, inspection and interpretation of user interaction](../publications/agosti-web-log-analysis-12/index.llms.md)
 
@@ -378,9 +370,9 @@ Book [DOI](https://doi.org/10.63317/3a9vhtm9sv7b) [PDF](../publications/publicat
 
 [New Directions in Digital Terminology Research](../publications/martin-new-directions-digital-26/index.llms.md)
 
-Martín, A. S., Faber, P., Cárdenas, B. S., Vezzani, F., & **Di Nunzio, G. M.** (2026). *New Directions in Digital Terminology Research*.
+Martín, A. S., Faber, P., Cárdenas, B. S., Vezzani, F., & **Di Nunzio, G. M.** (2026). *Brill*.
 
-Book Chapter
+Book
 
 [Source](https://brill.com/display/title/73396)
 
@@ -614,19 +606,19 @@ Conference Paper [DOI](https://doi.org/10.1007/978-3-031-72440-4_14) [PDF](../pu
 
 (2023). *Springer Nature Switzerland*.
 
-Book [DOI](https://doi.org/10.1007/978-3-031-71736-9) [PDF](../publications/publication-experimental-ir-meets-24/paper.pdf)
+Book [DOI](https://doi.org/10.1007/978-3-031-71736-9)
 
 [Linking Theory and Practice of Digital Libraries: 28th International Conference on Theory and Practice of Digital Libraries, TPDL 2024, Ljubljana, Slovenia, September 24–27, 2024, Proceedings, Part I](../publications/publication-linking-theory-practice-24/index.llms.md)
 
 (2023). *Springer Nature Switzerland*.
 
-Book [DOI](https://doi.org/10.1007/978-3-031-72437-4) [PDF](../publications/publication-linking-theory-practice-24/paper.pdf)
+Book [DOI](https://doi.org/10.1007/978-3-031-72437-4)
 
 [ISO standards for terminology resources management: Are they FAIR enough?](../publications/vezzani-iso-standards-terminology-23/index.llms.md)
 
 Vezzani, F., **Di Nunzio, G. M.**, & Costa, R. (2023). *Digital Translation*.
 
-Journal Article [DOI](https://doi.org/10.1075/dt.00009.vez) [PDF](../publications/vezzani-iso-standards-terminology-23/paper.pdf)
+Journal Article [DOI](https://doi.org/10.1075/dt.00009.vez)
 
 [Preface Summary: There were 17 short papers accepted in this conference. All papers were peer-reviewed by at least two members of the scientific committee.](../publications/publication-preface-summary-there-23/index.llms.md)
 
@@ -640,7 +632,7 @@ Conference Paper
 
 Vezzani, F. & **Di Nunzio, G. M.** (2023). *Digital Scholarship in the Humanities*.
 
-Journal Article [DOI](https://doi.org/10.1093/llc/fqad028) [PDF](../publications/vezzani-multilingual-digital-terminology-23/paper.pdf)
+Journal Article [DOI](https://doi.org/10.1093/llc/fqad028)
 
 [Preface Summary: There were 4 short papers and 14 posters accepted in this conference. All papers were peer-reviewed by at least two members of the scientific committee.](../publications/publication-preface-summary-there-22/index.llms.md)
 

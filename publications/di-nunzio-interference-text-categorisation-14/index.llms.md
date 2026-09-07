@@ -10,7 +10,7 @@ January 1, 2014
 
 *Quantum Interaction*, pp. 22-33
 
-[PDF](paper.pdf) [DOI](https://doi.org/10.1007/978-3-642-54943-4_3) [BibTeX](cite.bib)
+[DOI](https://doi.org/10.1007/978-3-642-54943-4_3) [BibTeX](cite.bib)
 
 ## Abstract
 

@@ -10,7 +10,7 @@ Vezzani, F., **Di Nunzio, G. M.**, & Costa, R.
 
 *Digital Translation*, vol. 10, no. 2, pp. 233-252
 
-[PDF](paper.pdf) [DOI](https://doi.org/10.1075/dt.00009.vez) [BibTeX](cite.bib)
+[DOI](https://doi.org/10.1075/dt.00009.vez) [BibTeX](cite.bib)
 
 ## Abstract
 
