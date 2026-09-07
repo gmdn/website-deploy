@@ -1,0 +1,1373 @@
+/* Minor fixes that don't belong in the SCSS theme layers */
+
+/* Guarded at the point of declaration rather than overridden later: Quarto
+   emits the compiled theme bundle before `css:` files, so an unconditional
+   rule here would out-cascade the `prefers-reduced-motion` block in
+   theme.scss (identical `html` specificity, later stylesheet wins). */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* The navbar logo is emitted by Quarto, so width/height attributes can't be
+   added to the markup; Bootstrap sizes it `max-height: 24px; width: auto`,
+   which leaves its width unknown until the SVG loads. Declaring the intrinsic
+   ratio (logo.svg viewBox 919.6 x 1078.72) reserves the box up front. */
+.navbar-logo {
+  aspect-ratio: 920 / 1079;
+}
+
+/* ============ color-scheme toggle: sun / moon icons ============ */
+/* Circle around the toggle, sized to match the CTA button height, with the
+   same hover animation as the CTA and search: fills blue and the icon turns
+   white in both light and dark mode. */
+.quarto-navbar-tools .quarto-color-scheme-toggle {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: var(--nw-navctl);
+  height: var(--nw-navctl);
+  padding: 0 !important;
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+  border: 1px solid var(--nw-border);
+  border-radius: 50%;
+  box-sizing: border-box;
+  /* filled, like every other button on the site — see "buttons: filled,
+     never transparent" below */
+  background: var(--nw-card);
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.quarto-navbar-tools .quarto-color-scheme-toggle:hover {
+  background: var(--nw-primary);
+  border-color: var(--nw-primary);
+}
+
+/* Hand-drawn outlined (stroked) sun/moon, matching the site's line-icon style
+   (1.75 stroke, round caps — same as the back-to-top arrow). The glyph is a
+   flex item so it centers exactly in the circle, ignoring text baselines. */
+.quarto-navbar-tools .quarto-color-scheme-toggle .bi {
+  display: inline-flex;
+  line-height: 1;
+}
+
+.quarto-navbar-tools .quarto-color-scheme-toggle .bi::before {
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+  background-size: 1.1rem 1.1rem !important;
+  vertical-align: 0;
+}
+
+.quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23000" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>') !important;
+}
+
+body.quarto-dark .quarto-color-scheme-toggle > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23d1d5db" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>') !important;
+}
+
+/* Hover: swap the icon to a white variant (moon on light, sun on dark). */
+body:not(.quarto-dark) .quarto-navbar-tools .quarto-color-scheme-toggle:hover .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>') !important;
+}
+
+body.quarto-dark .quarto-navbar-tools .quarto-color-scheme-toggle:hover > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23fff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>') !important;
+}
+
+/* ============ navbar search: circle matching the toggle & CTA ============ */
+/* Overlay search renders a button.aa-DetachedSearchButton whose magnifier svg
+   paints with currentColor, so the hover just recolors it white. */
+#quarto-search.type-overlay .aa-DetachedSearchButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--nw-navctl);
+  height: var(--nw-navctl);
+  min-width: var(--nw-navctl);
+  padding: 0;
+  border: 1px solid var(--nw-border);
+  border-radius: 50%;
+  background: var(--nw-card);
+  color: var(--nw-navcta);
+  box-shadow: none;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+#quarto-search.type-overlay .aa-DetachedSearchButton:hover,
+#quarto-search.type-overlay .aa-DetachedSearchButton:focus {
+  background: var(--nw-primary);
+  border-color: var(--nw-primary);
+  color: #fff;
+  box-shadow: none;
+}
+
+/* Quarto's theme CSS colors the magnifier svg directly (color: #1f2937 on
+   light), which outranks the inherited hover color above, so force it. */
+#quarto-search.type-overlay .aa-DetachedSearchButton:hover .aa-SubmitIcon,
+#quarto-search.type-overlay .aa-DetachedSearchButton:focus .aa-SubmitIcon {
+  color: #fff !important;
+}
+
+#quarto-search .aa-DetachedSearchButtonIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 0;
+  color: inherit;
+}
+
+/* Quarto/algolia CSS sizes the magnifier svg itself, so force it down to
+   match the sun/moon glyph. */
+#quarto-search .aa-DetachedSearchButtonIcon .aa-SubmitIcon {
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+}
+
+#quarto-search .aa-DetachedSearchButtonPlaceholder,
+#quarto-search .aa-DetachedSearchButtonQuery {
+  display: none;
+}
+
+/* Mobile: the brand's mx-auto centering was pulling the search + theme toggle
+   in toward the title. Anchor the brand hard-left so the tools stay pinned to
+   the right edge of the navbar. */
+@media (max-width: 991.98px) {
+  .navbar .navbar-container {
+    flex-wrap: nowrap;
+  }
+
+  .navbar .navbar-brand-container.mx-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  /* Quarto gives the tools order:3 / search order:4 with margin-left:auto,
+     so the leftover flex space split between the brand's auto right margin
+     and the search's auto left margin, stranding the toggle mid-bar. Kill
+     the search's auto margin and slot the toggle right after it. */
+  .navbar #quarto-search {
+    margin-left: 0 !important;
+  }
+
+  .navbar .quarto-navbar-tools {
+    order: 5;
+    margin-left: 0;
+  }
+}
+
+/* full-bleed landing page: quarto's custom layout wrapper */
+.page-layout-custom main {
+  padding: 0;
+}
+
+/* sections sit transparent against the page background; no gray alt bands */
+.nw-alt {
+  background: transparent;
+}
+
+/* The hero's opaque background lives on a ::before layer that fades out over
+   its bottom third, so it blends gradually into the page background beneath
+   the particle network instead of ending abruptly at the stats section. */
+#hero {
+  /* anchor for the absolutely-positioned #nw-particles canvas */
+  position: relative;
+  background: none;
+  overflow: hidden;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(60rem 30rem at 50% -10%, var(--nw-hero-glow), transparent 70%),
+    var(--nw-bg);
+  -webkit-mask-image: linear-gradient(to bottom, #000 65%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 65%, transparent 100%);
+}
+
+/* ============ hero: interactive particle-network background ============ */
+/* particles.js canvas (config in index.qmd) fills the hero behind the
+   content. pointer-events stay on so hover-repulse and click-push work in
+   the empty areas around the text and portrait. */
+#nw-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  /* fade the network out over the same zone the hero background fades, so
+     particles dissolve into the page instead of clipping at the hero edge */
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);
+}
+
+#hero .nw-hero-inner {
+  position: relative;
+  z-index: 1;
+  /* let hovers over gaps in the hero row fall through to the particles */
+  pointer-events: none;
+}
+
+#hero .nw-hero-inner a,
+#hero .nw-hero-inner button,
+#hero .nw-hero-media {
+  pointer-events: auto;
+}
+
+/* ============ scroll reveal ============ */
+/* home.js tags below-the-fold elements with .nw-reveal (so no-JS visitors and
+   everything visible at load stay untouched) and flips on .nw-in as they
+   scroll into view. Opacity + transform only: no layout shift. */
+.nw-reveal {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.55s ease-out, transform 0.55s ease-out;
+}
+
+.nw-reveal.nw-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ============ premium whitespace between sections ============ */
+.nw-section {
+  padding: 6rem 0;
+}
+
+#hero {
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+/* desktop: larger side margins → narrower hero row brings text + portrait closer */
+@media (min-width: 992px) {
+  #hero .nw-hero-inner {
+    max-width: 56rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .nw-section {
+    padding: 3.5rem 0;
+  }
+}
+
+/* Quarto pads every direct child of #quarto-content — 14px on desktop, 0 below
+   992px — and that id selector outranks `.nw-section`, so the landing page's
+   sections were keeping their bottom padding while losing the top entirely.
+   Restore the symmetric padding from a selector that outranks Quarto's. */
+#quarto-content > .nw-section {
+  padding-top: 6rem;
+}
+
+@media (max-width: 640px) {
+  #quarto-content > .nw-section {
+    padding-top: 3.5rem;
+  }
+}
+
+/* ============ hero headline: never wider than the page margins ============ */
+/* Both halves of the headline are `white-space: nowrap`, and the longer one
+   ("Spatial Analysis.") measures ~6.6em in Inter at this weight and letter
+   spacing — ~7.4em in a system fallback while the webfont swaps in — so the
+   2.5rem floor in the theme's clamp() runs off both edges of a very narrow
+   phone. Cap the size at what fits between the hero's 1.5rem gutters even in
+   the wider fallback face,
+   so the type keeps shrinking with the viewport instead of overflowing. Scoped
+   to phone widths: the tablet/desktop rules set their own sizes. */
+@media (max-width: 767.98px) {
+  #hero h1 {
+    font-size: min(clamp(2.5rem, 6vw, 4rem), calc((100vw - 3rem) / 7.6));
+  }
+}
+
+/* ============ hero name: plain fg color, not gradient ============ */
+#hero h1 .nw-name {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  -webkit-text-fill-color: currentColor;
+  color: var(--nw-fg);
+}
+
+/* ============ navbar Book Now: never wrap; hide when space is tight ============ */
+/* The fill matches the other outline buttons — see "buttons: filled, never
+   transparent" below; it lives here so the selector isn't declared twice. */
+.navbar .navbar-nav .nav-item a[href*="cal.com"] {
+  white-space: nowrap;
+  background: var(--nw-card);
+}
+
+@media (min-width: 992px) and (max-width: 1249.98px) {
+  .navbar .navbar-nav .nav-item:has(> a[href*="cal.com"]) {
+    display: none;
+  }
+}
+
+/* ============ stats: only 4x1, 2x2, or 1x4 ============ */
+#stats .nw-stats {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 860px) {
+  #stats .nw-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 430px) {
+  #stats .nw-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============ affiliation logos: icon strip under the stats ============ */
+/* No heading of its own — the moving logos read as a quiet credential strip
+   below the stat cards. The track's own vertical padding is dropped so the
+   section's bottom gap stays equal to its top gap. */
+#stats .nw-marquee {
+  margin-top: 6.5rem;
+}
+
+@media (max-width: 640px) {
+  #stats .nw-marquee {
+    margin-top: 4.5rem;
+  }
+}
+
+#stats .nw-marquee-track {
+  padding: 0;
+}
+
+/* ============ tech stack ============ */
+/* Now a single marquee (see theme.scss) rather than category cards; the
+   items shrink a little on phones so more of the strip is on screen. */
+@media (max-width: 640px) {
+  .nw-marquee-tech .nw-marquee-track {
+    gap: 2.25rem;
+  }
+
+  .nw-tech-item img {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+/* ============ find me: dot globe with Orlando marker ============ */
+.nw-globe-wrap {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.nw-globe-frame {
+  position: relative;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+/* Narrow screens: the marker label can swing past the viewport edge as the
+   globe spins; clip it at the frame instead of letting it widen the page
+   into a sideways scroll. clip (not hidden) avoids creating a scroll box,
+   and only the x axis is clipped so the label can still rise above the
+   frame. The html/body guard backstops any horizontal overflow the frame
+   clip misses; the hidden line is a fallback for browsers without clip
+   (pre-2022 Safari), and is safe because the navbar is fixed, not sticky. */
+@media (max-width: 767.98px) {
+  .nw-globe-frame {
+    overflow-x: clip;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-x: clip;
+  }
+}
+
+/* ============ consistent side margins on listing pages ============ */
+.page-layout-full main.content {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4.5rem;
+}
+
+/* ============ awards grid: strict 2x2, or 1x4 on narrow phones ============ */
+.nw-carousel {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  max-width: 62rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+  .nw-carousel {
+    grid-template-columns: 1fr;
+  }
+}
+
+.nw-carousel > p,
+.nw-projects > p,
+.nw-cites > p,
+.nw-posts > p {
+  display: none;
+}
+
+/* ============ featured publications: 2x2, or 1x4 on narrow phones ======== */
+#publications .nw-cites {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 62rem;
+}
+
+/* the grid gap owns the spacing between cards now */
+#publications .nw-cites .nw-cite {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  #publications .nw-cites {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============ featured courses ============ */
+
+#teaching .nw-courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 860px) {
+  #teaching .nw-courses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  #teaching .nw-courses {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ============ research areas: neutral cards, no per-card color ============ */
+/* The .g-* icon classes are gone from the markup, so the tinted card
+   background keyed to them (theme.scss, via --c1/--c2) has nothing to mix;
+   pin the card and its icon tile back to the plain surface colors. */
+#research .nw-card {
+  background: var(--nw-card);
+}
+
+#research .nw-card .nw-icon {
+  background: none;
+  border: 1px solid var(--nw-border);
+  color: var(--nw-fg);
+}
+
+/* Two-column grid for the six research areas */
+#research .nw-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* One column on smaller screens */
+@media (max-width: 768px) {
+  #research .nw-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============ even breathing room top and bottom of every section ======== */
+/* Sections pad equally top and bottom, so the gap above a section's header
+   matches the gap below its last card (and, on a gradient band, the distance
+   to each edge of the gradient) — provided nothing leaves a trailing margin
+   behind. The "see all" row sits the same 2.5rem below the cards that the
+   subtitle sits above them. */
+.nw-section > .nw-section-inner > :last-child,
+.nw-cites .nw-cite:last-child,
+.nw-posts .nw-post:last-child,
+.nw-faq details:last-child {
+  margin-bottom: 0;
+}
+
+.nw-btns.nw-section-more {
+  margin-top: 2.5rem;
+}
+
+/* ============ detail pages: hero image injected from page metadata ============ */
+/* taller frame + contain so the full image is visible without cropping */
+img.nw-detail-hero {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  max-height: 38rem;
+  object-fit: contain;
+  background: var(--nw-card);
+  border-radius: 1rem;
+  border: 1px solid var(--nw-border);
+  margin-bottom: 1.5rem;
+}
+
+/* ============ back-to-top ============ */
+.nw-top {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 1030;
+
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 50%;
+  border: 1px solid var(--nw-border);
+  background: var(--nw-card);
+  color: var(--nw-muted);
+
+  cursor: pointer;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0.5rem);
+
+  transition:
+    opacity 0.25s,
+    transform 0.25s,
+    visibility 0.25s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.nw-top svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 1.4rem;
+  height: 1.4rem;
+
+  transform: translate(-50%, -50%);
+}
+
+.nw-top.show {
+  opacity: 0.85;
+  visibility: visible;
+  transform: none;
+}
+
+.nw-top:hover {
+  opacity: 1;
+  border-color: var(--nw-primary);
+  color: var(--nw-primary);
+}
+
+
+/* ============ footer: topography backdrop + link columns ============ */
+.nav-footer {
+  position: relative;
+  background: var(--nw-footer-bg);
+  border-top: 1px solid var(--nw-border);
+  overflow: hidden;
+  padding: 0;
+}
+
+.nav-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--nw-topo);
+  -webkit-mask: url(media/topography.svg) 0 0 / 37.5rem 37.5rem repeat;
+  mask: url(media/topography.svg) 0 0 / 37.5rem 37.5rem repeat;
+  pointer-events: none;
+}
+
+.nav-footer .nav-footer-center {
+  position: relative;
+  flex: 1 1 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.nw-footer {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 2.5rem;
+}
+
+.nw-footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(4, 1fr);
+  gap: 2.5rem;
+}
+
+.nw-footer-brand .nw-footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--nw-fg);
+  text-decoration: none;
+}
+
+.nw-footer-brand .nw-footer-logo img {
+  height: 1.75rem;
+  /* Required now that the markup carries width/height attributes: the width
+     attribute would otherwise act as a presentational hint and size the logo
+     at its intrinsic 920px. */
+  width: auto;
+}
+
+.nw-footer-brand p {
+  color: var(--nw-muted);
+  font-size: 0.9rem;
+  margin: 0.75rem 0 1rem;
+  max-width: 14rem;
+}
+
+.nw-footer-socials {
+  display: flex;
+  gap: 0.9rem;
+}
+
+.nw-footer-socials a {
+  color: var(--nw-muted);
+  display: inline-flex;
+}
+
+.nw-footer-socials a:hover {
+  color: var(--nw-primary);
+}
+
+.nw-footer-socials svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* h2, not h3: the footer columns are the page's second-level landmarks, and
+   an <h3> straight after the page <h1> is a skipped level. Same type. */
+.nw-footer-col h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--nw-fg);
+  margin: 0 0 1rem;
+  /* Quarto underlines every content <h2>; these are footer column labels, so
+     undo the underline. No dimming — the label renders the full fg color. */
+  border-bottom: 0;
+  padding-bottom: 0;
+  opacity: 1;
+}
+
+.nw-footer-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.nw-footer-col a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--nw-muted);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.nw-footer-col a:hover {
+  color: var(--nw-primary);
+}
+
+.nw-footer-col a svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: none;
+}
+
+.nw-footer-bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 3.5rem;
+  color: var(--nw-muted);
+  font-size: 0.85rem;
+}
+
+.nw-footer-bottom .nw-quarto-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: inherit;
+}
+
+.nw-footer-bottom .nw-quarto-credit svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  flex: none;
+}
+
+@media (max-width: 900px) {
+  .nw-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nw-footer-brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .nw-footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============ contact: two-column information card ============ */
+
+.nw-contact-card {
+  position: relative;
+  max-width: 62rem;
+  margin: 2.5rem auto 0;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 3rem;
+
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1.25rem;
+  padding: 2.75rem;
+
+  overflow: hidden;
+  box-shadow: 0 1.25rem 2.5rem -1.75rem rgba(0, 0, 0, 0.35);
+}
+
+/* blue accent line */
+.nw-contact-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--nw-primary),
+    transparent
+  );
+  opacity: 0.85;
+}
+
+.nw-contact-intro {
+  align-self: center;
+  padding-right: 3rem;
+  border-right: 1px solid var(--nw-border);
+}
+
+.nw-contact-intro h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.75rem;
+}
+
+.nw-contact-intro p {
+  color: var(--nw-muted);
+  margin: 0;
+  max-width: 28rem;
+}
+
+.nw-contact-details {
+  align-self: center;
+}
+
+.nw-contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (max-width: 860px) {
+  .nw-contact-card {
+    grid-template-columns: 1fr;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .nw-contact-intro {
+    padding-right: 0;
+    padding-bottom: 2rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--nw-border);
+  }
+}
+
+/* narrow phones: give the card less padding to work with, so shrink text
+   progressively (clamp) rather than letting it crowd the card edge. */
+@media (max-width: 480px) {
+  .nw-contact-card {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .nw-contact-info h3 {
+    font-size: clamp(1.05rem, 5.5vw, 1.35rem);
+  }
+
+  .nw-contact-info > p {
+    font-size: clamp(0.85rem, 3.6vw, 0.95rem);
+  }
+}
+
+
+.nw-contact-icon {
+  flex: 0 0 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  border: 1px solid var(--nw-border);
+  background: var(--nw-bg);
+  color: var(--nw-primary);
+}
+
+.nw-contact-icon svg {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  max-width: 1.25rem !important;
+  max-height: 1.25rem !important;
+  flex: none;
+}
+
+/* ============ dot globe canvas + marker label ============ */
+#nw-globe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  cursor: grab;
+  /* keep vertical page scrolling working when touches start on the globe */
+  touch-action: pan-y;
+}
+
+#nw-globe:active {
+  cursor: grabbing;
+}
+
+.nw-globe-tag {
+  text-align: center;
+  color: var(--nw-muted);
+  font-size: 0.95rem;
+  margin: 0.75rem 0 0;
+}
+
+.nw-globe-label {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  display: grid;
+  gap: 0.15rem;
+  justify-items: center;
+  pointer-events: none;
+  white-space: nowrap;
+  background: var(--nw-card);
+  color: var(--nw-fg);
+  border: 1px solid var(--nw-border);
+  border-radius: 0.6rem;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.85rem;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* display:grid above beats the UA [hidden] rule; restore it explicitly */
+.nw-globe-label[hidden] {
+  display: none;
+}
+
+.nw-globe-label code {
+  font-size: 0.75rem;
+  background: var(--nw-chip);
+  color: var(--nw-fg);
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.3rem;
+}
+
+/* ============ alternating wall-to-wall gradient bands ============ */
+/* The landing page alternates plain page background and a full-bleed color
+   wash: the wash rides on `.nw-alt` sections (which are otherwise
+   transparent), so the rhythm is plain / gradient / plain / gradient all the
+   way down. Each band spans the full width of the page and carries a mesh of
+   soft, overlapping radial blobs in three hues (`--nw-w1` / `--nw-w2` /
+   `--nw-w3`) rather than a flat left-to-right blend, so the color pools and
+   thins across the band instead of marching evenly across it. `--nw-wsh`
+   nudges every blob sideways by a per-section amount so no two bands land
+   their pools in the same places, and `.nw-wash-l` bands mirror the whole
+   mesh horizontally. The hero is deliberately left out: the particle network
+   is already carrying that area.
+
+   The gradient is the section's own background rather than a separate
+   `z-index: -1` pseudo-element: that layer goes stale when the page is opened
+   directly at a #hash — the browser scrolls before Quarto's listings finish
+   injecting, and the band ends up painted at its pre-injection geometry (a
+   stranded sliver of color nowhere near its section). A plain background
+   repaints with the box.
+
+   The grain rides on ::after — fine film grain, a flat color masked by an SVG
+   fractal-noise tile so the same tile works in either theme — stacked above
+   the background but below the section's content, which is lifted to z-index 1
+   instead of pushing the decoration to a negative index. */
+.nw-alt {
+  position: relative;
+  /* keep the decoration layer inside the section rather than letting it
+     interleave with anything outside */
+  isolation: isolate;
+  /* per-section defaults; each band overrides them below */
+  --nw-w3: var(--nw-w1);
+  --nw-wsh: 0%;
+  /* overall wash strength; dialed down on narrow viewports */
+  --nw-wstr: 100%;
+  background-image:
+    radial-gradient(
+      68% 58% at calc(12% + var(--nw-wsh)) 20%,
+      color-mix(in srgb, var(--nw-w1) calc(0.85 * var(--nw-wstr)), transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      52% 66% at calc(41% + var(--nw-wsh)) 96%,
+      color-mix(in srgb, var(--nw-w2) calc(0.8 * var(--nw-wstr)), transparent),
+      transparent 68%
+    ),
+    radial-gradient(
+      58% 74% at calc(76% + var(--nw-wsh)) 8%,
+      color-mix(in srgb, var(--nw-w3) calc(0.8 * var(--nw-wstr)), transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      46% 58% at calc(95% + var(--nw-wsh)) 72%,
+      color-mix(in srgb, var(--nw-w1) calc(0.65 * var(--nw-wstr)), transparent),
+      transparent 66%
+    ),
+    radial-gradient(
+      36% 44% at calc(60% + var(--nw-wsh)) 54%,
+      color-mix(in srgb, var(--nw-w2) calc(0.55 * var(--nw-wstr)), transparent),
+      transparent 72%
+    ),
+    /* faint base so the corners between blobs never fall all the way back to
+       the page background */
+    linear-gradient(
+      105deg,
+      color-mix(in srgb, var(--nw-w1) calc(0.3 * var(--nw-wstr)), transparent),
+      color-mix(in srgb, var(--nw-w3) calc(0.26 * var(--nw-wstr)), transparent) 55%,
+      color-mix(in srgb, var(--nw-w2) calc(0.3 * var(--nw-wstr)), transparent)
+    );
+}
+
+/* mirrored bands: the same mesh flipped left-to-right, so consecutive bands
+   never pool their color in the same corners */
+.nw-alt.nw-wash-l {
+  background-image:
+    radial-gradient(
+      68% 58% at calc(88% - var(--nw-wsh)) 20%,
+      color-mix(in srgb, var(--nw-w1) calc(0.85 * var(--nw-wstr)), transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      52% 66% at calc(59% - var(--nw-wsh)) 96%,
+      color-mix(in srgb, var(--nw-w2) calc(0.8 * var(--nw-wstr)), transparent),
+      transparent 68%
+    ),
+    radial-gradient(
+      58% 74% at calc(24% - var(--nw-wsh)) 8%,
+      color-mix(in srgb, var(--nw-w3) calc(0.8 * var(--nw-wstr)), transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      46% 58% at calc(5% - var(--nw-wsh)) 72%,
+      color-mix(in srgb, var(--nw-w1) calc(0.65 * var(--nw-wstr)), transparent),
+      transparent 66%
+    ),
+    radial-gradient(
+      36% 44% at calc(40% - var(--nw-wsh)) 54%,
+      color-mix(in srgb, var(--nw-w2) calc(0.55 * var(--nw-wstr)), transparent),
+      transparent 72%
+    ),
+    linear-gradient(
+      255deg,
+      color-mix(in srgb, var(--nw-w1) calc(0.3 * var(--nw-wstr)), transparent),
+      color-mix(in srgb, var(--nw-w3) calc(0.26 * var(--nw-wstr)), transparent) 55%,
+      color-mix(in srgb, var(--nw-w2) calc(0.3 * var(--nw-wstr)), transparent)
+    );
+}
+
+/* section content sits above the grain */
+.nw-alt > * {
+  position: relative;
+  z-index: 1;
+}
+
+.nw-alt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: var(--nw-grain);
+  opacity: var(--nw-grain-op);
+  /* alpha noise tile: the grain now covers the whole band, since the color
+     does too */
+  -webkit-mask-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mask-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  -webkit-mask-size: 160px 160px;
+  mask-size: 160px 160px;
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+}
+
+/* per-band hue sets: cool blues and greens, rotating so no two adjacent bands
+   read the same, each one still quiet enough to sit under body copy.
+   `--nw-wsh` shifts that band's whole mesh sideways so the pools land
+   somewhere different in every section. */
+#research {
+  --nw-w1: var(--nw-wash-sky);
+  --nw-w2: var(--nw-wash-emerald);
+  --nw-w3: var(--nw-wash-teal);
+  --nw-wsh: 0%;
+}
+
+#publications {
+  --nw-w1: var(--nw-wash-violet);
+  --nw-w2: var(--nw-wash-sky);
+  --nw-w3: var(--nw-wash-emerald);
+  --nw-wsh: 9%;
+}
+
+#experience {
+  --nw-w1: var(--nw-wash-emerald);
+  --nw-w2: var(--nw-wash-violet);
+  --nw-w3: var(--nw-wash-sky);
+  --nw-wsh: -7%;
+}
+
+#awards {
+  --nw-w1: var(--nw-wash-teal);
+  --nw-w2: var(--nw-wash-sky);
+  --nw-w3: var(--nw-wash-violet);
+  --nw-wsh: 6%;
+}
+
+#faq {
+  --nw-w1: var(--nw-wash-violet);
+  --nw-w2: var(--nw-wash-teal);
+  --nw-w3: var(--nw-wash-emerald);
+  --nw-wsh: -10%;
+}
+
+#cta {
+  --nw-w1: var(--nw-wash-sky);
+  --nw-w2: var(--nw-wash-emerald);
+  --nw-w3: var(--nw-wash-violet);
+  --nw-wsh: 4%;
+}
+
+/* ============ cards on a wash band go transparent ============ */
+/* A filled card punches an opaque rectangle out of the mesh underneath it,
+   which is exactly the thing the band is there to show. On a band the card
+   surface drops away entirely and the card states itself with an outline
+   alone, so the wash runs behind the content uninterrupted. That outline is
+   the same hairline the filled cards use (--nw-onband-border resolves to
+   --nw-border in both themes), so a card on a band and a card off one read at
+   identical weight. Off a band (project cards, the contact card, every inner
+   page) the cards keep their usual filled look.
+
+   The drop shadows go with the fill: a shadow with no surface above it just
+   smudges the gradient. */
+.nw-alt .nw-card,
+.nw-alt .nw-card:has(.nw-icon),
+/* research areas pin their card surface by id above; beat it on the band */
+#research.nw-alt .nw-card,
+.nw-alt .nw-cites .nw-cite,
+.nw-alt .nw-posts .nw-post,
+.nw-alt .nw-proj-card,
+.nw-alt .nw-tl-item,
+.nw-alt .nw-faq details,
+.nw-alt .nw-contact-card {
+  background: none;
+  border-color: var(--nw-onband-border);
+  box-shadow: none;
+}
+
+.nw-alt .nw-cites .nw-cite:hover,
+.nw-alt .nw-posts .nw-post:hover,
+.nw-alt .nw-proj-card:hover,
+.nw-alt .nw-tl-item:hover {
+  border-color: var(--nw-primary);
+  box-shadow: none;
+}
+
+/* the award "card" is its image, so only its frame changes */
+.nw-alt .nw-award img {
+  border-color: var(--nw-onband-border);
+}
+
+/* the wash is decoration only; pull it back where the viewport is too narrow
+   for the mesh to read as anything but a tint over the text column */
+@media (max-width: 560px) {
+  .nw-alt {
+    --nw-wstr: 55%;
+  }
+
+  .nw-alt::after {
+    opacity: calc(var(--nw-grain-op) * 0.6);
+  }
+}
+
+@media (prefers-contrast: more) {
+  .nw-alt,
+  .nw-alt.nw-wash-l {
+    background-image: none;
+  }
+
+  .nw-alt::after {
+    display: none;
+  }
+}
+
+/* ============ closing CTA: pitch beside the globe ============ */
+/* Two columns on a full-width desktop — the pitch on the left, the dot globe
+   on the right — collapsing to one column (globe underneath) as soon as the
+   two no longer fit side by side. */
+.nw-cta-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.nw-cta-layout .nw-cta-card {
+  margin: 0;
+  text-align: left;
+}
+
+.nw-cta-layout .nw-cta-card > p,
+.nw-cta-layout .nw-cta-card > .nw-cta-foot {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nw-cta-layout .nw-cta-facts,
+.nw-cta-layout .nw-cta-card .nw-btns {
+  justify-content: flex-start;
+}
+
+.nw-cta-layout .nw-globe-wrap {
+  max-width: none;
+}
+
+@media (max-width: 991.98px) {
+  .nw-cta-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+
+  .nw-cta-layout .nw-cta-card {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nw-cta-layout .nw-cta-card > p,
+  .nw-cta-layout .nw-cta-card > .nw-cta-foot {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nw-cta-layout .nw-cta-facts,
+  .nw-cta-layout .nw-cta-card .nw-btns {
+    justify-content: center;
+  }
+}
+
+/* ============ closing CTA: text straight on the gradient band ============ */
+/* The card chrome (blue panel, topography texture, glow, shadow) is dropped on
+   the landing page so the closing pitch sits directly on the section's own
+   gradient. Scoped to #cta: the 404 page still uses the card treatment. Colors
+   switch to the page foreground/muted pair, which is contrast-checked against
+   the page background in both themes — the band's wash is only a light tint
+   over it. */
+#cta .nw-cta-card {
+  max-width: 46rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--nw-fg);
+}
+
+/* topography texture and the radial glow */
+#cta .nw-cta-card::before,
+#cta .nw-cta-card::after {
+  display: none;
+}
+
+#cta .nw-cta-card > p {
+  color: var(--nw-muted);
+  opacity: 1;
+}
+
+#cta .nw-cta-card > p strong {
+  color: var(--nw-fg);
+}
+
+#cta .nw-cta-card > .nw-cta-foot {
+  color: var(--nw-muted);
+  opacity: 1;
+}
+
+/* fact chips pick up the site's chip colors instead of the card's tinted ones */
+#cta .nw-cta-facts li {
+  color: var(--nw-fg);
+  background: none;
+  border: 1px solid var(--nw-border);
+}
+
+/* buttons go back to their site-wide look, which reads correctly against the
+   page background now that the blue panel is gone */
+#cta .nw-cta-card .nw-btn-primary {
+  background: var(--nw-grad);
+  color: #fff !important;
+  box-shadow: 0 8px 24px rgba(0, 118, 223, 0.35);
+}
+
+#cta .nw-cta-card .nw-btn-ghost {
+  border: 1px solid var(--nw-border);
+  color: var(--nw-fg) !important;
+  background: none;
+}
+
+#cta .nw-cta-card .nw-btn-ghost:hover {
+  border-color: var(--nw-primary);
+}
+
+/* ============ buttons: outline only, no fill ============ */
+.nw-btn-ghost:hover {
+  border-color: var(--nw-primary);
+}
+
+/* ============ white labels render pure white ============ */
+/* `body { -webkit-font-smoothing: antialiased }` switches macOS to grayscale
+   antialiasing, which thins these labels enough that no glyph pixel reaches
+   #fff — sampling one reads about #e6e7eb. Subpixel rendering restores solid
+   white cores; the color is pinned alongside it so nothing dims it. */
+.nw-btn-primary,
+.nw-cta-card .nw-btn-primary {
+  -webkit-font-smoothing: auto;
+  color: #fff !important;
+}
+
+/* the navbar CTA's white-on-blue hover label, same treatment */
+.navbar .navbar-nav .nav-item a[href*="cal.com"]:hover {
+  background: var(--nw-primary);
+  -webkit-font-smoothing: auto;
+  color: #fff !important;
+}
+
+
+/* ============ homepage featured cards: shared Research-style layout ============ */
+
+#publications .nw-cites,
+#projects .nw-projects,
+#teaching .nw-courses {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#publications .nw-cite,
+#projects .nw-proj-card,
+#teaching .nw-course {
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.75rem;
+  margin: 0;
+  box-shadow: none;
+  transform: none;
+  height: 100%;
+}
+
+#publications .nw-cite:hover,
+#projects .nw-proj-card:hover,
+#teaching .nw-course:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--nw-border);
+}
+
+#projects .nw-proj-media {
+  display: none;
+}
+
+#projects .nw-proj-body {
+  padding: 0;
+}
+
+#publications .nw-cite-title,
+#projects .nw-proj-card h3,
+#teaching .nw-course h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  #publications .nw-cites,
+  #projects .nw-projects,
+  #teaching .nw-courses {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ============ featured news: one card per row ============ */
+
+#news .nw-news {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#news .nw-post {
+  position: relative;
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.75rem;
+  margin: 0;
+  box-shadow: none;
+  transform: none;
+}
+
+#news .nw-post:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--nw-border);
+}

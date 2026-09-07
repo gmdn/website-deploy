@@ -1,0 +1,2091 @@
+/*-- scss:defaults --*/
+
+// Inter, self-hosted (variable font, wght 100–900; same files Google Fonts
+// serves) so the render-blocking fonts.googleapis.com CSS request chain is
+// gone. unicode-range keeps browsers from downloading subsets they don't use.
+@each $subset, $range in (
+  "cyrillic-ext": (U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F),
+  "cyrillic": (U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116),
+  "greek-ext": (U+1F00-1FFF),
+  "greek": (U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF),
+  "vietnamese": (U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB),
+  "latin-ext": (U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF),
+  "latin": (U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD)
+) {
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('/assets/fonts/inter-#{$subset}.woff2') format('woff2');
+    unicode-range: $range;
+  }
+}
+
+// Cosmo's default $web-font-path @imports Source Sans Pro from Google Fonts at
+// the top of the compiled bootstrap.css — a render-blocking request for a font
+// nothing on the site uses (Inter replaces the whole stack). Disable it.
+$web-font-path: false;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !default;
+$primary: #126ef5 !default;
+$link-color: #126ef5 !default;
+$border-radius: 0.5rem !default;
+$navbar-padding-y: 0.65rem !default;
+
+/*-- scss:rules --*/
+
+:root {
+  --nw-primary: #126ef5;
+  --nw-secondary: #126ef5;
+  --nw-grad: linear-gradient(135deg, #126ef5, #126ef5);
+  /* shared height for the CTA button, so the theme-toggle and search circles
+     can size their diameter to match it exactly */
+  --nw-navctl: 2.4rem;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--nw-border);
+}
+
+.navbar .navbar-container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/* Bootstrap caps the brand image at `max-height: 24px`, which overrode the
+   height below — both have to be set for the mark to actually grow. */
+.navbar .navbar-brand img {
+  height: 2.25rem;
+  max-height: 2.25rem;
+  transition: filter 0.2s ease;
+}
+
+/* Logo + site title turn blue together on brand hover. Quarto renders them
+   as two sibling .navbar-brand anchors, so the hover lives on the shared
+   .navbar-brand-container — hovering either one colors both. The logo is a
+   black SVG mark, so it uses a filter chain that maps black to $primary
+   #126ef5 (source is black in every theme, so it works on both light and
+   dark); the title just takes the blue text color. */
+.navbar .navbar-brand-container:hover img,
+.navbar .navbar-brand:hover img {
+  filter: invert(41%) sepia(29%) saturate(3753%) hue-rotate(194deg) brightness(83%) contrast(115%);
+}
+
+.navbar .navbar-brand-container:hover .navbar-title,
+.navbar .navbar-brand:hover .navbar-title {
+  color: $primary;
+}
+
+.navbar .navbar-title {
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+/* Navigation hover state on desktop. */
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: $primary;
+}
+
+/* Desktop: on hover, draw a fully-rounded blue "pill" outline around the
+   nav-link text. Scoped to the left-hand text items (.me-auto) so the
+   "Book Now" CTA — which lives in .ms-auto and has its own pill styling —
+   never picks up this outline. */
+@media screen and (min-width: 992px) {
+  .navbar .navbar-nav.me-auto .nav-item {
+    position: relative;
+  }
+
+  .navbar .navbar-nav.me-auto .nav-item .nav-link {
+    position: relative;
+    z-index: 1;
+  }
+
+  .navbar .navbar-nav.me-auto .nav-item::after {
+    content: "";
+    position: absolute;
+    left: -0.1rem;
+    right: -0.1rem;
+    top: 50%;
+    height: 2rem;
+    border: 1.5px solid $primary;
+    border-radius: 999px;
+    opacity: 0;
+    transform: translateY(-50%) scale(0.92);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+  }
+
+  .navbar .navbar-nav.me-auto .nav-item:hover::after {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+/* "Book Now" CTA styled as a button. Height is pinned to --nw-navctl so the
+   theme-toggle and search circles can match its diameter. */
+.navbar .navbar-nav .nav-item a[href*="cal.com"] {
+  display: inline-flex;
+  align-items: center;
+  height: var(--nw-navctl);
+  background: transparent;
+  color: var(--nw-navcta) !important;
+  border: 1px solid var(--nw-border);
+  border-radius: 999px;
+  padding: 0 1.1rem !important;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, transform 0.15s;
+}
+
+.navbar .navbar-nav .nav-item a[href*="cal.com"]:hover {
+  background: var(--nw-primary);
+  border-color: var(--nw-primary);
+  color: #fff !important;
+}
+
+/* ============ shared section scaffolding ============ */
+.nw-section {
+  padding: 4rem 0;
+}
+
+.nw-section-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.nw-section h2.nw-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  border: none;
+}
+
+.nw-subtitle {
+  text-align: center;
+  color: var(--nw-muted);
+  margin: 0 auto 2.5rem;
+  max-width: 44rem;
+}
+
+.nw-lead {
+  text-align: center;
+  color: var(--nw-muted);
+  max-width: 66rem;
+  margin: -1.5rem auto 2.5rem;
+}
+
+.nw-alt {
+  background: var(--nw-bg-alt);
+}
+
+/* ============ hero ============ */
+#hero {
+  padding: 4.5rem 1.5rem 4.5rem;
+  text-align: center;
+  position: relative;
+  background:
+    radial-gradient(60rem 30rem at 50% -10%, var(--nw-hero-glow), transparent 70%),
+    var(--nw-bg);
+}
+
+#hero .nw-avatar {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--nw-border);
+  box-shadow: 0 0 0 3px rgba(18, 110, 245, 0.25);
+  margin-bottom: 1.5rem;
+}
+
+#hero .nw-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 999px;
+  padding: 0.3rem 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+#hero .nw-status::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #10b981;
+  animation: nw-pulse 2s infinite;
+}
+
+@keyframes nw-pulse {
+  50% { opacity: 0.4; }
+}
+
+#hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.5rem;
+}
+
+#hero h1 .nw-hi {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--nw-muted);
+  margin-bottom: 0.5rem;
+}
+
+#hero h1 .nw-name {
+  color: var(--nw-fg);
+}
+
+#hero h1 .nw-name .nw-accent {
+  color: var(--nw-primary);
+  -webkit-text-fill-color: var(--nw-primary);
+}
+
+/* Each half of the headline owns a line and never wraps mid-phrase. */
+#hero h1 .nw-line {
+  display: block;
+  white-space: nowrap;
+}
+
+#hero .nw-type {
+  font-size: 1.35rem;
+  font-weight: 600;
+  min-height: 2.2rem;
+  margin-bottom: 1.0rem;
+}
+
+#hero .nw-type .nw-typed {
+  color: var(--nw-primary);
+}
+
+#hero .nw-type .nw-caret {
+  display: inline-block;
+  width: 2px;
+  background: var(--nw-primary);
+  animation: nw-blink 1s step-end infinite;
+}
+
+@keyframes nw-blink {
+  50% { opacity: 0; }
+}
+
+#hero .nw-affiliation {
+  color: var(--nw-muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hero .nw-affiliation a {
+  color: var(--nw-fg);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#hero .nw-affiliation a:hover {
+  color: var(--nw-primary);
+}
+
+#hero .nw-socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+#hero .nw-socials a {
+  display: inline-flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--nw-border);
+  color: var(--nw-fg);
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+#hero .nw-socials a:hover {
+  transform: translateY(-3px);
+  border-color: var(--nw-primary);
+  color: var(--nw-primary);
+}
+
+#hero .nw-socials svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.nw-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Every pill carries the same 1px hairline: transparent on the filled
+   primary button, the shared border color on the ghost variant, so the two
+   sit at identical size and weight side by side. */
+.nw-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.6rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.nw-btn svg {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.nw-btn:hover {
+  transform: translateY(-2px);
+}
+
+.nw-btn-primary {
+  background: var(--nw-grad);
+  color: #fff !important;
+  box-shadow: 0 8px 24px rgba(18, 110, 245, 0.35);
+}
+
+.nw-btn-ghost {
+  border: 1px solid var(--nw-border);
+  color: var(--nw-fg) !important;
+}
+
+.nw-btn-ghost:hover {
+  border-color: var(--nw-primary);
+}
+
+/* ============ hero layout ============ */
+
+.nw-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 66rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  pointer-events: none;
+}
+
+/* headline + portrait */
+.nw-hero-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) auto minmax(7rem, 0.45fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+#hero .nw-hero-affiliation-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#hero .nw-hero-affiliation-logos a {
+  width: 5rem;
+  height: 5rem;
+  flex: 0 0 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1px solid var(--nw-border);
+  background: #fff;
+  overflow: hidden;
+}
+
+#hero .nw-hero-affiliation-logos img {
+  width: 82%;
+  height: 82%;
+  max-width: none;
+  max-height: none;
+
+  object-fit: contain;
+  display: block;
+
+  background: #fff;
+  border-radius: 50%;
+}
+
+
+#hero .nw-hero-affiliation-logos img[alt="University of Padua"] {
+  width: 100%;
+  height: 100%;
+}
+
+#hero .nw-hero-affiliation-logos img[alt="IIIA Research Group"] {
+  width: 65%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  background: transparent;
+  border-radius: 0;
+}
+
+#hero .nw-hero-affiliation-logos img[alt="CENTRICO"] {
+  width: 84%;
+  height: 84%;
+}
+
+.nw-hero-text {
+  min-width: 0;
+}
+
+.nw-hero-media {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* soft glow halo behind portrait */
+.nw-hero-media::before {
+  content: "";
+  position: absolute;
+  inset: -15%;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--nw-hero-glow), transparent 70%);
+  z-index: 0;
+}
+
+.nw-hero-media .nw-avatar {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-bottom: 0;
+}
+
+/* Allow interaction with hero content while keeping particles interactive */
+#hero .nw-hero-text,
+#hero .nw-hero-media,
+#hero .nw-hero-affiliation-logos,
+#hero .nw-socials,
+#hero .nw-affiliation {
+  pointer-events: auto;
+}
+
+/* Everything below the top row aligns with the headline */
+#hero .nw-socials {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+#hero .nw-affiliation {
+  max-width: 56rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* desktop portrait */
+@media (min-width: 992px) {
+  #hero .nw-avatar {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  #hero h1 {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+  }
+
+  #hero .nw-type {
+    font-size: 1.6rem;
+    min-height: 2.6rem;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nw-hero-top {
+    grid-template-columns: minmax(0, 1fr) auto minmax(5rem, 0.35fr);
+    gap: 1.5rem;
+  }
+
+  #hero .nw-hero-affiliation-logos img {
+    max-width: 6rem;
+    max-height: 2.8rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 767.98px) {
+  .nw-hero-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .nw-hero-media {
+    order: -1;
+    justify-self: center;
+  }
+
+  #hero .nw-hero-affiliation-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  #hero .nw-hero-affiliation-logos a {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--nw-border);
+    background: var(--nw-card);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    overflow: hidden;
+  }
+  
+  #hero .nw-hero-affiliation-logos img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: block;
+  }
+
+}
+
+/* ============ stats ============ */
+#stats .nw-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+
+#stats .nw-stat {
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.75rem 1rem;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+#stats .nw-stat:hover {
+  transform: translateY(-4px);
+  border-color: var(--nw-primary);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+#stats .nw-stat b {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--nw-stat-number);
+}
+
+#stats .nw-stat span {
+  color: var(--nw-muted);
+  font-size: 0.95rem;
+}
+
+/* ============ card grid (research areas / projects / awards) ============ */
+.nw-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(19rem, 100%), 1fr));
+}
+
+/* Research-area cards are static: nothing to click, so no hover state and no
+   transition either. */
+.nw-card {
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.75rem;
+}
+
+.nw-card .nw-icon {
+  display: inline-flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.nw-card .nw-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nw-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.nw-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.nw-chip {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: none;
+  border: 1px solid var(--nw-border);
+  color: var(--nw-muted);
+}
+
+/* gradient icon tiles */
+.g-emerald { background: linear-gradient(135deg, #34d399, #14b8a6); }
+.g-amber   { background: linear-gradient(135deg, #fbbf24, #f97316); }
+.g-sky     { background: linear-gradient(135deg, #38bdf8, #126ef5); }
+.g-fuchsia { background: linear-gradient(135deg, #e879f9, #a855f7); }
+.g-lime    { background: linear-gradient(135deg, #a3e635, #16a34a); }
+.g-rose    { background: linear-gradient(135deg, #fb7185, #ef4444); }
+
+/* Research-area cards: a subtle two-tone wash keyed to each card's icon
+   colors. The two hues are mixed into the card background by --nw-tint
+   (small in light, a touch stronger in dark) so the tint stays gentle in
+   both themes. Icon-color pairs mirror the .g-* tiles above. */
+.nw-card:has(.g-emerald) { --c1: #34d399; --c2: #14b8a6; }
+.nw-card:has(.g-amber)   { --c1: #fbbf24; --c2: #f97316; }
+.nw-card:has(.g-sky)     { --c1: #38bdf8; --c2: #126ef5; }
+.nw-card:has(.g-fuchsia) { --c1: #e879f9; --c2: #a855f7; }
+.nw-card:has(.g-lime)    { --c1: #a3e635; --c2: #16a34a; }
+.nw-card:has(.g-rose)    { --c1: #fb7185; --c2: #ef4444; }
+
+.nw-card:has(.nw-icon) {
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--c1) var(--nw-tint), var(--nw-card)),
+    color-mix(in srgb, var(--c2) var(--nw-tint), var(--nw-card))
+  );
+}
+
+/* ============ project cards (listing) ============ */
+.nw-projects.quarto-listing {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(19rem, 100%), 1fr));
+}
+
+.nw-proj-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.nw-proj-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--nw-primary);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.nw-proj-card .nw-proj-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: var(--nw-chip);
+}
+
+.nw-proj-card .nw-proj-media .nw-icon {
+  display: inline-flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.85rem;
+  color: #fff;
+  transition: transform 0.2s;
+}
+
+.nw-proj-card .nw-proj-media .nw-icon svg,
+.nw-proj-card .nw-proj-media .nw-icon img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.nw-proj-card:hover .nw-proj-media .nw-icon {
+  transform: scale(1.08);
+}
+
+/* real site screenshot fills the media box; falls back to the icon tile
+   above when a project has no screenshot yet */
+.nw-proj-card .nw-proj-media.nw-has-shot {
+  padding: 0;
+}
+
+.nw-proj-card .nw-proj-shot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.nw-proj-card:hover .nw-proj-shot {
+  transform: scale(1.03);
+}
+
+.nw-proj-card .nw-proj-body {
+  padding: 1.25rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.nw-proj-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nw-proj-card h3 a {
+  color: var(--nw-fg);
+  text-decoration: none;
+}
+
+.nw-proj-card p {
+  color: var(--nw-muted);
+  font-size: 0.92rem;
+  margin: 0;
+  flex: 1;
+}
+
+/* ============ citations (publications listing) ============ */
+/* home page: match featured pubs/posts width to education & experience timelines */
+#publications .nw-cites,
+#blog .nw-posts {
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.nw-cites .nw-cite {
+  position: relative;
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.nw-cites .nw-cite:hover {
+  transform: translateY(-4px);
+  border-color: var(--nw-primary);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.nw-cite-title a {
+  font-weight: 700;
+  color: var(--nw-fg);
+  text-decoration: none;
+}
+
+/* stretched link: the whole card navigates to the publication page.
+   Scoped to .nw-cites (the publications listing cards) — on the CV the
+   .nw-cite entries are flat, unpositioned rows, so an unscoped ::after
+   would resolve against the page and blanket it in an invisible link. */
+.nw-cites .nw-cite-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+/* keep DOI/source chips clickable above the stretched link */
+.nw-cite-links a,
+.nw-cite-links .nw-chip {
+  position: relative;
+}
+
+.nw-cite-title a:hover {
+  color: var(--nw-primary);
+}
+
+.nw-cite-meta {
+  color: var(--nw-muted);
+  font-size: 0.92rem;
+  margin-top: 0.25rem;
+}
+
+.nw-cite-links {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nw-cite-links a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--nw-border);
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+  color: var(--nw-muted);
+}
+
+.nw-cite-links a:hover {
+  border-color: var(--nw-primary);
+  color: var(--nw-primary);
+}
+
+
+/* ============ course cards (listing) ============ */
+
+.nw-courses.quarto-listing {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(19rem, 100%), 1fr));
+}
+
+.nw-course {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.nw-course:hover {
+  transform: translateY(-4px);
+  border-color: var(--nw-primary);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.nw-course h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nw-course h3 a {
+  color: var(--nw-fg);
+  text-decoration: none;
+}
+
+/* Make the whole card clickable */
+.nw-course h3 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.nw-course h3 a:hover {
+  color: var(--nw-primary);
+}
+
+.nw-course-meta {
+  color: var(--nw-muted);
+  font-size: 0.9rem;
+  margin-top: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.nw-course p {
+  color: var(--nw-muted);
+  font-size: 0.92rem;
+  margin: 0 0 1rem;
+  flex: 1;
+}
+
+/* Keep category/filter chips clickable above the stretched card link */
+.nw-course .nw-chips,
+.nw-course .nw-chip {
+  position: relative;
+}
+
+
+
+/* ============ tech stack ============ */
+/* One scrolling strip instead of category cards, sharing the marquee
+   machinery (and the seamless duplication in home.js) with the affiliation
+   logos. Items rest grey and come to full color on hover. */
+/* the subtitle already leaves its own 2.5rem below it */
+.nw-marquee-tech {
+  margin-top: 0;
+}
+
+/* The strip is roughly twice as long as the affiliation row, so at a shared
+   duration it would scroll at twice the speed. This is the no-JS fallback
+   pace; home.js replaces it with a duration measured off the real track width
+   so both marquees move at the same px/s. */
+.nw-marquee-tech .nw-marquee-track {
+  gap: 3rem;
+  animation-duration: 75s;
+}
+
+.nw-tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--nw-muted);
+  opacity: 0.7;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.nw-tech-item img {
+  width: 2.75rem;
+  height: 2.75rem;
+  object-fit: contain;
+  filter: grayscale(1);
+  transition: filter 0.15s;
+}
+
+.nw-tech-item:hover {
+  opacity: 1;
+  color: var(--nw-primary);
+}
+
+.nw-tech-item:hover img {
+  filter: none;
+}
+
+/* ============ timeline (experience) ============ */
+.nw-timeline {
+  position: relative;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding-left: 2.25rem;
+}
+
+.nw-timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.45rem;
+  top: 1.75rem;
+  bottom: 1.75rem;
+  width: 2px;
+  background: var(--nw-border);
+}
+
+.nw-tl-item {
+  position: relative;
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.nw-tl-item:last-child {
+  margin-bottom: 0;
+}
+
+.nw-tl-item:hover {
+  transform: translateY(-4px);
+  border-color: var(--nw-primary);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.nw-tl-item::before {
+  content: "";
+  position: absolute;
+  left: -2.23rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--nw-grad);
+  box-shadow: 0 0 0 4px var(--nw-bg);
+}
+
+/* Whole-card link variant used on the experience/education timelines. */
+.nw-tl-link {
+  display: block;
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.nw-tl-link:hover .nw-tl-org {
+  text-decoration: underline;
+}
+
+.nw-tl-item h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nw-tl-item .nw-tl-org {
+  font-weight: 600;
+  color: var(--nw-primary);
+  text-decoration: none;
+}
+
+.nw-tl-item .nw-tl-org:hover {
+  text-decoration: underline;
+}
+
+.nw-tl-item .nw-tl-meta {
+  font-size: 0.85rem;
+  color: var(--nw-muted);
+  margin: 0.15rem 0 0.5rem;
+}
+
+.nw-tl-item p {
+  color: var(--nw-muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* ============ logo marquee ============ */
+.nw-marquee {
+  margin-top: 2.5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+
+.nw-marquee-track {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  width: max-content;
+  animation: nw-scroll 40s linear infinite;
+  padding: 1rem 0;
+}
+
+.nw-marquee:hover .nw-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes nw-scroll {
+  to { transform: translateX(-50%); }
+}
+
+.nw-marquee-track a {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+
+.nw-marquee-track a:hover {
+  opacity: 1;
+}
+
+.nw-marquee-track img {
+  height: 3.25rem;
+  width: auto;
+  max-width: 9rem;
+  object-fit: contain;
+}
+
+/* ============ gallery / awards carousel ============ */
+.nw-carousel {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.nw-award {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.nw-award figure {
+  margin: 0;
+}
+
+/* framed like a card: same 1px hairline, same corner radius */
+.nw-award img {
+  width: 100%;
+  /* Required now that the markup carries width/height attributes: without it
+     the height attribute is used as a presentational hint, which specifies
+     both axes and makes aspect-ratio inert. */
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 1px solid var(--nw-border);
+  transition: transform 0.2s;
+}
+
+.nw-award:hover img {
+  transform: scale(1.03);
+}
+
+.nw-award figcaption {
+  padding-top: 0.6rem;
+}
+
+.nw-award b {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.nw-award span {
+  font-size: 0.8rem;
+  color: var(--nw-muted);
+}
+
+/* ============ posts (blog listing) ============ */
+.nw-posts {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.nw-posts .nw-post {
+  position: relative;
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.5rem 1.75rem;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.nw-posts .nw-post:hover {
+  transform: translateY(-4px);
+  border-color: var(--nw-primary);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.nw-post h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nw-post h3 a {
+  color: var(--nw-fg);
+  text-decoration: none;
+}
+
+.nw-post h3 a:hover {
+  color: var(--nw-primary);
+}
+
+/* stretched link: the whole card navigates to the post */
+.nw-post h3 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.nw-post-date {
+  color: var(--nw-muted);
+  font-size: 0.85rem;
+  margin: 0.3rem 0 0.6rem;
+}
+
+.nw-post p {
+  margin: 0;
+  color: var(--nw-muted);
+  font-size: 0.92rem;
+}
+
+/* ============ FAQ ============ */
+.nw-faq {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.nw-faq details {
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 0.9rem;
+  padding: 1rem 1.4rem;
+  margin-bottom: 0.85rem;
+}
+
+/* The default disclosure triangle is replaced by a thin plus at the right
+   edge that rotates into an X when the answer opens. The two bars are drawn
+   as pseudo-elements on a fixed-size box so the glyph stays optically
+   centered through the rotation. */
+.nw-faq summary {
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--nw-fg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nw-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.nw-faq summary::after {
+  content: "";
+  flex: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  background-image:
+    linear-gradient(var(--nw-fg), var(--nw-fg)),
+    linear-gradient(var(--nw-fg), var(--nw-fg));
+  background-size: 100% 1.5px, 1.5px 100%;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease;
+}
+
+.nw-faq details[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.nw-faq details p {
+  color: var(--nw-muted);
+  margin: 0.75rem 0 0;
+}
+
+/* ============ contact ============ */
+.nw-form {
+  margin-top: 2rem;
+  text-align: left;
+  display: grid;
+  gap: 1rem;
+  background: var(--nw-card);
+  border: 1px solid var(--nw-border);
+  border-radius: 1rem;
+  padding: 1.75rem;
+}
+
+.nw-form input,
+.nw-form textarea {
+  width: 100%;
+  background: var(--nw-bg);
+  border: 1px solid var(--nw-border);
+  border-radius: 0.6rem;
+  padding: 0.7rem 1rem;
+  color: var(--nw-fg);
+  font: inherit;
+  /* floor stays at 16px: iOS Safari zooms the viewport on focus of any
+     input/textarea sized below that, which would be worse than the
+     crowding this is meant to fix. */
+  font-size: clamp(1rem, 3.6vw, 1.05rem);
+}
+
+.nw-form input:focus,
+.nw-form textarea:focus {
+  outline: 2px solid var(--nw-primary);
+  border-color: transparent;
+}
+
+.nw-form-status {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.nw-form-status.ok {
+  color: #10b981;
+}
+
+.nw-form-status.err {
+  color: #ef4444;
+}
+
+/* ============ CTA card ============ */
+.nw-cta-card {
+  position: relative;
+  max-width: 56rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 1.5rem;
+  padding: 3.5rem 2.5rem;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid color-mix(in srgb, var(--nw-cta-fg) 14%, transparent);
+  background: linear-gradient(135deg, var(--nw-cta-from), var(--nw-cta-via), var(--nw-cta-to));
+  color: var(--nw-cta-fg);
+  box-shadow:
+    0 1.75rem 3.5rem -1.75rem rgba(0, 60, 120, 0.45),
+    inset 0 1px 0 var(--nw-cta-glow);
+}
+
+/* topography texture, keyed to the card foreground — the same survey-map
+   motif used behind the footer, tying the closing card to the site language */
+.nw-cta-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--nw-cta-line);
+  -webkit-mask: url(/assets/media/topography.svg) 0 0 / 30rem 30rem repeat;
+  mask: url(/assets/media/topography.svg) 0 0 / 30rem 30rem repeat;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* soft radial glow anchored top-centre for depth */
+.nw-cta-card::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -35%;
+  width: 42rem;
+  height: 42rem;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: radial-gradient(closest-side, var(--nw-cta-glow), transparent 70%);
+  pointer-events: none;
+}
+
+/* availability pill — mirrors the hero status chip, always-on green so it
+   reads the same in both themes over the blue card */
+.nw-cta-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 999px;
+  padding: 0.35rem 0.95rem;
+  margin-bottom: 1.4rem;
+}
+
+.nw-cta-status::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5);
+  animation: nw-pulse 2s infinite;
+}
+
+// h1 as well as h2: the 404 page's card carries the page's only top-level
+// heading, so it has to be an <h1> — with exactly the same type treatment as
+// the <h2> every other CTA card uses.
+.nw-cta-card :is(h1, h2) {
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  border: none;
+  // Quarto's own h2 rule contributes this; state it so the 404 page's <h1>
+  // lands on exactly the same baseline as every other card's <h2>.
+  padding-bottom: 0.5rem;
+  margin: 0 0 0.85rem;
+  color: inherit;
+}
+
+.nw-cta-card > p {
+  opacity: 0.92;
+  max-width: 40rem;
+  margin: 0 auto 1.9rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* quick-fact chips: location / focus / availability */
+.nw-cta-facts {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.nw-cta-facts li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  color: var(--nw-cta-fg);
+  background: color-mix(in srgb, var(--nw-cta-fg) 7%, transparent);
+  border: 1px solid color-mix(in srgb, var(--nw-cta-fg) 16%, transparent);
+}
+
+.nw-cta-facts svg {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.8;
+  flex: none;
+}
+
+/* CTA buttons: a solid inverse chip + a quiet outline, both scoped so the
+   site-wide blue gradient button doesn't disappear against the blue card */
+.nw-cta-card .nw-btn-primary {
+  background: var(--nw-cta-btn-bg);
+  color: var(--nw-cta-btn-fg) !important;
+  box-shadow: 0 0.75rem 1.75rem -0.75rem rgba(0, 40, 90, 0.55);
+}
+
+.nw-cta-card .nw-btn-ghost {
+  border: 1px solid color-mix(in srgb, var(--nw-cta-fg) 32%, transparent);
+  color: var(--nw-cta-fg) !important;
+  background: transparent;
+}
+
+.nw-cta-card .nw-btn-ghost:hover {
+  border-color: var(--nw-cta-fg);
+  background: color-mix(in srgb, var(--nw-cta-fg) 8%, transparent);
+}
+
+/* scoped to out-specify `.nw-cta-card > p` above, which otherwise zeroes the
+   top margin and collapses this line onto the button row */
+.nw-cta-card > .nw-cta-foot {
+  margin: 2.25rem auto 0;
+  font-size: 0.82rem;
+  opacity: 0.75;
+}
+
+@media (max-width: 560px) {
+  .nw-cta-card {
+    padding: 2.75rem 1.5rem;
+  }
+}
+
+/* Visually hidden, still announced: used for the filter result live region. */
+.nw-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ============ filterable listing pages (projects, publications, blog) ======
+   Quarto sizes the body-content grid track from the content it holds, so once
+   the category filter hides cards the column collapsed to the widest card that
+   was left — filtering to a single short post made every card narrower. A
+   definite width on the listing (and on the filter bar above it, so the two
+   stay aligned) pins the track. The viewport term keeps that width definite —
+   a percentage would be resolved against the very track it is meant to size —
+   so narrow screens shrink the column instead of overflowing it. */
+#listing-all-posts,
+#listing-all-pubs,
+#listing-all-projects,
+#listing-all-courses,
+.nw-filters {
+  width: min(72rem, calc(100vw - 5rem));
+  margin-inline: auto;
+}
+
+/* ============ filter buttons (projects page) ============ */
+.nw-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.nw-filters button {
+  border: 1px solid var(--nw-border);
+  background: transparent;
+  color: var(--nw-muted);
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nw-filters button.active,
+.nw-filters button:hover {
+  background: var(--nw-primary);
+  border-color: var(--nw-primary);
+  color: #fff;
+}
+
+/* ============ detail pages ============ */
+.nw-detail-hero img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  max-height: 38rem;
+  object-fit: contain;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.quarto-title-block .quarto-title h1.title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Breathing room between the fixed navbar and each page's title. The home page
+   uses a custom layout with no title block, so it's unaffected. */
+#title-block-header {
+  margin-top: 1.75rem;
+}
+
+@media (max-width: 640px) {
+  #title-block-header {
+    margin-top: 2.5rem;
+  }
+}
+
+/* Experience/education detail pages: org · dates · location lead line. */
+.nw-detail-lead {
+  color: var(--nw-muted);
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+.nw-detail-lead .nw-tl-org {
+  font-weight: 600;
+  color: var(--nw-primary);
+  text-decoration: none;
+}
+
+.nw-detail-lead .nw-tl-org:hover {
+  text-decoration: underline;
+}
+
+/* scroll offset for anchored sections under sticky navbar */
+.nw-section,
+#hero {
+  scroll-margin-top: 4.5rem;
+}
+
+/* Package hex logos are placed inline in section headings (e.g. `### dplyr
+   <img ...>`). Quarto copies each heading's markup into the table-of-contents
+   sidebar, which pulled those hex icons into the TOC "legend". Hide images in
+   the TOC so only the package names show there. */
+#TOC img,
+nav[role="doc-toc"] img {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .nw-section { padding: 3rem 0; }
+}
+
+/* mobile: overlay the expanded hamburger menu instead of pushing content down;
+   same glassmorphic treatment as the navbar itself */
+@media (max-width: 991.98px) {
+  /* Keep every link in the expanded hamburger menu centered, including the CTA. */
+  .navbar .navbar-collapse .navbar-nav {
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar .navbar-collapse .nav-item {
+    width: 100%;
+  }
+
+  .navbar .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* nested backdrop-filter inside the already-blurred navbar is unreliable,
+       so the dropdown needs a near-opaque glass tint to match the navbar */
+    background: var(--nw-glass-strong);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--nw-border);
+    padding: 0.5rem 1rem 1rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Book Now pill: hug the text instead of stretching across the dropdown */
+  .navbar .navbar-nav .nav-item a[href*="cal.com"] {
+    display: inline-flex;
+    width: fit-content;
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  /* Keep the compact mobile navbar clear, whether or not its menu is open. */
+  .navbar .navbar-brand img {
+    display: none;
+  }
+
+  /* ----- Hamburger that morphs into an X when expanded (no layout shift) ----- */
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+    /* middle bar (the shorthand also clears Bootstrap's default icon image) */
+    background: linear-gradient(var(--nw-fg), var(--nw-fg)) center / 100% 2px no-repeat;
+    transition: background 0.2s ease;
+  }
+
+  .navbar .navbar-toggler .navbar-toggler-icon::before,
+  .navbar .navbar-toggler .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--nw-fg);
+    border-radius: 2px;
+    transition: transform 0.2s ease, top 0.2s ease;
+  }
+
+  .navbar .navbar-toggler .navbar-toggler-icon::before { top: 0.25rem; }
+  .navbar .navbar-toggler .navbar-toggler-icon::after  { top: 1.05rem; }
+
+  /* Expanded → the two outer bars rotate into an X, middle bar fades. */
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: none;
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    top: 0.65rem;
+    transform: rotate(45deg);
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+    top: 0.65rem;
+    transform: rotate(-45deg);
+  }
+}
+
+/* very narrow screens: shrink the site title so it isn't cut off */
+@media (max-width: 400px) {
+  .navbar .navbar-title {
+    font-size: 0.85rem;
+  }
+}
+
+/* footer social icons (inline SVGs matching the hero) */
+.nav-footer a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  vertical-align: -0.25em;
+}
+
+/* ============ CV / curriculum vitae page ============ */
+.nw-cv {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+/* The custom-layout title block ("Curriculum Vitae" + description) spans the
+   full content column, so it sits left of the narrower .nw-cv body. Constrain
+   it to the same max-width, centering, and horizontal padding so it lines up. */
+body:has(.nw-cv) #title-block-header {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.nw-cv-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--nw-border);
+}
+
+.nw-cv-name {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  // The name is an <h2> so the page keeps a single <h1> (its title); Quarto
+  // underlines content h2s, which this heading never had.
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nw-cv-role {
+  margin: 0.25rem 0 0.5rem;
+  font-weight: 600;
+  color: var(--nw-primary);
+}
+
+.nw-cv-contact {
+  margin: 0;
+  color: var(--nw-muted);
+  font-size: 0.95rem;
+}
+
+.nw-cv-contact a {
+  color: var(--nw-fg);
+  text-decoration: none;
+}
+
+.nw-cv-contact a:hover {
+  color: var(--nw-primary);
+}
+
+.nw-cv-sep {
+  margin: 0 0.4rem;
+  opacity: 0.5;
+}
+
+.nw-cv-socials {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.nw-cv-socials a {
+  color: var(--nw-muted);
+}
+
+.nw-cv-socials a:hover {
+  color: var(--nw-primary);
+}
+
+.nw-cv-socials svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.nw-cv-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.nw-cv-actions .nw-btn {
+  padding: 0.55rem 1.2rem;
+  font-size: 0.9rem;
+  justify-content: center;
+}
+
+.nw-cv-summary {
+  margin: 1.5rem 0 0;
+  color: var(--nw-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.nw-cv-section {
+  margin-top: 2.5rem;
+}
+
+.nw-cv-section > h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--nw-border);
+}
+
+.nw-cv-section > h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--nw-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.nw-cv-entry {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--nw-border);
+}
+
+.nw-cv-entry:last-child {
+  border-bottom: 0;
+}
+
+.nw-cv-entry-head {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nw-cv-entry-title {
+  font-weight: 700;
+  color: var(--nw-fg);
+}
+
+.nw-cv-entry-date {
+  flex: 0 0 auto;
+  color: var(--nw-muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.nw-cv-entry-meta {
+  color: var(--nw-primary);
+  font-size: 0.92rem;
+  margin-top: 0.15rem;
+}
+
+.nw-cv-entry-meta a {
+  color: var(--nw-primary);
+  text-decoration: none;
+}
+
+.nw-cv-entry-meta a:hover {
+  text-decoration: underline;
+}
+
+.nw-cv-entry-desc {
+  margin: 0.4rem 0 0;
+  color: var(--nw-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* publications on the CV render as a flat list (no cards); position:relative
+   contains any stretched-link ::after so it can never cover the page */
+.nw-cv .nw-cite {
+  position: relative;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--nw-border);
+}
+
+.nw-cv .nw-cite:last-child {
+  border-bottom: 0;
+}
+
+.nw-cv-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.nw-cv-skill-row {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.nw-cv-skill-cat {
+  flex: 0 0 12rem;
+  font-weight: 700;
+  color: var(--nw-fg);
+}
+
+@media (max-width: 640px) {
+  .nw-cv-name {
+    font-size: 1.9rem;
+  }
+  .nw-cv-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .nw-cv-skill-row {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .nw-cv-skill-cat {
+    flex-basis: auto;
+  }
+}
+
+/* ============ print / save-as-PDF ============ */
+@media print {
+  /* strip site chrome so the CV prints as a clean document */
+  .navbar,
+  .nav-footer,
+  #quarto-back-to-top,
+  .nw-back-to-top,
+  #quarto-header,
+  .quarto-title-banner,
+  .aa-DetachedOverlay,
+  .nw-cv-actions,
+  .social-share,
+  #TOC {
+    display: none !important;
+  }
+
+  /* Drop the Quarto page title block ("Curriculum Vitae" + description) from
+     the printed CV only — it stays on screen. The heading is redundant on a
+     saved PDF, where the person's name already leads the document. */
+  body:has(.nw-cv) #title-block-header {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .nw-cv {
+    max-width: none;
+    margin: 0;
+    /* Left/right page margins are applied here as horizontal padding rather
+       than via @page, so they survive on every printed page even when the
+       browser zeroes out @page side margins. Top/bottom come from @page. */
+    padding: 0 1.5cm;
+  }
+
+  .nw-cv-name,
+  .nw-cv-entry-title,
+  .nw-cv-section > h2 {
+    color: #000 !important;
+  }
+
+  .nw-cv-contact,
+  .nw-cv-summary,
+  .nw-cv-entry-desc,
+  .nw-cv-entry-date,
+  .nw-cv-section > h3 {
+    color: #333 !important;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  /* keep each role, degree, award, and citation intact across page breaks */
+  .nw-cv-entry,
+  .nw-cv .nw-cite,
+  .nw-cv-skill-row {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .nw-cv-section {
+    break-inside: auto;
+  }
+
+  .nw-cv-section > h2,
+  .nw-cv-section > h3 {
+    break-after: avoid;
+  }
+}
+
+/* Page margins for print/save-as-PDF. Kept at the top level: @page only
+   applies to paged media anyway, and Chromium ignores @page rules nested
+   inside @media print, which left printed PDFs with no margins at all.
+
+   Only top/bottom margins are set here. Some browsers drop the left/right
+   @page margins (or the user's dialog zeroes them), which left printed CVs
+   flush against the left and right edges. The left/right margins are instead
+   applied as horizontal padding on .nw-cv above, so they hold on every page. */
+@page {
+  margin: 1.5cm 0;
+}
+
+/* Social share row: the extension drops the block into the "body-content" grid
+   column. That column is centered on article pages (individual projects, blog
+   posts) but sits left of center on the full-width listing pages (/projects,
+   /awards, /blog), leaving the buttons off-center there. Span the whole grid so
+   the extension's justify-content:center lands the row centered on every layout.
+   Higher specificity than Quarto's `.page-columns > *` rule so it wins. */
+.page-columns > .social-share {
+  grid-column: screen-start / screen-end;
+}
+
+/* code-window extension theming. The extension paints itself from the CSS
+   system colors `Canvas`/`currentColor`, which track the browser color-scheme
+   rather than Quarto's light/dark toggle, so dark-mode windows render light and
+   the default gray is too pale. Pin the surfaces to theme-aware vars instead
+   (defined in theme-light.scss / theme-dark.scss). */
+.code-with-filename {
+  background-color: var(--nw-code-bg) !important;
+  border-color: var(--nw-code-border) !important;
+}
+
+.code-with-filename .code-with-filename-file {
+  background-color: var(--nw-code-titlebar) !important;
+  border-bottom-color: var(--nw-code-border) !important;
+}
+
+.code-with-filename .sourceCode pre,
+.code-with-filename div.sourceCode pre,
+.code-with-filename .code-copy-outer-scaffold pre,
+.code-with-filename > pre {
+  background-color: var(--nw-code-bg) !important;
+}
+
+/* ---------------------------------------------------------------------------
+   Reduced motion
+
+   The JS-driven motion (particles hero, globe, scroll reveal, typewriter)
+   already checks `prefers-reduced-motion` at its call sites. These rules cover
+   the CSS side: the infinite animations that would otherwise keep running —
+   the logo marquee, the typewriter caret, and the two availability pulse dots.
+   Each element stays visible and legible, it simply holds still.
+   --------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  /* Logo marquee: stop the horizontal scroll and let the row be swiped or
+     scrolled manually instead (hover-to-pause is not keyboard/touch reachable). */
+  .nw-marquee-track {
+    animation: none;
+    transform: none;
+  }
+
+  .nw-marquee {
+    overflow-x: auto;
+  }
+
+  /* Caret and availability dots: hold at full opacity rather than blinking. */
+  #hero .nw-type .nw-caret,
+  #hero .nw-status::before,
+  .nw-cta-status::before {
+    animation: none;
+    opacity: 1;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}

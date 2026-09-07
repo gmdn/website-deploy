@@ -1,0 +1,17 @@
+# A Study on Ranking Fusion Approaches for the Retrieval of Medical Publications
+
+Journal Article
+
+Published
+
+February 1, 2020
+
+Clipa, T. & **Di Nunzio, G. M.**
+
+*Information*, vol. 11, no. 2, pp. 103
+
+[PDF](paper.pdf) [DOI](https://doi.org/10.3390/info11020103) [BibTeX](cite.bib)
+
+## Abstract
+
+In this work, we compare and analyze a variety of approaches in the task of medical publication retrieval and, in particular, for the Technology Assisted Review (TAR) task. This problem consists in the process of collecting articles that summarize all evidence that has been published regarding a certain medical topic. This task requires long search sessions by experts in the field of medicine. For this reason, semi-automatic approaches are essential for supporting these types of searches when the amount of data exceeds the limits of users. In this paper, we use state-of-the-art models and weighting schemes with different types of preprocessing as well as query expansion (QE) and relevance feedback (RF) approaches in order to study the best combination for this particular task. We also tested word embeddings representation of documents and queries in addition to three different ranking fusion approaches to see if the merged runs perform better than the single models. In order to make our results reproducible, we have used the collection provided by the Conference and Labs Evaluation Forum (CLEF) eHealth tasks. Query expansion and relevance feedback greatly improve the performance while the fusion of different rankings does not perform well in this task. The statistical analysis showed that, in general, the performance of the system does not depend much on the type of text preprocessing but on which weighting scheme is applied.

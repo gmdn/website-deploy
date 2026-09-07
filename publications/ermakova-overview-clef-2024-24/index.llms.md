@@ -1,0 +1,17 @@
+# Overview of the CLEF 2024 SimpleText Track
+
+Conference Paper
+
+Published
+
+January 1, 2024
+
+Ermakova, L., SanJuan, E., Huet, S., Azarbonyad, H., **Di Nunzio, G. M.**, Vezzani, F., D’Souza, J., & Kamps, J.
+
+*Experimental IR Meets Multilinguality, Multimodality, and Interaction*, pp. 283-307
+
+[PDF](paper.pdf) [DOI](https://doi.org/10.1007/978-3-031-71908-0_13) [BibTeX](cite.bib)
+
+## Abstract
+
+Everyone acknowledges the importance of objective scientific information. However, finding and understanding relevant scientific documents is often challenging due to complex terminology and readers’ lack of prior knowledge. The question is can we improve accessibility for everyone? This paper presents an overview of the SimpleText Track at CLEF 2024 addressing the technical and evaluation challenges associated with making scientific information accessible to a wide audience, including students and non-experts. It describes the data and benchmarks provided for scientific text summarization and simplification, along with the participants’ results. The CLEF 2024 SimpleText track is based on four interrelated tasks: Task 1 on Content Selection: Retrieving Passages to Include in a Simplified Summary. Task 2 on Complexity Spotting: Identifying and Explaining Difficult Concepts. Task 3 on Text Simplification: Simplify Scientific Text. Task 4 on SOTA?: Tracking the State-of-the-Art in Scholarly Publications.

@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "name": "Giorgio Maria Di Nunzio",
+  "short_name": "Giorgio Di Nunzio",
+  "description": "Academic website of Giorgio Maria Di Nunzio, Associate Professor of Computer Engineering at the University of Padova. Research in information retrieval, technology-assisted review, text analytics, computational terminology, Bayesian machine learning, and digital humanities.",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#0a0a0f"
+  "background_color": "#0a0a0f",
+  "display": "standalone"
+}

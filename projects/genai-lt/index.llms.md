@@ -1,0 +1,31 @@
+# GenAI-LT
+
+Generative AI
+
+Legal Translation
+
+Computational Terminology
+
+Natural Language Processing
+
+Generative Artificial Intelligence in Legal Translation
+
+Published
+
+December 5, 2025
+
+[Project Page](https://pravri.uniri.hr/en/project/generative-aritificial-intelligence-in-legal-translation/)
+
+**GenAI-LT** investigates the use of generative artificial intelligence in legal translation, combining approaches from automated legal translation, corpus-informed terminology, natural language processing, and legal information science.
+
+The project studies how domain knowledge and legal terminology can be integrated with language models to improve the translation of legal texts, with particular attention to the characteristics of EU law. :contentReferenceoaicite:1
+
+### Project information
+
+- **Project:** Generative Artificial Intelligence in Legal Translation
+- **Acronym:** GenAI-LT
+- **Project number:** IP-2025-02-3140
+- **Funding:** Croatian Science Foundation
+- **Duration:** 2025–2028
+- **Project leader:** Martina Bajčić, University of Rijeka
+- **Role:** Project team member

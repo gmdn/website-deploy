@@ -1,0 +1,21 @@
+# Get in touch
+
+Email me, book a call, or send a message — I reply within 24 hours.
+
+## Start a conversation
+
+I work on wildfire risk, remote sensing and the tools that put a model in front of someone who has to decide something. If you are hiring, planning a collaboration, or stuck on a spatial problem, tell me what you are working on and I will reply within 24 hours.
+
+- ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHJlY3QgeD0iMyIgeT0iNSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE0IiByeD0iMiIgLz48cGF0aCBkPSJNMyA3bDkgNmw5IC02IiAvPjwvc3ZnPg==) Email<noah@noahweidig.com>
+- ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHBhdGggZD0iTTkgMTFhMyAzIDAgMSAwIDYgMGEzIDMgMCAwIDAgLTYgMCIgLz48cGF0aCBkPSJNMTcuNjU3IDE2LjY1N2wtNC4yNDMgNC4yNDNhMiAyIDAgMCAxIC0yLjgyNyAwbC00LjI0NCAtNC4yNDNhOCA4IDAgMSAxIDExLjMxNCAweiIgLz48L3N2Zz4=) LocationOrlando, Florida
+- ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHJlY3QgeD0iMyIgeT0iNyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjEzIiByeD0iMiIgLz48cGF0aCBkPSJNOCA3di0yYTIgMiAwIDAgMSAyIC0yaDRhMiAyIDAgMCAxIDIgMnYyIiAvPjxwYXRoIGQ9Ik0xMiAxMnYuMDEiIC8+PHBhdGggZD0iTTMgMTNhMjAgMjAgMCAwIDAgMTggMCIgLz48L3N2Zz4=) Open toData science & GIS roles, collaborations
+
+Your name
+
+Your email
+
+Your message
+
+Company — leave this field empty
+
+Send message

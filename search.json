@@ -1,0 +1,1262 @@
+[
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Courses",
+    "section": "",
+    "text": "All courses\n\n\n\n\nAdvanced Text Analytics\n\n\nAcademic Year: 2025/2026\n\n\nMaster Degree\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/vezzani-when-lmf-tmf-25/index.html",
+    "href": "publications/vezzani-when-lmf-tmf-25/index.html",
+    "title": "When LMF and TMF meet: Towards a Unified Markup Framework (UMF)",
+    "section": "",
+    "text": "Vezzani, F., Di Nunzio, G. M., Salgado, A., & Costa, R.\nTerminology. International Journal of Theoretical and Applied Issues in Specialized Communication, vol. 31, no. 1, pp. 72-109\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/vezzani-when-lmf-tmf-25/index.html#abstract",
+    "href": "publications/vezzani-when-lmf-tmf-25/index.html#abstract",
+    "title": "When LMF and TMF meet: Towards a Unified Markup Framework (UMF)",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract The interoperability of language resources is crucial for effective communication and data exchange across various computational systems. In this context, the ISO/TC 37 standards, specifically the Lexical Markup Framework (LMF) and the Terminological Markup Framework (TMF), play a vital role by providing a common framework for the modelling, representation, and exchange of lexical and terminological data. The LMF has been deliberately aligned with TMF to facilitate close coordination between the two standards. This paper explores the convergence between LMF and TMF, underscoring the need for a Unified Markup Framework (UMF) that enhances interoperability and effective resource management. We propose a unified meta-model that integrates these frameworks through comparative analysis and real-world examples, facilitating the development of advanced language processing applications and multilingual lexicographic and terminology management. This study not only underscores the opportunities and challenges of such coordination but also sets the groundwork for future research directions in the harmonisation of lexicographic and terminology resources."
+  },
+  {
+    "objectID": "publications/vezzani-multilingual-digital-terminology-23/index.html",
+    "href": "publications/vezzani-multilingual-digital-terminology-23/index.html",
+    "title": "Multilingual digital terminology: Introduction to the special issue",
+    "section": "",
+    "text": "Vezzani, F. & Di Nunzio, G. M.\n\n\nDigital Scholarship in the Humanities, vol. 38, no. Supplement_1, pp. i1-i5\n\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/vezzani-iso-standards-terminology-23/index.html",
+    "href": "publications/vezzani-iso-standards-terminology-23/index.html",
+    "title": "ISO standards for terminology resources management: Are they FAIR enough?",
+    "section": "",
+    "text": "Vezzani, F., Di Nunzio, G. M., & Costa, R.\nDigital Translation, vol. 10, no. 2, pp. 233-252\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/vezzani-iso-standards-terminology-23/index.html#abstract",
+    "href": "publications/vezzani-iso-standards-terminology-23/index.html#abstract",
+    "title": "ISO standards for terminology resources management: Are they FAIR enough?",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract The ‘FAIR terminology’ paradigm is the first initiative that aims to establish a strong interrelation between the FAIR (Findability, Accessibility, Interoperability, and Reusability) principles, promoted at the European level to foster the Open Science movement, and the specifications advocated in the framework of ISO TC 37/SC 3 about the management of terminology resources. Through the complementary adoption of the SC 3 standards, the paradigm, therefore, proposes guidelines paving the way for the FAIRification of terminological data, metadata, and infrastructure. In this context, this study has a threefold objective. First, we will show the impact of three ISO TC 37/SC 3 standards (mainly ISO 16642: 2017; ISO 12620: 2019 and ISO 30042: 2019) for the foundation of the FAIR terminology paradigm. Secondly, we will present the integration of this data representation model in the framework of the European project ‘Terminology Without Borders’ (TWB) launched in 2019 by the Terminology Coordination Unit (TermCoord) of the European Parliament. Finally, we intend to reflect in a critical perspective to highlight some possible limitations of the previously mentioned SC 3 standards in terms of FAIRification of terminological data."
+  },
+  {
+    "objectID": "publications/tonneau-jtte-ate-it-26/index.html",
+    "href": "publications/tonneau-jtte-ate-it-26/index.html",
+    "title": "JTTE at ATE-IT: A CRF Model with Contextual Embeddings",
+    "section": "",
+    "text": "Tonneau, J. & Di Nunzio, G. M.\n\n\nProceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026), vol. 4195\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/ralli-exploring-human-ai-26/index.html",
+    "href": "publications/ralli-exploring-human-ai-26/index.html",
+    "title": "Exploring the Human–AI Continuum in Terminology Management: Towards Evaluation Criteria for LLM-Assisted Terminology Work",
+    "section": "",
+    "text": "Ralli, N., Di Nunzio, G. M., Smaadahl, H., Salgado, A., Vezzani, F., Schmitz, K. D., Carvalho, S., Fleischmann, K., & Bane, F.\n\n\nProceedings of the 5th International Conference on Multilingual Digital Terminology Today (MDTT 2026), vol. 4219\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-proceedings-2nd-workshop-26/index.html",
+    "href": "publications/publication-proceedings-2nd-workshop-26/index.html",
+    "title": "Proceedings of the 2nd Workshop on Evaluating Text Difficulty in a Multilingual Context (DeTermIt! 2026)",
+    "section": "",
+    "text": "ELRA Language Resources Association (ELRA)\n\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-summary-there-22/index.html",
+    "href": "publications/publication-preface-summary-there-22/index.html",
+    "title": "Preface Summary: There were 4 short papers and 14 posters accepted in this conference. All papers were peer-reviewed by at least two members of the scientific committee.",
+    "section": "",
+    "text": "Proceedings of the 1st International Conference on Multilingual Digital Terminology Today, vol. 3161\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-mdtt-2025-25/index.html",
+    "href": "publications/publication-preface-mdtt-2025-25/index.html",
+    "title": "Preface (MDTT 2025)",
+    "section": "",
+    "text": "Proceedings of the 4rd International Conference on Multilingual Digital Terminology Today (MDTT 2025), vol. 3990\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-ircdl-2025-25/index.html",
+    "href": "publications/publication-preface-ircdl-2025-25/index.html",
+    "title": "Preface (IRCDL 2025)",
+    "section": "",
+    "text": "Proceedings of the 21st Conference on Information and Research science Connecting to Digital and Library science, vol. 3937\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-altars-2024-24/index.html",
+    "href": "publications/publication-preface-altars-2024-24/index.html",
+    "title": "Preface (ALTARS 2024)",
+    "section": "",
+    "text": "Proceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024), vol. 3832\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-experimental-ir-meets-24/index.html",
+    "href": "publications/publication-experimental-ir-meets-24/index.html",
+    "title": "Experimental IR Meets Multilinguality, Multimodality, and Interaction: 15th International Conference of the CLEF Association, CLEF 2024, Grenoble, France, September 9–12, 2024, Proceedings, Part I",
+    "section": "",
+    "text": "Springer Nature Switzerland, vol. 14958\n\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/pamio-comparing-crf-vs-25/index.html",
+    "href": "publications/pamio-comparing-crf-vs-25/index.html",
+    "title": "Comparing CRF vs BERT Models for Named Entity Recognition and Relation Extraction",
+    "section": "",
+    "text": "Pamio, L. & Di Nunzio, G. M.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025), vol. 4038, pp. 473-482\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/nentidis-overview-bioasq-2025-26/index.html",
+    "href": "publications/nentidis-overview-bioasq-2025-26/index.html",
+    "title": "Overview of BioASQ 2025: The Thirteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering",
+    "section": "",
+    "text": "Nentidis, A., Katsimpras, G., Krithara, A., Krallinger, M., Rodríguez-Ortega, M., Rodriguez-López, E., Loukachevitch, N., Sakhovskiy, A., Tutubalina, E., Dimitriadis, D., Tsoumakas, G., Giannakoulas, G., Bekiaridou, A., Samaras, A., Nunzio, G. M. D., Ferro, N., Marchesin, S., Martinelli, M., Silvello, G., & Paliouras, G.\nExperimental IR Meets Multilinguality, Multimodality, and Interaction, pp. 173-198\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/nentidis-overview-bioasq-2025-26/index.html#abstract",
+    "href": "publications/nentidis-overview-bioasq-2025-26/index.html#abstract",
+    "title": "Overview of BioASQ 2025: The Thirteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering",
+    "section": "Abstract",
+    "text": "Abstract\nThis is an overview of the thirteenth edition of the BioASQ challenge in the context of the Conference and Labs of the Evaluation Forum (CLEF) 2025. BioASQ is a series of international challenges promoting advances in large-scale biomedical semantic indexing and question answering. This year, BioASQ consisted of new editions of the two established tasks, b and Synergy, and four new tasks: a) Task MultiClinSum on multilingual clinical summarization. b) Task BioNNE-L on nested named entity linking in Russian and English. c) Task ELCardioCC on clinical coding in cardiology. d) Task GutBrainIE on gut-brain interplay information extraction. In this edition of BioASQ, 83 competing teams participated with more than 1000 distinct submissions in total for the six different shared tasks of the challenge. Similar to previous editions, several participating systems achieved competitive performance, indicating the continuous advancement of the state-of-the-art in the field."
+  },
+  {
+    "objectID": "publications/nentidis-bioasq-clef2025-thirteenth-25/index.html",
+    "href": "publications/nentidis-bioasq-clef2025-thirteenth-25/index.html",
+    "title": "BioASQ at CLEF2025: The Thirteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge",
+    "section": "",
+    "text": "Nentidis, A., Katsimpras, G., Krithara, A., Krallinger, M., Ortega, M. R., Loukachevitch, N., Sakhovskiy, A., Tutubalina, E., Tsoumakas, G., Giannakoulas, G., Bekiaridou, A., Samaras, A., Di Nunzio, G. M., Ferro, N., Marchesin, S., Menotti, L., Silvello, G., & Paliouras, G.\nAdvances in Information Retrieval, pp. 407-415\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/nentidis-bioasq-clef2025-thirteenth-25/index.html#abstract",
+    "href": "publications/nentidis-bioasq-clef2025-thirteenth-25/index.html#abstract",
+    "title": "BioASQ at CLEF2025: The Thirteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge",
+    "section": "Abstract",
+    "text": "Abstract\nDuring the last twelve years, the large-scale biomedical semantic indexing and question-answering challenge (BioASQ) has been pushing towards the continuous advancement of methods and tools to accelerate access to the ever-increasing scientific resources of the biomedical domain. In this direction, each year, BioASQ organizes shared tasks representing the real information needs of biomedical experts and provides respective benchmark datasets. This way, it provides a unique common testbed where research teams around the world can test and compare new approaches for accessing biomedical knowledge."
+  },
+  {
+    "objectID": "publications/milazzo-onomastic-repertoire-roman-24/index.html",
+    "href": "publications/milazzo-onomastic-repertoire-roman-24/index.html",
+    "title": "The Onomastic Repertoire of the Roman d’Alexandre (ORNARE). Designing an Integrated Digital Onomastic Tool for Medieval French Romance",
+    "section": "",
+    "text": "Milazzo, M. & Di Nunzio, G. M.\nProceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pp. 15982–15987\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/milazzo-onomastic-repertoire-roman-24/index.html#abstract",
+    "href": "publications/milazzo-onomastic-repertoire-roman-24/index.html#abstract",
+    "title": "The Onomastic Repertoire of the Roman d’Alexandre (ORNARE). Designing an Integrated Digital Onomastic Tool for Medieval French Romance",
+    "section": "Abstract",
+    "text": "Abstract\nThe paper reports on the first results of the design and implementation of a new digital tool for romance philology: the digital Onomastic Repertoire for the medieval French romance (12th-15th centuries). This tool, projected with a modular and integrable architecture, was implemented from a selection of romances, the corpus of the Medieval French Roman d’Alexandre. After introducing the peculiarities of the onomastic system in the Middle Ages (and, more generally, the peculiarities of medieval literary texts), the paper describes 1) the methodological challenges faced in the preparatory work, illustrates and comments on the first results achieved and 2) the design and implementation of the first integrated system for the interactive creation of the Onomastic Repertoire of the romaN d’AlexandRE (ORNARE), and 3) the current research output in terms of both a digital edition and the digital onomastic index of the corpus."
+  },
+  {
+    "objectID": "publications/martinelli-overview-gutbrainie-clef-25/index.html",
+    "href": "publications/martinelli-overview-gutbrainie-clef-25/index.html",
+    "title": "Overview of GutBrainIE@CLEF 2025: Gut-Brain Interplay Information Extraction",
+    "section": "",
+    "text": "Martinelli, M., Silvello, G., Bonato, V., Di Nunzio, G. M., Ferro, N., Irrera, O., Marchesin, S., Menotti, L., & Vezzani, F.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025), vol. 4038, pp. 65-98\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/martin-new-directions-digital-26/index.html",
+    "href": "publications/martin-new-directions-digital-26/index.html",
+    "title": "New Directions in Digital Terminology Research",
+    "section": "",
+    "text": "Martín, A. S., Faber, P., Cárdenas, B. S., Vezzani, F., & Di Nunzio, G. M.\n\n\nNew Directions in Digital Terminology Research\n\nSource BibTeX"
+  },
+  {
+    "objectID": "publications/marchesin-empowering-digital-pathology-22/index.html",
+    "href": "publications/marchesin-empowering-digital-pathology-22/index.html",
+    "title": "Empowering digital pathology applications through explainable knowledge extraction tools",
+    "section": "",
+    "text": "Marchesin, S., Giachelle, F., Marini, N., Atzori, M., Boytcheva, S., Buttafuoco, G., Ciompi, F., Di Nunzio, G. M., Fraggetta, F., Irrera, O., Müller, H., Primov, T., Vatrano, S., & Silvello, G.\nJournal of Pathology Informatics, vol. 13, pp. 100139\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/marchesin-empowering-digital-pathology-22/index.html#abstract",
+    "href": "publications/marchesin-empowering-digital-pathology-22/index.html#abstract",
+    "title": "Empowering digital pathology applications through explainable knowledge extraction tools",
+    "section": "Abstract",
+    "text": "Abstract\nExa-scale volumes of medical data have been produced for decades. In most cases, the diagnosis is reported in free text, encoding medical knowledge that is still largely unexploited. In order to allow decoding medical knowledge included in reports, we propose an unsupervised knowledge extraction system combining a rule-based expert system with pre-trained Machine Learning (ML) models, namely the Semantic Knowledge Extractor Tool (SKET). Combining rule-based techniques and pre-trained ML models provides high accuracy results for knowledge extraction. This work demonstrates the viability of unsupervised Natural Language Processing (NLP) techniques to extract critical information from cancer reports, opening opportunities such as data mining for knowledge extraction purposes, precision medicine applications, structured report creation, and multimodal learning. SKET is a practical and unsupervised approach to extracting knowledge from pathology reports, which opens up unprecedented opportunities to exploit textual and multimodal medical information in clinical practice. We also propose SKET eXplained (SKET X), a web-based system providing visual explanations about the algorithmic decisions taken by SKET. SKET X is designed/developed to support pathologists and domain experts in understanding SKET predictions, possibly driving further improvements to the system."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A fragment-based model and annotation environment for discontinuous and overlapping terms\n\n\nDi Nunzio, G. M. & Vezzani, F. (2026). International Journal on Digital Libraries.\n\n\nJournal Article DOI PDF\n\n\n\n\nDefining Concepts, Generating Knowledge: A Structured Review of Terminological Definitions\n\n\nDi Nunzio, G. M. (2026). Proceedings of the DEfinition and Term Extraction CHallenge (DETECH 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nAugmented Intelligence in Technology-Assisted Review Systems (ALTARS 2026)\n\n\nDi Nunzio, G. M., Kanoulas, E., & Majumder, P. (2026). Companion Proceedings of the ACM Web Conference 2026.\n\n\nConference Paper DOI PDF\n\n\n\n\nEarly Recall Estimation and Stopping in Technology-Assisted Reviews via Ranker-Sampler Fusion\n\n\nDi Nunzio, G. M. (2026). Companion Proceedings of the ACM Web Conference 2026.\n\n\nConference Paper DOI PDF\n\n\n\n\nFrom Complexity to Inclusivity: A Methodology for Drafting Patient-Centered Explanations of Gut-Brain Axis Concepts\n\n\nBonato, V., Vezzani, F., & Di Nunzio, G. M. (2026). Proceedings of the 2nd Workshop on Evaluating Text Difficulty in a Multilingual Context (DeTermIt! 2026).\n\n\nConference Paper DOI\n\n\n\n\nPreserving endangered linguistic heritage: Developing a corpus for the study of contact-induced changes in corfioto\n\n\nDi Nunzio, G. M. & Vardakis, G. (2026). Proceedings of the fifteenth language resources and evaluation conference (LREC 2026).\n\n\nConference Paper DOI PDF\n\n\n\n\nAnnotaterm: A Fragment-Based Approach for Annotating Discontinuous Named Entities and Terms\n\n\nDi Nunzio, G. M. & Vezzani, F. (2026). Proceedings of the 22nd Conference on Information and Research Science Connecting to Digital and Library Science.\n\n\nConference Paper\nPDF Source\n\n\n\n\nIntroduction to the Special Issue. From Data to Heritage: Semantic Enrichment, Archives, and Digital Libraries\n\n\nDi Nunzio, G. M. & Cornia, M. (2026). Umanistica Digitale.\n\n\nJournal Article DOI PDF\n\n\n\n\nOATE at ATE-IT: A Hybrid Approach for Automatic Terminology Extraction in Italian\n\n\nArab, O. & Di Nunzio, G. M. (2026). Proceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nLaw, Language, and Terminology. Challenges of Generative AI\n\n\nCondello, A., Di Nunzio, G. M., & Vezzani, F. (2026). International Journal for the Semiotics of Law - Revue internationale de Sémiotique juridique.\n\n\nJournal Article DOI PDF\n\n\n\n\nPOLAR: Policy Optimization for Literature Analysis under Review Constraints\n\n\nDi Nunzio, G. M. (2025). Proceedings of the 34th ACM International Conference on Information and Knowledge Management.\n\n\nConference Paper DOI PDF\n\n\n\n\nFAIRterm 2.0: Towards FAIR Terminologies Resources for EOSC\n\n\nDi Nunzio, G. M. & Vezzani, F. (2025). 2025 IEEE International Conference on Cyber Humanities (IEEE-CH).\n\n\nConference Paper DOI PDF\n\n\n\n\nScreening Smarter, Not Harder: Budget Allocation Strategies for Technology-Assisted Reviews (TARs) in Empirical Medicine\n\n\nDi Nunzio, G. M. (2025). Machine Learning and Knowledge Extraction.\n\n\nJournal Article DOI PDF\n\n\n\n\nPour une simplification de la terminologie médicale multilingue : le cas du projet ExaMode\n\n\nBernardis, A., Vezzani, F., & Di Nunzio, G. M. (2025). mediAzioni.\n\n\nJournal Article DOI PDF\n\n\n\n\nThe Elephant in the Room: The Impact of Domain-Expert (Dis)agreement. A Case Study on Cryptic Species\n\n\nDi Nunzio, G. M., Manni, L., Lisa, E. D., & Vezzani, F. (2025). Proceedings of the 4rd International Conference on Multilingual Digital Terminology Today (MDTT 2025).\n\n\nConference Paper\nPDF Source\n\n\n\n\nBenchmarking Automatic Tools for Neologisms Extraction: Issues and Challenges\n\n\nDi Nunzio, G. M. (2025). Proceedings of the 1st International Workshop on Terminological Neologism Management (NeoTerm 2025).\n\n\nConference Paper\nPDF Source\n\n\n\n\nThe interplay between denotation and connotation: applying semic analysis to medical terminology\n\n\nBonato, V., Di Nunzio, G. M., & Vezzani, F. (2025). Cahiers de lexicologie 2024 – 2, n° 125. La connotation et la dénotation en terminologie.\n\n\nJournal Article DOI PDF\n\n\n\n\nOverview of iDPP@CLEF 2024: The Intelligent Disease Progression Prediction Challenge\n\n\nBirolo, G., Bosoni, P., Faggioli, G., Aidos, H., Bergamaschi, R., Cavalla, P., Chiò, A., Dagliati, A., Carvalho, M. D., Nunzio, G. M. D., Fariselli, P., Dominguez, J. M. G., Gromicho, M., Guazzo, A., Longato, E., Madeira, S. C., Manera, U., Marchesin, S., Menotti, L., Silvello, G., Tavazzi, E., Tavazzi, E., Trescato, I., Vettoretti, M., Camillo, B. D., & Ferro, N. (2024). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nOverview of the CLEF 2024 SimpleText Task 2: Identify and Explain Difficult Concepts\n\n\nDi Nunzio, G. M., Vezzani, F., Bonato, V., Azarbonyad, H., Kamps, J., & Ermakova, L. (2024). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nUNIPD@SimpleText2024: A Semi-Manual Approach on Prompting ChatGPT for Extracting Terms and Write Terminological Definitions\n\n\nDi Nunzio, G. M., Gallina, E., & Vezzani, F. (2024). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nIntroducing the Special Issue Terminology in the Digital World\n\n\nDi Nunzio, G. M., Costa, R., & Vezzani, F. (2024). Languages.\n\n\nJournal Article DOI PDF\n\n\n\n\nLegal Science and Compute Science: A Preliminary Discussions on How to Represent the “Penumbra” Cone with AI\n\n\nCondello, A. & Di Nunzio, G. M. (2024). Proceedings of the Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context @ LREC-COLING 2024.\n\n\nConference Paper\nPDF Source\n\n\n\n\nA Novel Approach to Semic Analysis: Extraction of Atoms of Meaning to Study Polysemy and Polyreferentiality\n\n\nBonato, V., Di Nunzio, G. M., & Vezzani, F. (2024). Languages.\n\n\nJournal Article DOI PDF\n\n\n\n\nAn Interdisciplinary Approach to Legal Terminology: Challenges of the “Algorithmic Turn” in Legal Science\n\n\nCondello, A. & Di Nunzio, G. M. (2024). Proceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nTechnology Assisted Review Systems: Current and Future Directions\n\n\nDi Nunzio, G. M. (2024). Proceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nLemonizeTBX: Design and Implementation of a New Converter from TBX to OntoLex-Lemon\n\n\nBellandi, A., Di Nunzio, G. M., Piccini, S., & Vezzani, F. (2023). Digital Humanities Quarterly.\n\n\nJournal Article DOI PDF\n\n\n\n\nIntelligent Disease Progression Prediction: Overview of iDPP@CLEF 2024\n\n\nBirolo, G., Bosoni, P., Faggioli, G., Aidos, H., Bergamaschi, R., Cavalla, P., Chiò, A., Dagliati, A., de Carvalho, M., Di Nunzio, G. M., Fariselli, P., Dominguez, J. M. G., Gromicho, M., Guazzo, A., Longato, E., Madeira, S. C., Manera, U., Marchesin, S., Menotti, L., Silvello, G., Tavazzi, E., Tavazzi, E., Trescato, I., Vettoretti, M., Di Camillo, B., & Ferro, N. (2023). Experimental IR Meets Multilinguality, Multimodality, and Interaction.\n\n\nConference Paper DOI PDF\n\n\n\n\nFAIR Terminology Meets CLEAR Global\n\n\nDi Nunzio, G. M., Papp, E., Vezzani, F., & Kemp, E. (2023). Linking Theory and Practice of Digital Libraries.\n\n\nConference Paper DOI PDF\n\n\n\n\nThird Workshop on Augmented Intelligence in Technology-Assisted Review Systems (ALTARS)\n\n\nDi Nunzio, G. M., Kanoulas, E., & Majumder, P. (2023). Advances in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nFocused Issue on Digital Library Challenges to Support the Open Science Process\n\n\nDi Nunzio, G. M. (2023). International Journal on Digital Libraries.\n\n\nJournal Article DOI PDF\n\n\n\n\nLinking Historical Evidence to Digital Maps: The MICOLL-Map (full paper)\n\n\nDi Nunzio, G. M., Dyble, J., Giachelle, F., & Gialdroni, S. (2023). Proceedings of the 2nd Workshop on Artificial Intelligence for Cultural Heritage (IAI4CH 2023).\n\n\nConference Paper\nPDF Source\n\n\n\n\nFrom TBX to Ontolex Lemon: Issues and Desiderata\n\n\nBellandi, A., Nunzio, G. M. D., Piccini, S., & Vezzani, F. (2023). Proceedings of the 2nd International Conference on Multilingual Digital Terminology Today (MDTT 2023).\n\n\nConference Paper\nPDF Source\n\n\n\n\nA Thorough Reproducibility Study on Sentiment Classification: Methodology, Experimental Setting, Results\n\n\nDi Nunzio, G. M. & Minzoni, R. (2023). Information.\n\n\nJournal Article DOI PDF\n\n\n\n\niDPP@CLEF 2023: The Intelligent Disease Progression Prediction Challenge\n\n\nAidos, H., Bergamaschi, R., Cavalla, P., Chiò, A., Dagliati, A., Di Camillo, B., de Carvalho, M. A., Ferro, N., Fariselli, P., Dominguez, J. M. G., Madeira, S. C., & Tavazzi, E. (2022). Advances in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nTerminology Extraction in Electronic Health Records. The ExaMode Project (poster)\n\n\nDi Nunzio, G. M., Marchesin, S., & Silvello, G. (2022). Proceedings of the 1st International Conference on Multilingual Digital Terminology Today.\n\n\nConference Paper\nPDF Source\n\n\n\n\nOne Size Fits All: A Conceptual Data Model for Any Approach to Terminology\n\n\nDi Nunzio, G. M. & Vezzani, F. (2021).\n\n\nOther\nPDF Source\n\n\n\n\nIncentives for Item Duplication Under Fair Ranking Policies\n\n\nDi Nunzio, G. M., Fabris, A., Silvello, G., & Susto, G. A. (2020). Advances in Bias and Fairness in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nA Study of a Gain Based Approach for Query Aspects in Recall Oriented Tasks\n\n\nDi Nunzio, G. M. & Faggioli, G. (2020). Applied Sciences.\n\n\nJournal Article DOI PDF\n\n\n\n\nA Study on Ranking Fusion Approaches for the Retrieval of Medical Publications\n\n\nClipa, T. & Di Nunzio, G. M. (2020). Information.\n\n\nJournal Article DOI PDF\n\n\n\n\nAn Analysis of Query Reformulation Techniques for Precision Medicine\n\n\nAgosti, M., Di Nunzio, G. M., & Marchesin, S. (2019). Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nInteractive Text Categorisation: The Geometry of Likelihood Spaces\n\n\nDi Nunzio, G. M. (2016). Information Filtering and Retrieval: DART 2014: Revised and Invited Papers.\n\n\nBook Chapter DOI\n\n\n\n\nA Love-Hate Relationship for Big Data and Linguistics: Present Issues and Future Possibilities.\n\n\nDi Nunzio, G. M. & Poletto, C. (2015). Proceedings of the First International Workshop on Accessing Cultural Heritage at Scale co-located with Joint Conference on Digital Libraries 2016 (JCDL 2016), Newark, USA, June 22, 2016..\n\n\nConference Paper\nSource\n\n\n\n\nA new decision to take for cost-sensitive Naïve Bayes classifiers\n\n\nDi Nunzio, G. M. (2014). Information Processing & Management.\n\n\nJournal Article DOI PDF\n\n\n\n\nA Vector Space Model for Syntactic Distances Between Dialects\n\n\nDi Buccio, E., Di Nunzio, G. M., & Silvello, G. (2014). Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC’14).\n\n\nConference Paper\nPDF Source\n\n\n\n\nInterference in Text Categorisation Experiments\n\n\nDi Nunzio, G. M., Bruza, P., & Sitbon, L. (2013). Quantum Interaction.\n\n\nConference Paper DOI PDF\n\n\n\n\nA linked open data approach for geolinguistics applications\n\n\nDi Buccio, E., Di Nunzio, G. M., & Silvello, G. (2013). International Journal of Metadata, Semantics and Ontologies.\n\n\nJournal Article DOI PDF\n\n\n\n\nWeb log analysis: a review of a decade of studies about information acquisition, inspection and interpretation of user interaction\n\n\nAgosti, M., Crivellari, F., & Di Nunzio, G. M. (2012). Data Mining and Knowledge Discovery.\n\n\nJournal Article DOI PDF\n\n\n\n\nEnvisioning Dynamic Quantum Clustering in Information Retrieval\n\n\nDi Buccio, E. & Di Nunzio, G. M. (2010). Quantum Interaction.\n\n\nConference Paper DOI\n\n\n\n\nUnderstanding user requirements and preferences for a digital library Web portal\n\n\nAgosti, M., Crivellari, F., Di Nunzio, G. M., & Gabrielli, S. (2010). International Journal on Digital Libraries.\n\n\nJournal Article DOI PDF\n\n\n\n\nDefining and Relating Concepts in Medical Terminology: A Case Study on the Gut–Brain Interplay\n\n\nBonato, V., Menotti, L., Vezzani, F., Nunzio, G. M. D., & Silvello, G. (NaN). Journal of Digital Terminology and Lexicography.\n\n\nJournal Article\nPDF Source\n\n\n\n\nPreface (MDTT 2026)\n\n\n(2026). Proceedings of the 5th International Conference on Multilingual Digital Terminology Today (MDTT 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nExploring the Human–AI Continuum in Terminology Management: Towards Evaluation Criteria for LLM-Assisted Terminology Work\n\n\nRalli, N., Di Nunzio, G. M., Smaadahl, H., Salgado, A., Vezzani, F., Schmitz, K. D., Carvalho, S., Fleischmann, K., & Bane, F. (2026). Proceedings of the 5th International Conference on Multilingual Digital Terminology Today (MDTT 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nPreface (DETECH 2026)\n\n\n(2026). Proceedings of the DEfinition and Term Extraction CHallenge (DETECH 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nOverview of the InternationalWorkshop on Definition and Term Extraction Challenge (DETECH) 2026\n\n\nVezzani, F., Di Nunzio, G. M., Bonato, V., & Silvello, G. (2026). Proceedings of the DEfinition and Term Extraction CHallenge (DETECH 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nProceedings of the 2nd Workshop on Evaluating Text Difficulty in a Multilingual Context (DeTermIt! 2026)\n\n\n(2026). ELRA Language Resources Association (ELRA).\n\n\nBook DOI PDF\n\n\n\n\nNew Directions in Digital Terminology Research\n\n\nMartín, A. S., Faber, P., Cárdenas, B. S., Vezzani, F., & Di Nunzio, G. M. (2026). New Directions in Digital Terminology Research.\n\n\nBook Chapter\nSource\n\n\n\n\nWhen Fuzziness Is In The Mind, Not In The Concept: Terminology, Prototypes, And Ontological Modeling\n\n\nDi Nunzio, G. & Vezzani, F. (2026).\n\n\nPreprint DOI PDF\n\n\n\n\nA Domain-Specific Curated Benchmark for Entity and Document-Level Relation Extraction\n\n\nMartinelli, M., Marchesin, S., Bonato, V., Di Nunzio, G. M., Ferro, N., Irrera, O., Menotti, L., Vezzani, F., & Silvello, G. (2026). Findings of the Association for Computational Linguistics: EACL 2026.\n\n\nConference Paper DOI PDF\n\n\n\n\nMKTE at ATE-IT: CRF-Based Term Extraction for Italian Waste Management Documents\n\n\nKim, M. & Di Nunzio, G. M. (2026). Proceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nSMTE at ATE-IT: Ensemble Term Extraction with Italian BERT, spaCy, and Vocabulary-Based Filtering\n\n\nMaule, S. & Di Nunzio, G. M. (2026). Proceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nDSBKTE at ATE-IT: From Token Classification to Zero-Shot Generation: Two Approaches to Italian ATE at EVALITA 2026\n\n\nSmirnov, D., Khashechian, B., & Di Nunzio, G. M. (2026). Proceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nJTTE at ATE-IT: A CRF Model with Contextual Embeddings\n\n\nTonneau, J. & Di Nunzio, G. M. (2026). Proceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nVVTE at ATE-IT: From Candidates to Terms: Hybrid Italian ATE with Dependency Heuristics, Gemini, and Random Forest Filtering\n\n\nVandervoort, V. G. L. & Di Nunzio, G. M. (2026). Proceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026).\n\n\nConference Paper\nPDF Source\n\n\n\n\nKnowledge Graphs for the Web Economy: The CHiPS&BITS Project on Cultural Heritage\n\n\nFerilli, S., Bernasconi, E., Redavid, D., & Di Nunzio, G. M. (2026). Umanistica Digitale.\n\n\nJournal Article DOI PDF\n\n\n\n\nBioASQ at CLEF2026: The Fourteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge\n\n\nNentidis, A., Katsimpras, G., Krithara, A., Krallinger, M., Rodriguez-Ortega, M., Rodriguez-Lopez, E., Loukachevitch, N., Rozhkov, I., Tutubalina, E., Tsoumakas, G., Giannakoulas, G., Dimitriadis, D., Bekiaridou, A., Samaras, A., Patsiou, V., Di Nunzio, G. M., Ferro, N., Marchesin, S., Martinelli, M., Silvello, G., & Paliouras, G. (2025). Advances in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nOverview of BioASQ 2025: The Thirteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering\n\n\nNentidis, A., Katsimpras, G., Krithara, A., Krallinger, M., Rodríguez-Ortega, M., Rodriguez-López, E., Loukachevitch, N., Sakhovskiy, A., Tutubalina, E., Dimitriadis, D., Tsoumakas, G., Giannakoulas, G., Bekiaridou, A., Samaras, A., Nunzio, G. M. D., Ferro, N., Marchesin, S., Martinelli, M., Silvello, G., & Paliouras, G. (2025). Experimental IR Meets Multilinguality, Multimodality, and Interaction.\n\n\nConference Paper DOI PDF\n\n\n\n\nThe BRAINTEASER Datasets: Clinical, Wearable and Environmental Data for ALS & MS Progression Modeling\n\n\nFaggioli, G., Menotti, L., Marchesin, S., Trescato, I., Ahmad, L., Aidos, H., Alungulese, A. L., Bellazzi, R., Bergamaschi, R., Birolo, G., Bosoni, P., Cabrera-Umpiérrez, M. F., Cavalla, P., Chió, A., Dagliati, A., de Carvalho, M., Fariselli, P., García Dominguez, J. M., González Martínez, S., Gromicho, M., Guazzo, A., Jovanović, A., Kostić, B., Longato, E., Madeira, S. C., Manera, U., Muñoz Blanco, J. L., Tavazzi, E., Tavazzi, E., Trasobares Iglesias, E., Urošević, V., Vettoretti, M., Di Nunzio, G. M., Silvello, G., Di Camillo, B., & Ferro, N. (2025). Scientific Data.\n\n\nJournal Article DOI PDF\n\n\n\n\nORNARE: Toward a Digital Methodology for Onomastic Data in Medieval French Romance\n\n\nMilazzo, M. & Di Nunzio, G. M. (2025). Umanistica Digitale.\n\n\nJournal Article DOI PDF\n\n\n\n\nLe sens de la polysémie en terminologie : propositions de représentation\n\n\nVezzani, F., Costa, R., Di Nunzio, G. M., & Piccini, S. (2025). Repères-Dorif.\n\n\nJournal Article\nPDF Source\n\n\n\n\nOverview of GutBrainIE@CLEF 2025: Gut-Brain Interplay Information Extraction\n\n\nMartinelli, M., Silvello, G., Bonato, V., Di Nunzio, G. M., Ferro, N., Irrera, O., Marchesin, S., Menotti, L., & Vezzani, F. (2025). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025).\n\n\nConference Paper\nPDF Source\n\n\n\n\nComparing CRF vs BERT Models for Named Entity Recognition and Relation Extraction\n\n\nPamio, L. & Di Nunzio, G. M. (2025). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025).\n\n\nConference Paper\nPDF Source\n\n\n\n\nNamed Entity Recognition with GLiNER and Relation Extraction with LLMs\n\n\nPiron, S. & Di Nunzio, G. M. (2025). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025).\n\n\nConference Paper\nPDF Source\n\n\n\n\nPreface (MDTT 2025)\n\n\n(2025). Proceedings of the 4rd International Conference on Multilingual Digital Terminology Today (MDTT 2025).\n\n\nConference Paper\nPDF Source\n\n\n\n\nWhen LMF and TMF meet: Towards a Unified Markup Framework (UMF)\n\n\nVezzani, F., Di Nunzio, G. M., Salgado, A., & Costa, R. (2025). Terminology. International Journal of Theoretical and Applied Issues in Specialized Communication.\n\n\nJournal Article DOI PDF\n\n\n\n\nKnowledge Graphs for the Web Economy: The CHiPS&BITS Project on Cultural Heritage\n\n\nFerilli, S., Bernasconi, E., Redavid, D., & Di Nunzio, G. M. (2025). Proceedings of the 21st Conference on Information and Research science Connecting to Digital and Library science.\n\n\nConference Paper\nPDF Source\n\n\n\n\nPreface (IRCDL 2025)\n\n\n(2025). Proceedings of the 21st Conference on Information and Research science Connecting to Digital and Library science.\n\n\nConference Paper\nPDF Source\n\n\n\n\nBioASQ at CLEF2025: The Thirteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge\n\n\nNentidis, A., Katsimpras, G., Krithara, A., Krallinger, M., Ortega, M. R., Loukachevitch, N., Sakhovskiy, A., Tutubalina, E., Tsoumakas, G., Giannakoulas, G., Bekiaridou, A., Samaras, A., Di Nunzio, G. M., Ferro, N., Marchesin, S., Menotti, L., Silvello, G., & Paliouras, G. (2024). Advances in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nFindings of the WMT 2024 Biomedical Translation Shared Task: Test Sets on Abstract Level\n\n\nNeves, M., Grozea, C., Thomas, P., Roller, R., Bawden, R., Névéol, A., Castle, S., Bonato, V., Di Nunzio, G. M., Vezzani, F., Vicente Navarro, M., Yeganova, L., & Jimeno Yepes, A. (2024). Proceedings of the Ninth Conference on Machine Translation.\n\n\nConference Paper DOI PDF\n\n\n\n\nUNIPD@SimpleText2024: A Semi-Manual Approach on Prompting ChatGPT for Extracting Terms and Write Terminological Definitions\n\n\nDi Nunzio, G. M., Gallina, E., & Vezzani, F. (2024). Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nAn extensible and unifying approach to retrospective clinical data modeling: the BrainTeaser Ontology\n\n\nFaggioli, G., Menotti, L., Marchesin, S., Chió, A., Dagliati, A., de Carvalho, M., Gromicho, M., Manera, U., Tavazzi, E., Di Nunzio, G. M., Silvello, G., & Ferro, N. (2024). Journal of Biomedical Semantics.\n\n\nJournal Article DOI PDF\n\n\n\n\nLa comunicazione medico-paziente: analisi terminologica e di semplificazione nel dominio dell’oncologia femminile\n\n\nGiovagnoli, A., Vezzani, F., & Di Nunzio, G. M. (2024). Umanistica Digitale.\n\n\nJournal Article DOI PDF\n\n\n\n\nPreface (MDTT 2024)\n\n\n(2024). Proceedings of the 3rd International Conference on Multilingual Digital Terminology Today (MDTT 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nThe Onomastic Repertoire of the Roman d’Alexandre (ORNARE). Designing an Integrated Digital Onomastic Tool for Medieval French Romance\n\n\nMilazzo, M. & Di Nunzio, G. M. (2024). Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nProceedings of the Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context @ LREC-COLING 2024\n\n\n(2024). ELRA and ICCL.\n\n\nBook\nPDF Source\n\n\n\n\nPreface (ALTARS 2024)\n\n\n(2024). Proceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024).\n\n\nConference Paper\nPDF Source\n\n\n\n\nCLEF 2024 SimpleText Track\n\n\nErmakova, L., SanJuan, E., Huet, S., Azarbonyad, H., Di Nunzio, G. M., Vezzani, F., D’Souza, J., Kabongo, S., Giglou, H. B., Zhang, Y., Auer, S., & Kamps, J. (2023). Advances in Information Retrieval.\n\n\nConference Paper DOI PDF\n\n\n\n\nOverview of the CLEF 2024 SimpleText Track\n\n\nErmakova, L., SanJuan, E., Huet, S., Azarbonyad, H., Di Nunzio, G. M., Vezzani, F., D’Souza, J., & Kamps, J. (2023). Experimental IR Meets Multilinguality, Multimodality, and Interaction.\n\n\nConference Paper DOI PDF\n\n\n\n\nExploring Historical Routes and Waypoints with MICOLL Digital Map\n\n\nGiachelle, F., Dyble, J., Di Nunzio, G. M., & Gialdroni, S. (2023). Linking Theory and Practice of Digital Libraries.\n\n\nConference Paper DOI PDF\n\n\n\n\nExperimental IR Meets Multilinguality, Multimodality, and Interaction: 15th International Conference of the CLEF Association, CLEF 2024, Grenoble, France, September 9–12, 2024, Proceedings, Part I\n\n\n(2023). Springer Nature Switzerland.\n\n\nBook DOI PDF\n\n\n\n\nLinking Theory and Practice of Digital Libraries: 28th International Conference on Theory and Practice of Digital Libraries, TPDL 2024, Ljubljana, Slovenia, September 24–27, 2024, Proceedings, Part I\n\n\n(2023). Springer Nature Switzerland.\n\n\nBook DOI PDF\n\n\n\n\nISO standards for terminology resources management: Are they FAIR enough?\n\n\nVezzani, F., Di Nunzio, G. M., & Costa, R. (2023). Digital Translation.\n\n\nJournal Article DOI PDF\n\n\n\n\nPreface Summary: There were 17 short papers accepted in this conference. All papers were peer-reviewed by at least two members of the scientific committee.\n\n\n(2023). Proceedings of the 2nd International Conference on Multilingual Digital Terminology Today (MDTT 2023).\n\n\nConference Paper\nPDF Source\n\n\n\n\nMultilingual digital terminology: Introduction to the special issue\n\n\nVezzani, F. & Di Nunzio, G. M. (2023). Digital Scholarship in the Humanities.\n\n\nJournal Article DOI PDF\n\n\n\n\nPreface Summary: There were 4 short papers and 14 posters accepted in this conference. All papers were peer-reviewed by at least two members of the scientific committee.\n\n\n(2022). Proceedings of the 1st International Conference on Multilingual Digital Terminology Today.\n\n\nConference Paper\nPDF Source\n\n\n\n\nIntelligent Disease Progression Prediction: Overview of iDPP@CLEF 2022\n\n\nGuazzo, A., Trescato, I., Longato, E., Hazizaj, E., Dosso, D., Faggioli, G., Di Nunzio, G. M., Silvello, G., Vettoretti, M., Tavazzi, E., Roversi, C., Fariselli, P., Madeira, S. C., de Carvalho, M., Gromicho, M., Chiò, A., Manera, U., Dagliati, A., Birolo, G., Aidos, H., Di Camillo, B., & Ferro, N. (2021). Experimental IR Meets Multilinguality, Multimodality, and Interaction.\n\n\nConference Paper DOI PDF\n\n\n\n\nEmpowering digital pathology applications through explainable knowledge extraction tools\n\n\nMarchesin, S., Giachelle, F., Marini, N., Atzori, M., Boytcheva, S., Buttafuoco, G., Ciompi, F., Di Nunzio, G. M., Fraggetta, F., Irrera, O., Müller, H., Primov, T., Vatrano, S., & Silvello, G. (2021). Journal of Pathology Informatics.\n\n\nJournal Article DOI PDF\n\n\n\n\nSimple but Effective Knowledge-Based Query Reformulations for Precision Medicine Retrieval\n\n\nMarchesin, S., Di Nunzio, G. M., & Agosti, M. (2021). Information.\n\n\nJournal Article DOI PDF\n\n\n\n\nCorrezione dell’OCR per Corpus-assisted Discourse Studies: un caso di studio su vecchi quotidiani\n\n\nFante, D. D. & Nunzio, G. M. D. (2020). Umanistica Digitale.\n\n\nJournal Article DOI PDF\n\n\n\n\nUsing scatterplots to understand and improve probabilistic models for text categorization and retrieval\n\n\nDi Nunzio, G. M. (2009). International Journal of Approximate Reasoning.\n\n\nJournal Article DOI PDF\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/giovagnoli-la-comunicazione-medico-24/index.html",
+    "href": "publications/giovagnoli-la-comunicazione-medico-24/index.html",
+    "title": "La comunicazione medico-paziente: analisi terminologica e di semplificazione nel dominio dell’oncologia femminile",
+    "section": "",
+    "text": "Giovagnoli, A., Vezzani, F., & Di Nunzio, G. M.\nUmanistica Digitale, no. 17, pp. 143-164\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/giovagnoli-la-comunicazione-medico-24/index.html#abstract",
+    "href": "publications/giovagnoli-la-comunicazione-medico-24/index.html#abstract",
+    "title": "La comunicazione medico-paziente: analisi terminologica e di semplificazione nel dominio dell’oncologia femminile",
+    "section": "Abstract",
+    "text": "Abstract\nTaking into account the considerable impact that medical information has on the lives of human beings, it is crucial that medical language is correctly adapted to the needs of patients. This study aims to observe how communication between doctor and patient takes place with the aim of examining the elements of medical language that may compromise the understanding of non-experts in the domain of female oncology. In this regard, the working methodology, based on corpus linguistics and translation-oriented terminography, is illustrated in order to propose an analysis of the terminology that may alter doctor-patient communication. Indeed, a qualitative analysis of terminology cases that caught our attention is proposed. Furthermore, the difficulties posed by the medical language in popular communication are confirmed by analysing the readability of brochures addressed to cancer patients thanks to the criteria of text simplification."
+  },
+  {
+    "objectID": "publications/ferilli-knowledge-graphs-web-26/index.html",
+    "href": "publications/ferilli-knowledge-graphs-web-26/index.html",
+    "title": "Knowledge Graphs for the Web Economy: The CHiPS&BITS Project on Cultural Heritage",
+    "section": "",
+    "text": "Ferilli, S., Bernasconi, E., Redavid, D., & Di Nunzio, G. M.\nUmanistica Digitale, no. 22, pp. 113-138\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/ferilli-knowledge-graphs-web-26/index.html#abstract",
+    "href": "publications/ferilli-knowledge-graphs-web-26/index.html#abstract",
+    "title": "Knowledge Graphs for the Web Economy: The CHiPS&BITS Project on Cultural Heritage",
+    "section": "Abstract",
+    "text": "Abstract\nThe growing demand for Cultural Heritage fruition is making it a major economic driver, also in connection with its tourism-related aspects. The current solutions available on the Web are still unable to provide satisfactory support to the various kinds of stakeholders and to the different applications. The History of Computing, as a peculiar, relevant and currently under investigated branch of Cultural Heritage, raises additional challenges and provides new opportunities, also in connection with a significant economic flow it generates. The variety and complexity of issues connected to this domain call for even more advanced solutions. In this paper we introduce the CHIPS&BITS project, which tackles these problems using a knowledge-based approach and leverages a novel framework that can meet the needs associated to this specific domain in a better way compared to standard Semantic Web approaches. We describe the contributions of the project to overcome the limitations of the state of the art, and focus on some of its more peculiar and original features, among which the definition of suitable ontologies to describe the complexity of the domain and the use of Artificial Intelligence algorithms for giving the users an advanced and personalized experience."
+  },
+  {
+    "objectID": "publications/fante-correzione-dell-ocr-21/index.html",
+    "href": "publications/fante-correzione-dell-ocr-21/index.html",
+    "title": "Correzione dell’OCR per Corpus-assisted Discourse Studies: un caso di studio su vecchi quotidiani",
+    "section": "",
+    "text": "Fante, D. D. & Nunzio, G. M. D.\nUmanistica Digitale, no. 11, pp. 99-124\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/fante-correzione-dell-ocr-21/index.html#abstract",
+    "href": "publications/fante-correzione-dell-ocr-21/index.html#abstract",
+    "title": "Correzione dell’OCR per Corpus-assisted Discourse Studies: un caso di studio su vecchi quotidiani",
+    "section": "Abstract",
+    "text": "Abstract\nThe use of OCR software to convert printed characters to digital text is a fundamental tool within diachronic approaches to Corpus-assisted discourse Studies. However, OCR software is not totally accurate, and the resulting error rate may compromise the qualitative analysis of the studies. This paper proposes a mixed qualitative-quantitative approach to OCR error detection and correction in order to develop a methodology for enhancing the quality of historical corpora. We applied the developed methodology to two case studies on newspapers of the beginning of the 20th century for the linguistic analysis of the metaphors representing migration and pandemics. The outcome of this project consists in a set of rules which are, eventually, valid for different contexts and applicable to different corpora and which can be reproduced and reused. The proposed procedure, in terms of computational readability, is aimed at making more readable and searchable the vast array of historical text corpora which are, at the moment, only partially usable given the high error rate introduced by an OCR software."
+  },
+  {
+    "objectID": "publications/faggioli-brainteaser-datasets-clinical-25/index.html",
+    "href": "publications/faggioli-brainteaser-datasets-clinical-25/index.html",
+    "title": "The BRAINTEASER Datasets: Clinical, Wearable and Environmental Data for ALS & MS Progression Modeling",
+    "section": "",
+    "text": "Faggioli, G., Menotti, L., Marchesin, S., Trescato, I., Ahmad, L., Aidos, H., Alungulese, A. L., Bellazzi, R., Bergamaschi, R., Birolo, G., Bosoni, P., Cabrera-Umpiérrez, M. F., Cavalla, P., Chió, A., Dagliati, A., de Carvalho, M., Fariselli, P., García Dominguez, J. M., González Martínez, S., Gromicho, M., Guazzo, A., Jovanović, A., Kostić, B., Longato, E., Madeira, S. C., Manera, U., Muñoz Blanco, J. L., Tavazzi, E., Tavazzi, E., Trasobares Iglesias, E., Urošević, V., Vettoretti, M., Di Nunzio, G. M., Silvello, G., Di Camillo, B., & Ferro, N.\nScientific Data, vol. 12, no. 1, pp. 1854\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/faggioli-brainteaser-datasets-clinical-25/index.html#abstract",
+    "href": "publications/faggioli-brainteaser-datasets-clinical-25/index.html#abstract",
+    "title": "The BRAINTEASER Datasets: Clinical, Wearable and Environmental Data for ALS & MS Progression Modeling",
+    "section": "Abstract",
+    "text": "Abstract\nAmyotrophic lateral sclerosis (ALS) and multiple sclerosis (MS) are debilitating diseases with unpredictable progression. Artificial Intelligence-based tools for modelling disease progression could significantly improve the quality of life for patients and caregivers while supporting clinicians in delivering more personalized and timely care. However, the limited availability of data hinders the development, testing, and reproducibility of such predictive tools. To address this challenge, we curated, in the context of the H2020 BRAINTEASER project, four datasets containing clinical data from a total of 2,290 ALS patients and 723 MS patients. These datasets also include environmental data and information collected through wearable devices. Unlike most existing resources, the BRAINTEASER datasets are gathered from clinical practice, offering a more accurate representation of the data that an AI progression prediction tool would encounter in real-world scenarios. In addition to manual and automated data quality checks, the research community has validated the datasets through three editions of the intelligent Disease Progression Prediction challenges held within the Conference and Labs of the Evaluation Forum (CLEF)."
+  },
+  {
+    "objectID": "publications/ermakova-clef-2024-simpletext-24/index.html",
+    "href": "publications/ermakova-clef-2024-simpletext-24/index.html",
+    "title": "CLEF 2024 SimpleText Track",
+    "section": "",
+    "text": "Ermakova, L., SanJuan, E., Huet, S., Azarbonyad, H., Di Nunzio, G. M., Vezzani, F., D’Souza, J., Kabongo, S., Giglou, H. B., Zhang, Y., Auer, S., & Kamps, J.\nAdvances in Information Retrieval, pp. 28-35\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/ermakova-clef-2024-simpletext-24/index.html#abstract",
+    "href": "publications/ermakova-clef-2024-simpletext-24/index.html#abstract",
+    "title": "CLEF 2024 SimpleText Track",
+    "section": "Abstract",
+    "text": "Abstract\nEveryone agrees on the importance of objective scientific information. However, relevant scientific documents tend to be inherently difficult to find and understand either because of intricate terminology or the potential absence of prior knowledge among their readers. Can we improve accessibility for everyone? This paper introduces the SimpleText Track at CLEF 2024, addressing the technical and evaluation challenges associated with making scientific information accessible to a wide audience, including students and non-experts. We provide appropriate reusable data and benchmarks for scientific text summarization and simplification. The CLEF 2024 SimpleText track is based on four interrelated tasks: Task 1 Content Selection: Retrieving Passages to Include in a Simplified Summary. Task 2 Complexity Spotting: Identifying and Explaining Difficult Concepts. Task 3 Text Simplification: Simplify Scientific Text. Task 4 SOTA?: Tracking the State-of-the-Art in Scholarly Publications."
+  },
+  {
+    "objectID": "publications/di-nunzio-using-scatterplots-understand-09/index.html",
+    "href": "publications/di-nunzio-using-scatterplots-understand-09/index.html",
+    "title": "Using scatterplots to understand and improve probabilistic models for text categorization and retrieval",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nInternational Journal of Approximate Reasoning, vol. 50, no. 7, pp. 945-956\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-using-scatterplots-understand-09/index.html#abstract",
+    "href": "publications/di-nunzio-using-scatterplots-understand-09/index.html#abstract",
+    "title": "Using scatterplots to understand and improve probabilistic models for text categorization and retrieval",
+    "section": "Abstract",
+    "text": "Abstract\nThe two-dimensional representation of documents which allows documents to be represented in a two-dimensional Cartesian plane has proved to be a valid visualization tool for Automated Text Categorization (ATC) for understanding the relationships between categories of textual documents, and to help users to visually audit the classifier and identify suspicious training data. This paper analyzes a specific use of this visualization approach in the case of the Naive Bayes (NB) model for text classification and the Binary Independence Model (BIM) for text retrieval. For text categorization, a reformulation of the equation for the decision of classification has to be written in such a way that each coordinate of a document is the sum of two addends: a variable component P(d|ci), and a constant component P(ci), the prior of the category. When plotted in the Cartesian plane according to this formulation, the documents that are constantly shifted along the x-axis and the y-axis can be seen. This effect of shifting is more or less evident according to which NB model, Bernoulli or multinomial, is chosen. For text retrieval, the same reformulation can be applied in the case of the BIM model. The visualization helps to understand the decisions that are taken to order the documents, in particular in the case of relevance feedback."
+  },
+  {
+    "objectID": "publications/di-nunzio-unipd-simpletext2024-semi-24-dthd/index.html",
+    "href": "publications/di-nunzio-unipd-simpletext2024-semi-24-dthd/index.html",
+    "title": "UNIPD@SimpleText2024: A Semi-Manual Approach on Prompting ChatGPT for Extracting Terms and Write Terminological Definitions",
+    "section": "",
+    "text": "Di Nunzio, G. M., Gallina, E., & Vezzani, F.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024), vol. 3740, pp. 3230-3237\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-third-workshop-augmented-24/index.html",
+    "href": "publications/di-nunzio-third-workshop-augmented-24/index.html",
+    "title": "Third Workshop on Augmented Intelligence in Technology-Assisted Review Systems (ALTARS)",
+    "section": "",
+    "text": "Di Nunzio, G. M., Kanoulas, E., & Majumder, P.\nAdvances in Information Retrieval, pp. 432-436\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-third-workshop-augmented-24/index.html#abstract",
+    "href": "publications/di-nunzio-third-workshop-augmented-24/index.html#abstract",
+    "title": "Third Workshop on Augmented Intelligence in Technology-Assisted Review Systems (ALTARS)",
+    "section": "Abstract",
+    "text": "Abstract\nIn this third edition of the workshop on Augmented Intelligence in Technology-Assisted Review Systems (ALTARS), we focus on the capacity of building test collections for the evaluation of High-recall Information Retrieval (IR) systems which tackle challenging tasks that require the finding of (nearly) all the relevant documents in a collection. During the workshop, the organizers as well as the participants will discuss the problems of how to build and evaluate these types of systems and prepare a set of guidelines for a correct evaluation of those systems according to the current and future available datasets."
+  },
+  {
+    "objectID": "publications/di-nunzio-technology-assisted-review-24/index.html",
+    "href": "publications/di-nunzio-technology-assisted-review-24/index.html",
+    "title": "Technology Assisted Review Systems: Current and Future Directions",
+    "section": "",
+    "text": "Di Nunzio, G. M.\n\n\nProceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024), vol. 3832\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-screening-smarter-not-25/index.html",
+    "href": "publications/di-nunzio-screening-smarter-not-25/index.html",
+    "title": "Screening Smarter, Not Harder: Budget Allocation Strategies for Technology-Assisted Reviews (TARs) in Empirical Medicine",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nMachine Learning and Knowledge Extraction, vol. 7, no. 3, pp. 104\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-screening-smarter-not-25/index.html#abstract",
+    "href": "publications/di-nunzio-screening-smarter-not-25/index.html#abstract",
+    "title": "Screening Smarter, Not Harder: Budget Allocation Strategies for Technology-Assisted Reviews (TARs) in Empirical Medicine",
+    "section": "Abstract",
+    "text": "Abstract\nIn the technology-assisted review (TAR) area, most research has focused on ranking effectiveness and active learning strategies within individual topics, often assuming unconstrained review effort. However, real-world applications such as legal discovery or medical systematic reviews are frequently subject to global screening budgets. In this paper, we revisit the CLEF eHealth TAR shared tasks (2017–2019) through the lens of budget-aware evaluation. We first reproduce and verify the official participant results, organizing them into a unified dataset for comparative analysis. Then, we introduce and assess four intuitive budget allocation strategies—even, proportional, inverse proportional, and threshold-capped greedy—to explore how review effort can be efficiently distributed across topics. To evaluate systems under resource constraints, we propose two cost-aware metrics: relevant found per cost unit (RFCU) and utility gain at budget (UG@B). These complement traditional recall by explicitly modeling efficiency and trade-offs between true and false positives. Our results show that different allocation strategies optimize different metrics: even and inverse proportional allocation favor recall, while proportional and capped strategies better maximize RFCU. UG@B remains relatively stable across strategies, reflecting its balanced formulation. A correlation analysis reveals that RFCU and UG@B offer distinct perspectives from recall, with varying alignment across years. Together, these findings underscore the importance of aligning evaluation metrics and allocation strategies with screening goals. We release all data and code to support reproducibility and future research on cost-sensitive TAR."
+  },
+  {
+    "objectID": "publications/di-nunzio-polar-policy-optimization-25/index.html",
+    "href": "publications/di-nunzio-polar-policy-optimization-25/index.html",
+    "title": "POLAR: Policy Optimization for Literature Analysis under Review Constraints",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nProceedings of the 34th ACM International Conference on Information and Knowledge Management, pp. 4712–4716\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-polar-policy-optimization-25/index.html#abstract",
+    "href": "publications/di-nunzio-polar-policy-optimization-25/index.html#abstract",
+    "title": "POLAR: Policy Optimization for Literature Analysis under Review Constraints",
+    "section": "Abstract",
+    "text": "Abstract\nSystematic reviews are vital for evidence-based decision-making but remain resource-intensive due to the volume of literature requiring expert screening. Technology-Assisted Review (TAR) systems offer a solution by ranking documents for review, yet questions remain about how best to allocate limited human effort across multiple review topics. In this paper, we explore the problem of effort distribution by comparing alternative screening policies under fixed effort constraints. Using real-world data from the CLEF eHealth 2017-2019 TAR tasks, we evaluate both baseline and adaptive policies that account for topic size, screening depth, and residual uncertainty. We introduce effort-aware evaluation metrics to measure trade-offs between review effectiveness and resource use. Our results show that simple, topic-sensitive policies can significantly improve the yield of relevant documents discovered, offering practical insights for scalable and equitable systematic review workflows."
+  },
+  {
+    "objectID": "publications/di-nunzio-one-size-fits-21/index.html",
+    "href": "publications/di-nunzio-one-size-fits-21/index.html",
+    "title": "One Size Fits All: A Conceptual Data Model for Any Approach to Terminology",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Vezzani, F.\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-one-size-fits-21/index.html#abstract",
+    "href": "publications/di-nunzio-one-size-fits-21/index.html#abstract",
+    "title": "One Size Fits All: A Conceptual Data Model for Any Approach to Terminology",
+    "section": "Abstract",
+    "text": "Abstract\nIn this paper, we want to speculate about the possibility to model all the currently known/proposed approaches to terminology into a single schema. We will use the Entity-Relationship (ER) diagram as our tool for the conceptual data model of the problem and to express the associations between the objects of the study. We will analyse the onomasiological and semasiological approaches, the ontoterminology paradigm, and the frame-based model, and we will draw the consequences in terms of the conceptual data model. The result of this discussion will be used as the basis of the next step of the data organization in terms of standardized terminological records and Linked Data."
+  },
+  {
+    "objectID": "publications/di-nunzio-love-hate-relationship-16/index.html",
+    "href": "publications/di-nunzio-love-hate-relationship-16/index.html",
+    "title": "A Love-Hate Relationship for Big Data and Linguistics: Present Issues and Future Possibilities.",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Poletto, C.\n\n\nProceedings of the First International Workshop on Accessing Cultural Heritage at Scale co-located with Joint Conference on Digital Libraries 2016 (JCDL 2016), Newark, USA, June 22, 2016.\n\nSource BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-introduction-special-issue-26/index.html",
+    "href": "publications/di-nunzio-introduction-special-issue-26/index.html",
+    "title": "Introduction to the Special Issue. From Data to Heritage: Semantic Enrichment, Archives, and Digital Libraries",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Cornia, M.\nUmanistica Digitale, no. 22, pp. I-IV\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-introduction-special-issue-26/index.html#abstract",
+    "href": "publications/di-nunzio-introduction-special-issue-26/index.html#abstract",
+    "title": "Introduction to the Special Issue. From Data to Heritage: Semantic Enrichment, Archives, and Digital Libraries",
+    "section": "Abstract",
+    "text": "Abstract\nThis special issue of Umanistica Digitale, developed in conjunction with IRCDL 2025 (Information and Research science Connecting to Digital and Library science), presents extended versions of selected contributions from a conference explicitly designed to connect two complementary tracks: Computer Science Foundations for Digital Libraries and Digital Humanities. The issue showcases current research at the intersection of semantic technologies, digitization workflows, and computational analysis of cultural data. These contributions articulate a shared agenda for strengthening collaboration between digital-library research and humanities scholarship, emphasizing openness, accessibility, methodological transparency, and reusable infrastructures."
+  },
+  {
+    "objectID": "publications/di-nunzio-interference-text-categorisation-14/index.html",
+    "href": "publications/di-nunzio-interference-text-categorisation-14/index.html",
+    "title": "Interference in Text Categorisation Experiments",
+    "section": "",
+    "text": "Di Nunzio, G. M., Bruza, P., & Sitbon, L.\nQuantum Interaction, pp. 22-33\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-interference-text-categorisation-14/index.html#abstract",
+    "href": "publications/di-nunzio-interference-text-categorisation-14/index.html#abstract",
+    "title": "Interference in Text Categorisation Experiments",
+    "section": "Abstract",
+    "text": "Abstract\nThis article examines manual textual categorisation by human coders with the hypothesis that the law of total probability may be violated for difficult categories. An empirical evaluation was conducted to compare a one step categorisation task with a two step categorisation task using crowdsourcing. It was found that the law of total probability was violated. Both a quantum and classical probabilistic interpretations for this violation are presented. Further studies are required to resolve whether quantum models are more appropriate for this task."
+  },
+  {
+    "objectID": "publications/di-nunzio-incentives-item-duplication-21/index.html",
+    "href": "publications/di-nunzio-incentives-item-duplication-21/index.html",
+    "title": "Incentives for Item Duplication Under Fair Ranking Policies",
+    "section": "",
+    "text": "Di Nunzio, G. M., Fabris, A., Silvello, G., & Susto, G. A.\nAdvances in Bias and Fairness in Information Retrieval, pp. 64-77\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-incentives-item-duplication-21/index.html#abstract",
+    "href": "publications/di-nunzio-incentives-item-duplication-21/index.html#abstract",
+    "title": "Incentives for Item Duplication Under Fair Ranking Policies",
+    "section": "Abstract",
+    "text": "Abstract\nRanking is a fundamental operation in information access systems, to filter information and direct user attention towards items deemed most relevant to them. Due to position bias, items of similar relevance may receive significantly different exposure, raising fairness concerns for item providers and motivating recent research into fair ranking. While the area has progressed dramatically over recent years, no study to date has investigated the potential problem posed by duplicated items. Duplicates and near-duplicates are common in several domains, including marketplaces and document collections available to search engines. In this work, we study the behaviour of different fair ranking policies in the presence of duplicates, quantifying the extra-exposure gained by redundant items. We find that fairness-aware ranking policies may conflict with diversity, due to their potential to incentivize duplication more than policies solely focused on relevance. This fact poses a problem for system owners who, as a result of this incentive, may have to deal with increased redundancy, which is at odds with user satisfaction. Finally, we argue that this aspect represents a blind spot in the normative reasoning underlying common fair ranking metrics, as rewarding providers who duplicate their items with increased exposure seems unfair for the remaining providers."
+  },
+  {
+    "objectID": "publications/di-nunzio-focused-issue-digital-23/index.html",
+    "href": "publications/di-nunzio-focused-issue-digital-23/index.html",
+    "title": "Focused Issue on Digital Library Challenges to Support the Open Science Process",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nInternational Journal on Digital Libraries, vol. 24, no. 4, pp. 185-189\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-focused-issue-digital-23/index.html#abstract",
+    "href": "publications/di-nunzio-focused-issue-digital-23/index.html#abstract",
+    "title": "Focused Issue on Digital Library Challenges to Support the Open Science Process",
+    "section": "Abstract",
+    "text": "Abstract\nOpen Science is the broad term that involves several aspects aiming to remove the barriers for sharing any kind of output, resources, methods or tools, at any stage of the research process (https://book.fosteropenscience.eu/en/). The Open Science process is a set of transparent research practices that help to improve the quality of scientific knowledge and are crucial to the most basic aspects of the scientific process by means of the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. Thanks to research transparency and accessibility, we can evaluate the credibility of scientific claims and make the research process reproducible and the obtained results replicable. In this context, digital libraries play a pivotal role in supporting the Open Science process by facilitating the storage, organization, and dissemination of research outputs, including open access publications and open data. In this focused issue, we invited researchers to discuss innovative solutions, also related to technical challenges, about the identifiability of digital objects as well as the use of metadata and ontologies in order to support replicable and reusable research, the adoption of standards and semantic technologies to link information, and the evaluation of the application of the FAIR principles."
+  },
+  {
+    "objectID": "publications/di-nunzio-fair-terminology-meets-24/index.html",
+    "href": "publications/di-nunzio-fair-terminology-meets-24/index.html",
+    "title": "FAIR Terminology Meets CLEAR Global",
+    "section": "",
+    "text": "Di Nunzio, G. M., Papp, E., Vezzani, F., & Kemp, E.\nLinking Theory and Practice of Digital Libraries, pp. 173-182\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-fair-terminology-meets-24/index.html#abstract",
+    "href": "publications/di-nunzio-fair-terminology-meets-24/index.html#abstract",
+    "title": "FAIR Terminology Meets CLEAR Global",
+    "section": "Abstract",
+    "text": "Abstract\nThis paper presents the design and implementation of a web application aimed at facilitating access to a multilingual terminology database specifically created for speakers of marginalized languages that often cannot access information they need and want in a language and format they understand. The database contains essential concepts translated into 39 languages, for a total of 9,506 terms. The design of the database and the web application has been performed in order to follow the FAIR principle of Open Science in order to guarantee efficient data organization and retrieval. The web application, developed using the R Shiny framework, enables users to search the database by selecting a source language and, optionally, a target language. The interface displays concept definitions in English and provides filtered lists of equivalents in the chosen languages. Users can export selected datasets in TermBase eXchange standard (TBX) format for reusability. The interface offers a user-friendly experience, allowing users to navigate through the database effortlessly."
+  },
+  {
+    "objectID": "publications/di-nunzio-early-recall-estimation-26/index.html",
+    "href": "publications/di-nunzio-early-recall-estimation-26/index.html",
+    "title": "Early Recall Estimation and Stopping in Technology-Assisted Reviews via Ranker-Sampler Fusion",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nCompanion Proceedings of the ACM Web Conference 2026, pp. 333–340\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-early-recall-estimation-26/index.html#abstract",
+    "href": "publications/di-nunzio-early-recall-estimation-26/index.html#abstract",
+    "title": "Early Recall Estimation and Stopping in Technology-Assisted Reviews via Ranker-Sampler Fusion",
+    "section": "Abstract",
+    "text": "Abstract\nTechnology-Assisted Review (TAR) workflows iteratively prioritize documents for expert screening to achieve high recall (e.g., 0.90–0.95) under limited time and budget. A persistent challenge is deciding when to stop: true recall is unknown during live screening unless all documents are judged, while additional sampling to estimate recall can be prohibitively costly at low prevalence. This paper develops a step-by-step statistical framework to estimate recall early by fusing (i) information from a ranking model and (ii) a small probability sample of documents. We present two complementary estimators: a Bayesian prevalence estimator that treats the ranker as an informative prior updated by a random sample, and a model-assisted estimator (generalized regression estimator with a Horvitz-Thompson residual correction) that combines calibrated ranker probabilities with design-based sampling adjustments. We then derive practical stopping rules based on conservative (lower-bound) recall estimates, and outline a future evaluation plan on established constrained high-recall benchmarks."
+  },
+  {
+    "objectID": "publications/di-nunzio-benchmarking-automatic-tools-25/index.html",
+    "href": "publications/di-nunzio-benchmarking-automatic-tools-25/index.html",
+    "title": "Benchmarking Automatic Tools for Neologisms Extraction: Issues and Challenges",
+    "section": "",
+    "text": "Di Nunzio, G. M.\n\n\nProceedings of the 1st International Workshop on Terminological Neologism Management (NeoTerm 2025), vol. 3972\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-annotaterm-fragment-based-26/index.html",
+    "href": "publications/di-nunzio-annotaterm-fragment-based-26/index.html",
+    "title": "Annotaterm: A Fragment-Based Approach for Annotating Discontinuous Named Entities and Terms",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Vezzani, F.\n\n\nProceedings of the 22nd Conference on Information and Research Science Connecting to Digital and Library Science, vol. 4240\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-buccio-linked-open-data-14/index.html",
+    "href": "publications/di-buccio-linked-open-data-14/index.html",
+    "title": "A linked open data approach for geolinguistics applications",
+    "section": "",
+    "text": "Di Buccio, E., Di Nunzio, G. M., & Silvello, G.\nInternational Journal of Metadata, Semantics and Ontologies, vol. 9, no. 1, pp. 29-41\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-buccio-linked-open-data-14/index.html#abstract",
+    "href": "publications/di-buccio-linked-open-data-14/index.html#abstract",
+    "title": "A linked open data approach for geolinguistics applications",
+    "section": "Abstract",
+    "text": "Abstract\nGeolinguistic systems explore the relationship between language and cultural adaptation and change and they can be used as instructional tools, presenting complex data and relationships in a way accessible to all educational levels. However, the heterogeneity of geolinguistic projects has been recognised as a key problem limiting the reusability of linguistic tools and data collections. We propose an approach based on LOD, which moves the focus from the systems handling the data to the data themselves with the main goal of increasing the level of interoperability of geolinguistic applications and the reuse of the data. We defined an extensible ontology for geolinguistic resources based on the common ground defined by current European linguistic projects. We provide a Geolinguistic Linked Open Dataset based on the data case study of a linguistic project named ASIt. Finally, we show a geolinguistic application, which exploits this dataset for dynamically generating linguistic maps."
+  },
+  {
+    "objectID": "publications/condello-legal-science-compute-24/index.html",
+    "href": "publications/condello-legal-science-compute-24/index.html",
+    "title": "Legal Science and Compute Science: A Preliminary Discussions on How to Represent the “Penumbra” Cone with AI",
+    "section": "",
+    "text": "Condello, A. & Di Nunzio, G. M.\nProceedings of the Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context @ LREC-COLING 2024, pp. 179–184\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/condello-legal-science-compute-24/index.html#abstract",
+    "href": "publications/condello-legal-science-compute-24/index.html#abstract",
+    "title": "Legal Science and Compute Science: A Preliminary Discussions on How to Represent the “Penumbra” Cone with AI",
+    "section": "Abstract",
+    "text": "Abstract\nLegal science encounters significant challenges with the widespread integration of AI software across various legal operations. The distinction between signs, senses, and references from a linguistic point of view, as drawn by Gottlob Frege, underscores the complexity of legal language, especially in multilingual contexts like the European Union. In this paper, we describe the problems of legal terminology, examining the “penumbra” problem through Herbert Hart’s legal theory of meaning. We also analyze the feasibility of training automatic systems to handle conflicts between different interpretations of legal norms, particularly in multilingual legal systems. By examining the transformative impact of Artificial Intelligence on traditional legal practices, this research contributes to the theoretical discussion about the exploration of innovative methodologies for simplifying complex terminologies without compromising meaning."
+  },
+  {
+    "objectID": "publications/condello-interdisciplinary-approach-legal-24/index.html",
+    "href": "publications/condello-interdisciplinary-approach-legal-24/index.html",
+    "title": "An Interdisciplinary Approach to Legal Terminology: Challenges of the “Algorithmic Turn” in Legal Science",
+    "section": "",
+    "text": "Condello, A. & Di Nunzio, G. M.\n\n\nProceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024), vol. 3832\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/bonato-novel-approach-semic-24/index.html",
+    "href": "publications/bonato-novel-approach-semic-24/index.html",
+    "title": "A Novel Approach to Semic Analysis: Extraction of Atoms of Meaning to Study Polysemy and Polyreferentiality",
+    "section": "",
+    "text": "Bonato, V., Di Nunzio, G. M., & Vezzani, F.\nLanguages, vol. 9, no. 4, pp. 121\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/bonato-novel-approach-semic-24/index.html#abstract",
+    "href": "publications/bonato-novel-approach-semic-24/index.html#abstract",
+    "title": "A Novel Approach to Semic Analysis: Extraction of Atoms of Meaning to Study Polysemy and Polyreferentiality",
+    "section": "Abstract",
+    "text": "Abstract\nSemic analysis is a linguistic technique aimed at methodically factorizing the meaning of terms into a collection of minimum non-decomposable atoms of meaning. In this study, we propose a methodology targeted at enhancing the systematicity of semic analysis of medical terminology in order to increase the quality of the creation of the set of atoms of meaning and improve the identification of concepts, as well as enhance specialized domain studies. Our approach is based on: (1) a semi-automatic domain-specific corpus-based extraction of semes, (2) the application of the property of termhood to address the diaphasic and the diastratic variations of language, (3) the automatic lemmatization of semes, and (4) seme weighting to establish the order of semes in the sememe. The paper explores the distinction between denotative and connotative semes, offering insights into polysemy and polyreferentiality in medical terminology."
+  },
+  {
+    "objectID": "publications/bonato-defining-relating-concepts-26/index.html",
+    "href": "publications/bonato-defining-relating-concepts-26/index.html",
+    "title": "Defining and Relating Concepts in Medical Terminology: A Case Study on the Gut–Brain Interplay",
+    "section": "",
+    "text": "Bonato, V., Menotti, L., Vezzani, F., Nunzio, G. M. D., & Silvello, G.\nJournal of Digital Terminology and Lexicography, vol. 2, no. JDTL - Volume 2, issue 1, pp. 37-55\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/bonato-defining-relating-concepts-26/index.html#abstract",
+    "href": "publications/bonato-defining-relating-concepts-26/index.html#abstract",
+    "title": "Defining and Relating Concepts in Medical Terminology: A Case Study on the Gut–Brain Interplay",
+    "section": "Abstract",
+    "text": "Abstract\nThis contribution describes the terminology work carried out to analyze the conceptual dimension of terminology concerning the gut–brain interplay and associated neurodegenerative and mental health- related conditions. We present: 1) the methodology used to formulate intensional definitions of biomed- ical concepts, and 2) the approach used to identify associative relations between concepts in biomedical literature, along with a proposed typology of these relations. The biomedical concepts and the associative relations established between them are then compared with their respective representation in the Hered- itary Ontology (HERO), which is the only formal resource specifically designed to model knowledge on the gut–brain interplay and associated medical conditions. The comparison between terminological data and data contained in the ontology sheds light on the distinct nature of terminological and ontological representations of specialized knowledge, highlighting both differences and points of intersection. This work constitutes a preliminary step toward the future development of a novel terminology resource, aimed at representing specialized knowledge on the gut–brain interplay and related conditions."
+  },
+  {
+    "objectID": "publications/birolo-overview-idpp-clef-24/index.html",
+    "href": "publications/birolo-overview-idpp-clef-24/index.html",
+    "title": "Overview of iDPP@CLEF 2024: The Intelligent Disease Progression Prediction Challenge",
+    "section": "",
+    "text": "Birolo, G., Bosoni, P., Faggioli, G., Aidos, H., Bergamaschi, R., Cavalla, P., Chiò, A., Dagliati, A., Carvalho, M. D., Nunzio, G. M. D., Fariselli, P., Dominguez, J. M. G., Gromicho, M., Guazzo, A., Longato, E., Madeira, S. C., Manera, U., Marchesin, S., Menotti, L., Silvello, G., Tavazzi, E., Tavazzi, E., Trescato, I., Vettoretti, M., Camillo, B. D., & Ferro, N.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024), vol. 3740, pp. 1312-1331\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/bernardis-pour-une-simplification-25/index.html",
+    "href": "publications/bernardis-pour-une-simplification-25/index.html",
+    "title": "Pour une simplification de la terminologie médicale multilingue : le cas du projet ExaMode",
+    "section": "",
+    "text": "Bernardis, A., Vezzani, F., & Di Nunzio, G. M.\n\n\nmediAzioni, vol. 47, pp. A214-A234\n\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/bellandi-lemonizetbx-design-implementation-24/index.html",
+    "href": "publications/bellandi-lemonizetbx-design-implementation-24/index.html",
+    "title": "LemonizeTBX: Design and Implementation of a New Converter from TBX to OntoLex-Lemon",
+    "section": "",
+    "text": "Bellandi, A., Di Nunzio, G. M., Piccini, S., & Vezzani, F.\nDigital Humanities Quarterly, vol. 18, no. 2\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/bellandi-lemonizetbx-design-implementation-24/index.html#abstract",
+    "href": "publications/bellandi-lemonizetbx-design-implementation-24/index.html#abstract",
+    "title": "LemonizeTBX: Design and Implementation of a New Converter from TBX to OntoLex-Lemon",
+    "section": "Abstract",
+    "text": "Abstract\nIn this paper, we introduce LemonizeTBX, a converter that enhances interoperability between terminological and lexicographical frameworks, acknowledging their divergent data modelling approaches. First, we present the theoretical implications of a conversion from the TermBase eXchange (TBX) concept-oriented framework to the OntoLex-Lemon sense-centred standpoint within Semantic Web technologies. Then, we illustrate the prototype version of the converter, designed as an interactive tool engaging terminologists in the conversion process."
+  },
+  {
+    "objectID": "publications/aidos-idpp-clef-2023-23/index.html",
+    "href": "publications/aidos-idpp-clef-2023-23/index.html",
+    "title": "iDPP@CLEF 2023: The Intelligent Disease Progression Prediction Challenge",
+    "section": "",
+    "text": "Aidos, H., Bergamaschi, R., Cavalla, P., Chiò, A., Dagliati, A., Di Camillo, B., de Carvalho, M. A., Ferro, N., Fariselli, P., Dominguez, J. M. G., Madeira, S. C., & Tavazzi, E.\nAdvances in Information Retrieval, pp. 491-498\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/aidos-idpp-clef-2023-23/index.html#abstract",
+    "href": "publications/aidos-idpp-clef-2023-23/index.html#abstract",
+    "title": "iDPP@CLEF 2023: The Intelligent Disease Progression Prediction Challenge",
+    "section": "Abstract",
+    "text": "Abstract\nAmyotrophic Lateral Sclerosis (ALS) and Multiple Sclerosis (MS) are chronic diseases characterized by progressive or alternate impairment of neurological functions (motor, sensory, visual, cognitive). Patients have to manage alternated periods in hospital with care at home, experiencing a constant uncertainty regarding the timing of the disease acute phases and facing a considerable psychological and economic burden that also involves their caregivers. Clinicians, on the other hand, need tools able to support them in all the phases of the patient treatment, suggest personalized therapeutic decisions, indicate urgently needed interventions."
+  },
+  {
+    "objectID": "publications/agosti-understanding-user-requirements-10/index.html",
+    "href": "publications/agosti-understanding-user-requirements-10/index.html",
+    "title": "Understanding user requirements and preferences for a digital library Web portal",
+    "section": "",
+    "text": "Agosti, M., Crivellari, F., Di Nunzio, G. M., & Gabrielli, S.\nInternational Journal on Digital Libraries, vol. 11, no. 4, pp. 225-238\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/agosti-understanding-user-requirements-10/index.html#abstract",
+    "href": "publications/agosti-understanding-user-requirements-10/index.html#abstract",
+    "title": "Understanding user requirements and preferences for a digital library Web portal",
+    "section": "Abstract",
+    "text": "Abstract\nThis article reports the findings of a user study conducted in the context of the TELplus project to gain insights about user needs and preferences for the digital library services offered by The European Library Web portal. The user requirements collection for the Web portal was designed by adopting a comprehensive survey approach. This combined explicit user feedback with implicit usage data so as to provide a more in-depth analysis of user experience with the portal. The analysis conducted shed light on likely motivations for both participant usage and reluctance to use the services provided, leading to more informed decisions on how to refine, improve, and present Web portal services to their future users. The lessons learnt from this case study also contributed to the development of an integrated methodological framework which provided insights for the future design and evaluation of digital library Web portals and services."
+  },
+  {
+    "objectID": "projects/pnrr-nbfc/index.html",
+    "href": "projects/pnrr-nbfc/index.html",
+    "title": "NBFC PNRR",
+    "section": "",
+    "text": "Project Page"
+  },
+  {
+    "objectID": "projects/pnrr-nbfc/index.html#national-biodiversity-future-center",
+    "href": "projects/pnrr-nbfc/index.html#national-biodiversity-future-center",
+    "title": "NBFC PNRR",
+    "section": "National Biodiversity Future Center",
+    "text": "National Biodiversity Future Center\nThe National Biodiversity Future Center (NBFC) is Italy’s national research center dedicated to biodiversity and is funded within the National Recovery and Resilience Plan (PNRR) under the NextGenerationEU framework.\nI participate in Spoke 1, which aims to establish an integrated national system for the observation and monitoring of marine biodiversity.\n\nProject information\n\nProject: National Biodiversity Future Center (NBFC)\nProgramme: National Recovery and Resilience Plan (PNRR)\nFunding: NextGenerationEU\nDuration: 2022–2026\nRole: Participant in Spoke 1\nFocus: Integrated national system for marine biodiversity observation"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "All projects\n\n\n\n\n\n\nGenAI-LT\n\n\nGenerative Artificial Intelligence in Legal Translation\n\n\nGenerative AI\nLegal Translation\nComputational Terminology\nNatural Language Processing\n\n\n\n\n\n\n\n\nHEREDITARY\n\n\nHetERogeneous sEmantic Data integratIon for the guT-bRain interplaY\n\n\nHorizon Europe\nSemantic Data Integration\nKnowledge Representation\nBiomedical Data\n\n\n\n\n\n\n\n\nNBFC PNRR\n\n\nItaly’s National Biodiversity Future Center of the National Recovery and Resilience Plan (PNRR).\n\n\nBiodiversity\nMarine Biodiversity\nResearch Infrastructures\nPNRR\n\n\n\n\n\n\n\n\nMICOLL\n\n\nMigrating Commercial Law and Language (MICOLL): Rethinking lex mercatoria (11th–17th century)\n\n\nHorizon 2020\nERC\nLegal History\nDigital Humanities\n\n\n\n\n\n\n\n\nBRAINTEASER\n\n\nBRinging Artificial INTelligencE home for a better cAre of amyotrophic lateral sclerosis and multiple SclERosis\n\n\nHorizon 2020\nArtificial Intelligence\nBiomedical Data\nDigital Health\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/genai-lt/index.html",
+    "href": "projects/genai-lt/index.html",
+    "title": "GenAI-LT",
+    "section": "",
+    "text": "Project Page\nGenAI-LT investigates the use of generative artificial intelligence in legal translation, combining approaches from automated legal translation, corpus-informed terminology, natural language processing, and legal information science.\nThe project studies how domain knowledge and legal terminology can be integrated with language models to improve the translation of legal texts, with particular attention to the characteristics of EU law. :contentReferenceoaicite:1\n\nProject information\n\nProject: Generative Artificial Intelligence in Legal Translation\nAcronym: GenAI-LT\nProject number: IP-2025-02-3140\nFunding: Croatian Science Foundation\nDuration: 2025–2028\nProject leader: Martina Bajčić, University of Rijeka\nRole: Project team member"
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Privacy",
+    "section": "",
+    "text": "Last updated: 28 July 2026\nThis is a personal portfolio site. It sells nothing, has no accounts, and collects as little as it can get away with."
+  },
+  {
+    "objectID": "privacy.html#analytics",
+    "href": "privacy.html#analytics",
+    "title": "Privacy",
+    "section": "Analytics",
+    "text": "Analytics\nThe site uses Google Analytics 4 in cookieless mode. No _ga cookies are written, nothing is stored in your browser between visits, and IP addresses are anonymised before processing. What is recorded is aggregate: which pages get read, roughly where traffic comes from, and which links referred it. There is no way for me to tie any of that back to you, and no returning-visitor tracking.\nIf you would rather send nothing at all, any content or tracker blocker will stop the requests, as will your browser’s “Do Not Track” or equivalent setting in blockers that honour it."
+  },
+  {
+    "objectID": "privacy.html#contact-form",
+    "href": "privacy.html#contact-form",
+    "title": "Privacy",
+    "section": "Contact form",
+    "text": "Contact form\nThe contact form is handled by Formspree. Whatever you type into it — your name, email address, and message — is transmitted to Formspree and forwarded to my inbox. It is used to reply to you and nothing else: no mailing list, no sharing, no resale. You can email me directly at noah@noahweidig.com instead if you would rather skip the intermediary."
+  },
+  {
+    "objectID": "privacy.html#scheduling",
+    "href": "privacy.html#scheduling",
+    "title": "Privacy",
+    "section": "Scheduling",
+    "text": "Scheduling\nThe “Book a Call” links go to Cal.com, which handles its own booking data under its own privacy policy."
+  },
+  {
+    "objectID": "privacy.html#hosting-and-fonts",
+    "href": "privacy.html#hosting-and-fonts",
+    "title": "Privacy",
+    "section": "Hosting and fonts",
+    "text": "Hosting and fonts\nThe site is static, served by GitHub Pages, with deploy previews on Netlify. Both keep standard server request logs, which I do not have access to. Fonts are self-hosted, so no font CDN sees your visit."
+  },
+  {
+    "objectID": "privacy.html#your-rights",
+    "href": "privacy.html#your-rights",
+    "title": "Privacy",
+    "section": "Your rights",
+    "text": "Your rights\nIf you are in the EU, UK, or another jurisdiction with data protection law and want to know what I hold about you, or want it deleted, email noah@noahweidig.com. In practice the only thing that ever exists is a message you sent me yourself."
+  },
+  {
+    "objectID": "news/ieee-ch2026-paper/index.html",
+    "href": "news/ieee-ch2026-paper/index.html",
+    "title": "A new framework for annotating complex terminological structures",
+    "section": "",
+    "text": "A new open-access paper, “A fragment-based model and annotation environment for discontinuous and overlapping terms”, presents a framework for representing complex terminological structures as unified and directly inspectable annotation objects.\nThe work originated from a concrete annotation problem discussed during the preparation of the ATE-IT 2026 challenge at EVALITA: how to represent terms that are discontinuous, overlap with one another, or share textual components. The resulting fragment-based model provides a common representation for contiguous, discontinuous, and overlapping terms.\nThe paper also introduces Annotaterm, a lightweight web-based environment supporting the annotation, visualization, editing, and export of these structures.\nDeveloped in the context of the HEREDITARY project, this work has subsequently contributed to a broader modular framework for the annotation and curation of cultural heritage texts, to be presented at IEEE-CH 2026.\nRead the original post on LinkedIn →"
+  },
+  {
+    "objectID": "news/dh2029-padova/index.html",
+    "href": "news/dh2029-padova/index.html",
+    "title": "Digital Humanities 2029 will be held in Padova",
+    "section": "",
+    "text": "The University of Padua has been selected to host Digital Humanities 2029 (DH2029). The announcement was made by the Alliance of Digital Humanities Organizations (ADHO) during DH2026 in Daejeon, South Korea.\nThe successful bid was the result of a broad collaborative effort involving the University of Padua, AIUCD, and colleagues from the Italian and international Digital Humanities communities.\nDH2029 will bring the international Digital Humanities community to Padua to discuss topics including cultural heritage, multilingual knowledge infrastructures, open science, artificial intelligence, and digital scholarship.\nRead the original post on LinkedIn →"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "All news\n\n\n\n\n\n1 min read\n\n\nDigital Humanities 2029 will be held in Padova\nAug 30, 2026\n\n\n\nConferenceDigital Humanities\n\n\n\n\n\n\n\n1 min read\n\n\nA new framework for annotating complex terminological structures\nAug 30, 2026\n\n\n\nComputational TerminologyText AnnotationResearch Software\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/brainteaser/index.html",
+    "href": "projects/brainteaser/index.html",
+    "title": "BRAINTEASER",
+    "section": "",
+    "text": "Project Page"
+  },
+  {
+    "objectID": "projects/brainteaser/index.html#brainteaser",
+    "href": "projects/brainteaser/index.html#brainteaser",
+    "title": "BRAINTEASER",
+    "section": "BRAINTEASER",
+    "text": "BRAINTEASER\nBRAINTEASER — BRinging Artificial INTelligencE home for a better cAre of amyotrophic lateral sclerosis and multiple SclERosis — is a research project funded under Horizon 2020.\nThe project focuses on the use of artificial intelligence and data-driven approaches to support the care and management of amyotrophic lateral sclerosis (ALS) and multiple sclerosis.\n\nProject information\n\nProject: BRAINTEASER — BRinging Artificial INTelligencE home for a better cAre of amyotrophic lateral sclerosis and multiple SclERosis\nProgramme: Horizon 2020\nFunding: European Union\nDuration: 2021–2026\nRole: Participant in multiple work packages"
+  },
+  {
+    "objectID": "projects/hereditary/index.html",
+    "href": "projects/hereditary/index.html",
+    "title": "HEREDITARY",
+    "section": "",
+    "text": "Project Page"
+  },
+  {
+    "objectID": "projects/hereditary/index.html#hereditary",
+    "href": "projects/hereditary/index.html#hereditary",
+    "title": "HEREDITARY",
+    "section": "HEREDITARY",
+    "text": "HEREDITARY\nHEREDITARY — HetERogeneous sEmantic Data integratIon for the guT-bRain interplaY — is a research project funded under Horizon Europe.\nHEREDITARY aims to improve disease detection, treatment response preparation, and medical knowledge exploration through an integrated framework that incorporates diverse health data, including genetics, while ensuring privacy compliance.\nIts five-layered structure enables advanced federated analytics to uncover new insights into neurodegenerative and gut microbiome-related disorders.\nBy harmonizing clinical, genomic, and environmental data on a large scale, HEREDITARY seeks to empower clinicians, researchers, and policymakers to develop more effective treatment and diagnosis strategies.\n\nProject information\n\nProject: HEREDITARY — HetERogeneous sEmantic Data integratIon for the guT-bRain interplaY\nProgramme: Horizon Europe\nFunding: European Union\nDuration: 2024–current\nRole: Work Package Leader"
+  },
+  {
+    "objectID": "projects/micoll/index.html",
+    "href": "projects/micoll/index.html",
+    "title": "MICOLL",
+    "section": "",
+    "text": "Project Page"
+  },
+  {
+    "objectID": "projects/micoll/index.html#micoll",
+    "href": "projects/micoll/index.html#micoll",
+    "title": "MICOLL",
+    "section": "MICOLL",
+    "text": "MICOLL\nMICOLL — Migrating Commercial Law and Language: Rethinking lex mercatoria (11th–17th century) — is a research project funded under the Horizon 2020 European Research Council (ERC) programme.\nThe project investigates the historical development, circulation, and transformation of commercial law and legal language across Europe between the 11th and 17th centuries.\n\nProject information\n\nProject: MICOLL — Migrating Commercial Law and Language: Rethinking lex mercatoria (11th–17th century)\nProgramme: Horizon 2020\nFunding: European Research Council (ERC)\nDuration: 2021–current\nRole: Senior Staff"
+  },
+  {
+    "objectID": "publications/agosti-analysis-query-reformulation-19/index.html",
+    "href": "publications/agosti-analysis-query-reformulation-19/index.html",
+    "title": "An Analysis of Query Reformulation Techniques for Precision Medicine",
+    "section": "",
+    "text": "Agosti, M., Di Nunzio, G. M., & Marchesin, S.\nProceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 973–976\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/agosti-analysis-query-reformulation-19/index.html#abstract",
+    "href": "publications/agosti-analysis-query-reformulation-19/index.html#abstract",
+    "title": "An Analysis of Query Reformulation Techniques for Precision Medicine",
+    "section": "Abstract",
+    "text": "Abstract\nThe Precision Medicine (PM) track at the Text REtrieval Conference (TREC) focuses on providing useful precision medicine-related information to clinicians treating cancer patients. The PM track gives the unique opportunity to evaluate medical IR systems using the same set of topics on two different collections: scientific literature and clinical trials. In the paper, we take advantage of this opportunity and we propose and evaluate state-of-the-art query expansion and reduction techniques to identify whether a particular approach can be helpful in both scientific literature and clinical trial retrieval. We present those approaches that are consistently effective in both TREC editions and we compare the results obtained with the best performing runs submitted to TREC PM 2017 and 2018."
+  },
+  {
+    "objectID": "publications/agosti-web-log-analysis-12/index.html",
+    "href": "publications/agosti-web-log-analysis-12/index.html",
+    "title": "Web log analysis: a review of a decade of studies about information acquisition, inspection and interpretation of user interaction",
+    "section": "",
+    "text": "Agosti, M., Crivellari, F., & Di Nunzio, G. M.\nData Mining and Knowledge Discovery, vol. 24, no. 3, pp. 663-696\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/agosti-web-log-analysis-12/index.html#abstract",
+    "href": "publications/agosti-web-log-analysis-12/index.html#abstract",
+    "title": "Web log analysis: a review of a decade of studies about information acquisition, inspection and interpretation of user interaction",
+    "section": "Abstract",
+    "text": "Abstract\nIn the last decade, the importance of analyzing information management systems logs has grown, because log data constitute a relevant aspect in evaluating the quality of such systems. A review of 10 years of research on log analysis is presented in this paper. About 50 papers and posters from five major conferences and about 30 related journal papers have been selected to trace the history of the state-of-the-art in this field. The paper presents an overview of two main themes: Web search engine log analysis and Digital Library System log analysis. The problem of the analysis of different sources of log data and the distribution of data are investigated."
+  },
+  {
+    "objectID": "publications/arab-oate-ate-it-26/index.html",
+    "href": "publications/arab-oate-ate-it-26/index.html",
+    "title": "OATE at ATE-IT: A Hybrid Approach for Automatic Terminology Extraction in Italian",
+    "section": "",
+    "text": "Arab, O. & Di Nunzio, G. M.\n\n\nProceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026), vol. 4195\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/bellandi-tbx-ontolex-lemon-23/index.html",
+    "href": "publications/bellandi-tbx-ontolex-lemon-23/index.html",
+    "title": "From TBX to Ontolex Lemon: Issues and Desiderata",
+    "section": "",
+    "text": "Bellandi, A., Nunzio, G. M. D., Piccini, S., & Vezzani, F.\n\n\nProceedings of the 2nd International Conference on Multilingual Digital Terminology Today (MDTT 2023), vol. 3427\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/birolo-intelligent-disease-progression-24/index.html",
+    "href": "publications/birolo-intelligent-disease-progression-24/index.html",
+    "title": "Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2024",
+    "section": "",
+    "text": "Birolo, G., Bosoni, P., Faggioli, G., Aidos, H., Bergamaschi, R., Cavalla, P., Chiò, A., Dagliati, A., de Carvalho, M., Di Nunzio, G. M., Fariselli, P., Dominguez, J. M. G., Gromicho, M., Guazzo, A., Longato, E., Madeira, S. C., Manera, U., Marchesin, S., Menotti, L., Silvello, G., Tavazzi, E., Tavazzi, E., Trescato, I., Vettoretti, M., Di Camillo, B., & Ferro, N.\nExperimental IR Meets Multilinguality, Multimodality, and Interaction, pp. 118-139\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/birolo-intelligent-disease-progression-24/index.html#abstract",
+    "href": "publications/birolo-intelligent-disease-progression-24/index.html#abstract",
+    "title": "Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2024",
+    "section": "Abstract",
+    "text": "Abstract\nMultiple Sclerosis (MS) and Amyotrophic Lateral Sclerosis (ALS) are two neurodegenerative diseases that cause progressive or alternating neurological impairments in motor, sensory, visual, and cognitive functions. Patients affected by these diseases undergo the physical, psychological, and economic burdens of hospital stays and home care while facing uncertainty. A possible aid to patients and clinicians might come from AI tools that can preemptively identify the need for intervention and suggest personalized therapies during the progression of these diseases."
+  },
+  {
+    "objectID": "publications/bonato-complexity-inclusivity-methodology-26/index.html",
+    "href": "publications/bonato-complexity-inclusivity-methodology-26/index.html",
+    "title": "From Complexity to Inclusivity: A Methodology for Drafting Patient-Centered Explanations of Gut-Brain Axis Concepts",
+    "section": "",
+    "text": "Bonato, V., Vezzani, F., & Di Nunzio, G. M.\nProceedings of the 2nd Workshop on Evaluating Text Difficulty in a Multilingual Context (DeTermIt! 2026), pp. 33-41\nDOI BibTeX"
+  },
+  {
+    "objectID": "publications/bonato-complexity-inclusivity-methodology-26/index.html#abstract",
+    "href": "publications/bonato-complexity-inclusivity-methodology-26/index.html#abstract",
+    "title": "From Complexity to Inclusivity: A Methodology for Drafting Patient-Centered Explanations of Gut-Brain Axis Concepts",
+    "section": "Abstract",
+    "text": "Abstract\nVanessa Bonato, Federica Vezzani, Giorgio Maria Di Nunzio. Proceedings of the 2nd Workshop on Evaluating Text Difficulty in a Multilingual Context (DeTermIt! 2026). 2026."
+  },
+  {
+    "objectID": "publications/bonato-interplay-between-denotation-25/index.html",
+    "href": "publications/bonato-interplay-between-denotation-25/index.html",
+    "title": "The interplay between denotation and connotation: applying semic analysis to medical terminology",
+    "section": "",
+    "text": "Bonato, V., Di Nunzio, G. M., & Vezzani, F.\nCahiers de lexicologie 2024 – 2, n° 125. La connotation et la dénotation en terminologie, pp. 19-45\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/bonato-interplay-between-denotation-25/index.html#abstract",
+    "href": "publications/bonato-interplay-between-denotation-25/index.html#abstract",
+    "title": "The interplay between denotation and connotation: applying semic analysis to medical terminology",
+    "section": "Abstract",
+    "text": "Abstract\nL’analyse sémique est une méthode linguistique par laquelle le sens dénotatif et connotatif des termes est décomposé en sèmes. Dans ce travail, nous présentons une ressource multilingue axée sur l’analyse sémique de la terminologie médicale, visant à : 1) fournir les ensembles de sèmes dénotatifs et connotatifs des termes, 2) donner des informations sur la connotation des termes, et 3) fournir un inventaire des sèmes. La ressource s’adresse aux patients, médecins et professionnels de la langue."
+  },
+  {
+    "objectID": "publications/clipa-study-ranking-fusion-20/index.html",
+    "href": "publications/clipa-study-ranking-fusion-20/index.html",
+    "title": "A Study on Ranking Fusion Approaches for the Retrieval of Medical Publications",
+    "section": "",
+    "text": "Clipa, T. & Di Nunzio, G. M.\nInformation, vol. 11, no. 2, pp. 103\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/clipa-study-ranking-fusion-20/index.html#abstract",
+    "href": "publications/clipa-study-ranking-fusion-20/index.html#abstract",
+    "title": "A Study on Ranking Fusion Approaches for the Retrieval of Medical Publications",
+    "section": "Abstract",
+    "text": "Abstract\nIn this work, we compare and analyze a variety of approaches in the task of medical publication retrieval and, in particular, for the Technology Assisted Review (TAR) task. This problem consists in the process of collecting articles that summarize all evidence that has been published regarding a certain medical topic. This task requires long search sessions by experts in the field of medicine. For this reason, semi-automatic approaches are essential for supporting these types of searches when the amount of data exceeds the limits of users. In this paper, we use state-of-the-art models and weighting schemes with different types of preprocessing as well as query expansion (QE) and relevance feedback (RF) approaches in order to study the best combination for this particular task. We also tested word embeddings representation of documents and queries in addition to three different ranking fusion approaches to see if the merged runs perform better than the single models. In order to make our results reproducible, we have used the collection provided by the Conference and Labs Evaluation Forum (CLEF) eHealth tasks. Query expansion and relevance feedback greatly improve the performance while the fusion of different rankings does not perform well in this task. The statistical analysis showed that, in general, the performance of the system does not depend much on the type of text preprocessing but on which weighting scheme is applied."
+  },
+  {
+    "objectID": "publications/condello-law-language-terminology-26/index.html",
+    "href": "publications/condello-law-language-terminology-26/index.html",
+    "title": "Law, Language, and Terminology. Challenges of Generative AI",
+    "section": "",
+    "text": "Condello, A., Di Nunzio, G. M., & Vezzani, F.\nInternational Journal for the Semiotics of Law - Revue internationale de Sémiotique juridique\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/condello-law-language-terminology-26/index.html#abstract",
+    "href": "publications/condello-law-language-terminology-26/index.html#abstract",
+    "title": "Law, Language, and Terminology. Challenges of Generative AI",
+    "section": "Abstract",
+    "text": "Abstract\nThe paper reflects an interdisciplinary dialogue between legal science, terminology science and computer science aimed at analyzing one specific aspect within the process of digitization of legal operations, in particular via AI: what is the role of labelling and categorization in language and law, and how might legal interpretation be influenced by AI?. We show how a potential challenge in legal AI lies in the obliteration of a certain indeterminacy in legal terms (both concrete and abstract), by arguing that terminology could help controlling the use AI systems make of legal language (via the distinction and systematization of simple terms, concepts, etc.). Terminology-aware generative models would allow more controlled reasoning across languages and jurisdictions and could facilitate explainability by linking each generated statement to a definitional network, thereby exposing the underlying semantic structure of the legal domain. This might help build a trustworthy, explainable AI for law. In this view, terminology could provide an epistemic infrastructure for legal language within an AI operated world, by anchoring generative systems to the conceptual order of law, and by preserving the necessary interplay between determination and indeterminacy that characterises legal language, preventing the risk of current hallucination, over determinacy or the complete loss of penumbra and indeterminacy."
+  },
+  {
+    "objectID": "publications/di-buccio-envisioning-dynamic-quantum-11/index.html",
+    "href": "publications/di-buccio-envisioning-dynamic-quantum-11/index.html",
+    "title": "Envisioning Dynamic Quantum Clustering in Information Retrieval",
+    "section": "",
+    "text": "Di Buccio, E. & Di Nunzio, G. M.\nQuantum Interaction, pp. 211-216\nDOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-buccio-envisioning-dynamic-quantum-11/index.html#abstract",
+    "href": "publications/di-buccio-envisioning-dynamic-quantum-11/index.html#abstract",
+    "title": "Envisioning Dynamic Quantum Clustering in Information Retrieval",
+    "section": "Abstract",
+    "text": "Abstract\nDynamic Quantum Clustering is a recent clustering technique which makes use of Parzen window estimator to construct a potential function whose minima are related to the clusters to be found. The dynamic of the system is computed by means of the Schrödinger differential equation. In this paper, we apply this technique in the context of Information Retrieval to explore its performance in terms of the quality of clusters and the efficiency of the computation. In particular, we want to analyze the clusters produced by using datasets of relevant and non-relevant documents given a topic."
+  },
+  {
+    "objectID": "publications/di-buccio-vector-space-model-14/index.html",
+    "href": "publications/di-buccio-vector-space-model-14/index.html",
+    "title": "A Vector Space Model for Syntactic Distances Between Dialects",
+    "section": "",
+    "text": "Di Buccio, E., Di Nunzio, G. M., & Silvello, G.\nProceedings of the Ninth International Conference on Language Resources and Evaluation (LREC’14), pp. 2486–2489\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-buccio-vector-space-model-14/index.html#abstract",
+    "href": "publications/di-buccio-vector-space-model-14/index.html#abstract",
+    "title": "A Vector Space Model for Syntactic Distances Between Dialects",
+    "section": "Abstract",
+    "text": "Abstract\nSyntactic comparison across languages is essential in the research field of linguistics, e.g. when investigating the relationship among closely related languages. In IR and NLP, the syntactic information is used to understand the meaning of word occurrences according to the context in which their appear. In this paper, we discuss a mathematical framework to compute the distance between languages based on the data available in current state-of-the-art linguistic databases. This framework is inspired by approaches presented in IR and NLP."
+  },
+  {
+    "objectID": "publications/di-nunzio-augmented-intelligence-technology-26/index.html",
+    "href": "publications/di-nunzio-augmented-intelligence-technology-26/index.html",
+    "title": "Augmented Intelligence in Technology-Assisted Review Systems (ALTARS 2026)",
+    "section": "",
+    "text": "Di Nunzio, G. M., Kanoulas, E., & Majumder, P.\nCompanion Proceedings of the ACM Web Conference 2026, pp. 330–332\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-augmented-intelligence-technology-26/index.html#abstract",
+    "href": "publications/di-nunzio-augmented-intelligence-technology-26/index.html#abstract",
+    "title": "Augmented Intelligence in Technology-Assisted Review Systems (ALTARS 2026)",
+    "section": "Abstract",
+    "text": "Abstract\nThe ALTARS 2026 workshop explores recent advances and open challenges in Technology-Assisted Review (TAR) systems and their application to large-scale, high-recall retrieval across the Web. TAR systems, originally designed for domains such as legal discovery and systematic literature review, are now increasingly relevant to Web environments characterized by heterogeneous, dynamic, and multilingual information. As the Web continues to expand through user-generated and AI-produced content, ensuring transparency, reliability, and fairness in automated review processes has become a central research challenge. This workshop aims to bring together researchers and practitioners from information retrieval, Web science, artificial intelligence, and data governance to discuss how TAR methodologies can support trustworthy and scalable information access. Topics include intelligent retrieval, human-in-the-loop learning, explainable and responsible AI, and the integration of large language models and knowledge graphs in review workflows. Through paper presentations, keynotes, and interactive sessions, ALTARS 2026 seeks to foster interdisciplinary collaboration and to identify future directions for developing transparent, fair, and adaptive Web-scale review systems."
+  },
+  {
+    "objectID": "publications/di-nunzio-defining-concepts-generating-26/index.html",
+    "href": "publications/di-nunzio-defining-concepts-generating-26/index.html",
+    "title": "Defining Concepts, Generating Knowledge: A Structured Review of Terminological Definitions",
+    "section": "",
+    "text": "Di Nunzio, G. M.\n\n\nProceedings of the DEfinition and Term Extraction CHallenge (DETECH 2026), vol. 4215\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-elephant-room-impact-25/index.html",
+    "href": "publications/di-nunzio-elephant-room-impact-25/index.html",
+    "title": "The Elephant in the Room: The Impact of Domain-Expert (Dis)agreement. A Case Study on Cryptic Species",
+    "section": "",
+    "text": "Di Nunzio, G. M., Manni, L., Lisa, E. D., & Vezzani, F.\n\n\nProceedings of the 4rd International Conference on Multilingual Digital Terminology Today (MDTT 2025), vol. 3990\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-fairterm-2-0-25/index.html",
+    "href": "publications/di-nunzio-fairterm-2-0-25/index.html",
+    "title": "FAIRterm 2.0: Towards FAIR Terminologies Resources for EOSC",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Vezzani, F.\n2025 IEEE International Conference on Cyber Humanities (IEEE-CH), pp. 1-7\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-fairterm-2-0-25/index.html#abstract",
+    "href": "publications/di-nunzio-fairterm-2-0-25/index.html#abstract",
+    "title": "FAIRterm 2.0: Towards FAIR Terminologies Resources for EOSC",
+    "section": "Abstract",
+    "text": "Abstract\nThis paper presents the roadmap from FAIRterm 2.0 to initiatives which outline a strategic shift toward the integration of terminological and lexicographical resources in compliance with FAIR principles. While FAIRterm 2.0 currently operates within XML-based ISO standards dedicated to terminology management, it sets the foundation for future interoperability with Linguistic Linked Open Data models such as OntoLex-Lemon. We highlight ongoing efforts to bridge terminological practices and Semantic Web standards, including prototype tools for TBX-to-OntoLex translation. This work responds to emerging demands for multilingual, interoperable, and semantically rich knowledge infrastructure within EOSC, building upon recent research advocating for the convergence of lexical and terminological systems."
+  },
+  {
+    "objectID": "publications/di-nunzio-fragment-based-model-26/index.html",
+    "href": "publications/di-nunzio-fragment-based-model-26/index.html",
+    "title": "A fragment-based model and annotation environment for discontinuous and overlapping terms",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Vezzani, F.\nInternational Journal on Digital Libraries, vol. 27, no. 3, pp. 11\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-fragment-based-model-26/index.html#abstract",
+    "href": "publications/di-nunzio-fragment-based-model-26/index.html#abstract",
+    "title": "A fragment-based model and annotation environment for discontinuous and overlapping terms",
+    "section": "Abstract",
+    "text": "Abstract\nTerminology and entity annotation tasks in digital-library and corpus-oriented workflows often involve expressions that are discontinuous, overlapping, or partially shared. While several existing annotation environments support span-based and relation-based annotation, discontinuous structures are frequently represented indirectly through workaround mechanisms, such as linking independent spans via auxiliary relations. This may increase annotation complexity and reduce the transparency of the resulting annotation objects. This paper introduces Annotaterm, a lightweight web-based annotation environment designed to support the direct annotation of contiguous, discontinuous, and overlapping terms through a fragment-based interaction model. This model supports simple, composite, and overlapping annotations in a uniform and inspectable way. A preliminary user evaluation with 14 participants suggests that the tool is perceived as suitable for terminology-oriented annotation tasks, particularly for handling overlapping and discontinuous expressions, while also identifying areas for future refinement. The proposed approach contributes both a conceptual model and a practical annotation environment for digital-library and terminology-oriented workflows requiring transparent handling of complex textual structures."
+  },
+  {
+    "objectID": "publications/di-nunzio-interactive-text-categorisation-17/index.html",
+    "href": "publications/di-nunzio-interactive-text-categorisation-17/index.html",
+    "title": "Interactive Text Categorisation: The Geometry of Likelihood Spaces",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nInformation Filtering and Retrieval: DART 2014: Revised and Invited Papers, pp. 13-34\nDOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-interactive-text-categorisation-17/index.html#abstract",
+    "href": "publications/di-nunzio-interactive-text-categorisation-17/index.html#abstract",
+    "title": "Interactive Text Categorisation: The Geometry of Likelihood Spaces",
+    "section": "Abstract",
+    "text": "Abstract\nIn this chapter we present a two-dimensional representation of probabilities called likelihood spaces. In particular, we show the geometrical properties of Bayes’ rule when projected into this two-dimensional space and extend this concept to Naïve Bayes classifiers. We apply this geometrical interpretation to a real machine learning problem of text categorisation and present a Web application that implements all the concepts on a standard text categorisation benchmark."
+  },
+  {
+    "objectID": "publications/di-nunzio-introducing-special-issue-24/index.html",
+    "href": "publications/di-nunzio-introducing-special-issue-24/index.html",
+    "title": "Introducing the Special Issue Terminology in the Digital World",
+    "section": "",
+    "text": "Di Nunzio, G. M., Costa, R., & Vezzani, F.\nLanguages, vol. 9, no. 9, pp. 284\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-introducing-special-issue-24/index.html#abstract",
+    "href": "publications/di-nunzio-introducing-special-issue-24/index.html#abstract",
+    "title": "Introducing the Special Issue Terminology in the Digital World",
+    "section": "Abstract",
+    "text": "Abstract\nThis Special Issue is dedicated to the 2nd International Conference on “Multilingual digital terminology today: Design, representation formats, and management systems” (MDTT 2023) (Di Nunzio et al […]"
+  },
+  {
+    "objectID": "publications/di-nunzio-linking-historical-evidence-23/index.html",
+    "href": "publications/di-nunzio-linking-historical-evidence-23/index.html",
+    "title": "Linking Historical Evidence to Digital Maps: The MICOLL-Map (full paper)",
+    "section": "",
+    "text": "Di Nunzio, G. M., Dyble, J., Giachelle, F., & Gialdroni, S.\n\n\nProceedings of the 2nd Workshop on Artificial Intelligence for Cultural Heritage (IAI4CH 2023), vol. 3536, pp. 104-112\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-new-decision-take-14/index.html",
+    "href": "publications/di-nunzio-new-decision-take-14/index.html",
+    "title": "A new decision to take for cost-sensitive Naïve Bayes classifiers",
+    "section": "",
+    "text": "Di Nunzio, G. M.\nInformation Processing & Management, vol. 50, no. 5, pp. 653-674\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-new-decision-take-14/index.html#abstract",
+    "href": "publications/di-nunzio-new-decision-take-14/index.html#abstract",
+    "title": "A new decision to take for cost-sensitive Naïve Bayes classifiers",
+    "section": "Abstract",
+    "text": "Abstract\nPractical classification problems often involve some kind of trade-off between the decisions a classifier may take. Indeed, it may be the case that decisions are not equally good or costly; therefore, it is important for the classifier to be able to predict the risk associated with each classification decision. Bayesian decision theory is a fundamental statistical approach to the problem of pattern classification. The objective is to quantify the trade-off between various classification decisions using probability and the costs that accompany such decisions. Within this framework, a loss function measures the rates of the costs and the risk in taking one decision over another. In this paper, we give a formal justification for a decision function under the Bayesian decision framework that comprises (i) the minimisation of Bayesian risk and (ii) an empirical decision function found by Domingos and Pazzani (1997). This new decision function has a very intuitive geometrical interpretation that can be explored on a Cartesian plane. We use this graphical interpretation to analyse different approaches to find the best decision on four different Naïve Bayes (NB) classifiers: Gaussian, Bernoulli, Multinomial, and Poisson, on different standard collections. We show that the graphical interpretation significantly improves the understanding of the models and opens new perspectives for new research studies."
+  },
+  {
+    "objectID": "publications/di-nunzio-overview-clef-2024-24/index.html",
+    "href": "publications/di-nunzio-overview-clef-2024-24/index.html",
+    "title": "Overview of the CLEF 2024 SimpleText Task 2: Identify and Explain Difficult Concepts",
+    "section": "",
+    "text": "Di Nunzio, G. M., Vezzani, F., Bonato, V., Azarbonyad, H., Kamps, J., & Ermakova, L.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024), vol. 3740, pp. 3129-3146\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-preserving-endangered-linguistic-26/index.html",
+    "href": "publications/di-nunzio-preserving-endangered-linguistic-26/index.html",
+    "title": "Preserving endangered linguistic heritage: Developing a corpus for the study of contact-induced changes in corfioto",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Vardakis, G.\nProceedings of the fifteenth language resources and evaluation conference (LREC 2026), pp. 985–996\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-preserving-endangered-linguistic-26/index.html#abstract",
+    "href": "publications/di-nunzio-preserving-endangered-linguistic-26/index.html#abstract",
+    "title": "Preserving endangered linguistic heritage: Developing a corpus for the study of contact-induced changes in corfioto",
+    "section": "Abstract",
+    "text": "Abstract\nThis paper presents current results of a work-in-progress project on the aims, goals, and methods for compiling a state-of-the-art morphosyntactically annotated corpus of Corfioto, the endangered Balkan Venetan variety of the Corfiot Jews. It gives an outline of the workflow for building, archiving, managing and annotating the first mixed-language corpus of original oral and written data of the Corfiot Jews, based on the Universal Dependencies (UD) framework and introduces the design and the implementation of an application for the Interactive MorPhosyntactic Annotation of Corfioto (IMPACT). The creation and the annotation of the corpus serves three goals: i) attain a quantitative analysis of variation in available data for the analysis of contact-induced syntactic change in clausal complementation in Corfioto; ii) enable the creation of a gold standard and the training of a model for the linguistic annotation of all data in the Universal Dependencies framework; and iii) contribute to the ever-growing research in the development of language resources and tools for endangered and low-resource contact varieties via the collaboration of computational, theoretical and fieldwork linguists."
+  },
+  {
+    "objectID": "publications/di-nunzio-study-gain-based-21/index.html",
+    "href": "publications/di-nunzio-study-gain-based-21/index.html",
+    "title": "A Study of a Gain Based Approach for Query Aspects in Recall Oriented Tasks",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Faggioli, G.\nApplied Sciences, vol. 11, no. 19, pp. 9075\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-study-gain-based-21/index.html#abstract",
+    "href": "publications/di-nunzio-study-gain-based-21/index.html#abstract",
+    "title": "A Study of a Gain Based Approach for Query Aspects in Recall Oriented Tasks",
+    "section": "Abstract",
+    "text": "Abstract\nEvidence-based healthcare integrates the best research evidence with clinical expertise in order to make decisions based on the best practices available. In this context, the task of collecting all the relevant information, a recall oriented task, in order to take the right decision within a reasonable time frame has become an important issue. In this paper, we investigate the problem of building effective Consumer Health Search (CHS) systems that use query variations to achieve high recall and fulfill the information needs of health consumers. In particular, we study an intent-aware gain metric used to estimate the amount of missing information and make a prediction about the achievable recall for each query reformulation during a search session. We evaluate and propose alternative formulations of this metric using standard test collections of the CLEF 2018 eHealth Evaluation Lab CHS."
+  },
+  {
+    "objectID": "publications/di-nunzio-terminology-extraction-electronic-22/index.html",
+    "href": "publications/di-nunzio-terminology-extraction-electronic-22/index.html",
+    "title": "Terminology Extraction in Electronic Health Records. The ExaMode Project (poster)",
+    "section": "",
+    "text": "Di Nunzio, G. M., Marchesin, S., & Silvello, G.\n\n\nProceedings of the 1st International Conference on Multilingual Digital Terminology Today, vol. 3161\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-thorough-reproducibility-study-23/index.html",
+    "href": "publications/di-nunzio-thorough-reproducibility-study-23/index.html",
+    "title": "A Thorough Reproducibility Study on Sentiment Classification: Methodology, Experimental Setting, Results",
+    "section": "",
+    "text": "Di Nunzio, G. M. & Minzoni, R.\nInformation, vol. 14, no. 2, pp. 76\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-thorough-reproducibility-study-23/index.html#abstract",
+    "href": "publications/di-nunzio-thorough-reproducibility-study-23/index.html#abstract",
+    "title": "A Thorough Reproducibility Study on Sentiment Classification: Methodology, Experimental Setting, Results",
+    "section": "Abstract",
+    "text": "Abstract\nA survey published by Nature in 2016 revealed that more than 70% of researchers failed in their attempt to reproduce another researcher’s experiments, and over 50% failed to reproduce one of their own experiments; a state of affairs that has been termed the ‘reproducibility crisis’ in science. The purpose of this work is to contribute to the field by presenting a reproducibility study of a Natural Language Processing paper about “Language Representation Models for Fine-Grained Sentiment Classification”. A thorough analysis of the methodology, experimental setting, and experimental results are presented, leading to a discussion of the issues and the necessary steps involved in this kind of study."
+  },
+  {
+    "objectID": "publications/di-nunzio-unipd-simpletext2024-semi-24/index.html",
+    "href": "publications/di-nunzio-unipd-simpletext2024-semi-24/index.html",
+    "title": "UNIPD@SimpleText2024: A Semi-Manual Approach on Prompting ChatGPT for Extracting Terms and Write Terminological Definitions",
+    "section": "",
+    "text": "Di Nunzio, G. M., Gallina, E., & Vezzani, F.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024), vol. 3740, pp. 3230-3237\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-when-fuzziness-is-26/index.html",
+    "href": "publications/di-nunzio-when-fuzziness-is-26/index.html",
+    "title": "When Fuzziness Is In The Mind, Not In The Concept: Terminology, Prototypes, And Ontological Modeling",
+    "section": "",
+    "text": "Di Nunzio, G. & Vezzani, F.\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/di-nunzio-when-fuzziness-is-26/index.html#abstract",
+    "href": "publications/di-nunzio-when-fuzziness-is-26/index.html#abstract",
+    "title": "When Fuzziness Is In The Mind, Not In The Concept: Terminology, Prototypes, And Ontological Modeling",
+    "section": "Abstract",
+    "text": "Abstract\nIn recent decades, terminology studies have increasingly engaged with findings from cognitive psychology, corpus linguistics, and discourse analysis in order to account for variation in term usage, historical change, and context-dependent meaning (Cabré, 1999; Temmerman, 2000). This development has led to the emergence of socio-cognitive approaches to terminology, which challenge classical Wüsterian models of concepts traditionally associated with standardization-oriented terminology work. In particular, prototype-based theories of categorization have been mobilized to argue that many concepts lack clear boundaries and that classical Aristotelian definitions based on necessary and sufficient characteristics are inadequate for describing real-world terminological practice (Lakoff, 1990; Rosch, 1975, 1973). These socio-cognitive insights have contributed significantly to the descriptive analysis of terminological variation and to the discussion of the possible pitfalls of the general theory of terminology. Nevertheless, this paper argues that the theoretical implications of socio-cognitive approaches for concept modeling, ontology design, and terminology management have often been overstated. The central claim we try to defend here is that graded categorization behavior and prototype effects pertain to cognitive access and usage patterns, not to the ontological structure of concepts themselves. Failure to maintain this distinction has often led to an unnecessary dichotomy (classical vs modern terminology, right vs wrong, etc.) with a consequent conceptual confusion and practical difficulties in applied terminology and ontology engineering."
+  },
+  {
+    "objectID": "publications/ermakova-overview-clef-2024-24/index.html",
+    "href": "publications/ermakova-overview-clef-2024-24/index.html",
+    "title": "Overview of the CLEF 2024 SimpleText Track",
+    "section": "",
+    "text": "Ermakova, L., SanJuan, E., Huet, S., Azarbonyad, H., Di Nunzio, G. M., Vezzani, F., D’Souza, J., & Kamps, J.\nExperimental IR Meets Multilinguality, Multimodality, and Interaction, pp. 283-307\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/ermakova-overview-clef-2024-24/index.html#abstract",
+    "href": "publications/ermakova-overview-clef-2024-24/index.html#abstract",
+    "title": "Overview of the CLEF 2024 SimpleText Track",
+    "section": "Abstract",
+    "text": "Abstract\nEveryone acknowledges the importance of objective scientific information. However, finding and understanding relevant scientific documents is often challenging due to complex terminology and readers’ lack of prior knowledge. The question is can we improve accessibility for everyone? This paper presents an overview of the SimpleText Track at CLEF 2024 addressing the technical and evaluation challenges associated with making scientific information accessible to a wide audience, including students and non-experts. It describes the data and benchmarks provided for scientific text summarization and simplification, along with the participants’ results. The CLEF 2024 SimpleText track is based on four interrelated tasks: Task 1 on Content Selection: Retrieving Passages to Include in a Simplified Summary. Task 2 on Complexity Spotting: Identifying and Explaining Difficult Concepts. Task 3 on Text Simplification: Simplify Scientific Text. Task 4 on SOTA?: Tracking the State-of-the-Art in Scholarly Publications."
+  },
+  {
+    "objectID": "publications/faggioli-extensible-unifying-approach-24/index.html",
+    "href": "publications/faggioli-extensible-unifying-approach-24/index.html",
+    "title": "An extensible and unifying approach to retrospective clinical data modeling: the BrainTeaser Ontology",
+    "section": "",
+    "text": "Faggioli, G., Menotti, L., Marchesin, S., Chió, A., Dagliati, A., de Carvalho, M., Gromicho, M., Manera, U., Tavazzi, E., Di Nunzio, G. M., Silvello, G., & Ferro, N.\nJournal of Biomedical Semantics, vol. 15, no. 1, pp. 16\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/faggioli-extensible-unifying-approach-24/index.html#abstract",
+    "href": "publications/faggioli-extensible-unifying-approach-24/index.html#abstract",
+    "title": "An extensible and unifying approach to retrospective clinical data modeling: the BrainTeaser Ontology",
+    "section": "Abstract",
+    "text": "Abstract\nAutomatic disease progression prediction models require large amounts of training data, which are seldom available, especially when it comes to rare diseases. A possible solution is to integrate data from different medical centres. Nevertheless, various centres often follow diverse data collection procedures and assign different semantics to collected data. Ontologies, used as schemas for interoperable knowledge bases, represent a state-of-the-art solution to homologate the semantics and foster data integration from various sources. This work presents the BrainTeaser Ontology (BTO), an ontology that models the clinical data associated with two brain-related rare diseases (ALS and MS) in a comprehensive and modular manner. BTO assists in organizing and standardizing the data collected during patient follow-up. It was created by harmonizing schemas currently used by multiple medical centers into a common ontology, following a bottom-up approach. As a result, BTO effectively addresses the practical data collection needs of various real-world situations and promotes data portability and interoperability. BTO captures various clinical occurrences, such as disease onset, symptoms, diagnostic and therapeutic procedures, and relapses, using an event-based approach. Developed in collaboration with medical partners and domain experts, BTO offers a holistic view of ALS and MS for supporting the representation of retrospective and prospective data. Furthermore, BTO adheres to Open Science and FAIR (Findable, Accessible, Interoperable, and Reusable) principles, making it a reliable framework for developing predictive tools to aid in medical decision-making and patient care. Although BTO is designed for ALS and MS, its modular structure makes it easily extendable to other brain-related diseases, showcasing its potential for broader applicability."
+  },
+  {
+    "objectID": "publications/ferilli-knowledge-graphs-web-25/index.html",
+    "href": "publications/ferilli-knowledge-graphs-web-25/index.html",
+    "title": "Knowledge Graphs for the Web Economy: The CHiPS&BITS Project on Cultural Heritage",
+    "section": "",
+    "text": "Ferilli, S., Bernasconi, E., Redavid, D., & Di Nunzio, G. M.\n\n\nProceedings of the 21st Conference on Information and Research science Connecting to Digital and Library science, vol. 3937\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/giachelle-exploring-historical-routes-24/index.html",
+    "href": "publications/giachelle-exploring-historical-routes-24/index.html",
+    "title": "Exploring Historical Routes and Waypoints with MICOLL Digital Map",
+    "section": "",
+    "text": "Giachelle, F., Dyble, J., Di Nunzio, G. M., & Gialdroni, S.\nLinking Theory and Practice of Digital Libraries, pp. 141-150\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/giachelle-exploring-historical-routes-24/index.html#abstract",
+    "href": "publications/giachelle-exploring-historical-routes-24/index.html#abstract",
+    "title": "Exploring Historical Routes and Waypoints with MICOLL Digital Map",
+    "section": "Abstract",
+    "text": "Abstract\nThis work presents the MICOLL digital map, a web-based application for searching for historical routes and waypoints in the context of the ERC project “Migrating Commercial Law and Language (MICOLL). Rethinking Lex Mercatoria”. The MICOLL digital map is an ongoing project that aims to allow historians and experts to easily search and discover the historical routes, used for exchanging goods and information, that connected European cities during the 11th-17th centuries. The final goal is to show their evolution over time by linking historical information to spatial waypoints and enabling a visual and interactive consultation over a digital map."
+  },
+  {
+    "objectID": "publications/guazzo-intelligent-disease-progression-22/index.html",
+    "href": "publications/guazzo-intelligent-disease-progression-22/index.html",
+    "title": "Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2022",
+    "section": "",
+    "text": "Guazzo, A., Trescato, I., Longato, E., Hazizaj, E., Dosso, D., Faggioli, G., Di Nunzio, G. M., Silvello, G., Vettoretti, M., Tavazzi, E., Roversi, C., Fariselli, P., Madeira, S. C., de Carvalho, M., Gromicho, M., Chiò, A., Manera, U., Dagliati, A., Birolo, G., Aidos, H., Di Camillo, B., & Ferro, N.\nExperimental IR Meets Multilinguality, Multimodality, and Interaction, pp. 395-422\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/guazzo-intelligent-disease-progression-22/index.html#abstract",
+    "href": "publications/guazzo-intelligent-disease-progression-22/index.html#abstract",
+    "title": "Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2022",
+    "section": "Abstract",
+    "text": "Abstract\nAmyotrophic Lateral Sclerosis (ALS) is a severe chronic disease characterized by progressive or alternate impairment of neurological functions, characterized by high heterogeneity both in symptoms and disease progression. As a consequence its clinical course is highly uncertain, challenging both patients and clinicians. Indeed, patients have to manage alternated periods in hospital with care at home, experiencing a constant uncertainty regarding the timing of the disease acute phases and facing a considerable psychological and economic burden that also involves their caregivers. Clinicians, on the other hand, need tools able to support them in all the phases of the patient treatment, suggest personalized therapeutic decisions, indicate urgently needed interventions. The goal of is to design and develop an evaluation infrastructure for AI algorithms able to:"
+  },
+  {
+    "objectID": "publications/kim-mkte-ate-it-26/index.html",
+    "href": "publications/kim-mkte-ate-it-26/index.html",
+    "title": "MKTE at ATE-IT: CRF-Based Term Extraction for Italian Waste Management Documents",
+    "section": "",
+    "text": "Kim, M. & Di Nunzio, G. M.\n\n\nProceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026), vol. 4195\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/marchesin-simple-but-effective-21/index.html",
+    "href": "publications/marchesin-simple-but-effective-21/index.html",
+    "title": "Simple but Effective Knowledge-Based Query Reformulations for Precision Medicine Retrieval",
+    "section": "",
+    "text": "Marchesin, S., Di Nunzio, G. M., & Agosti, M.\nInformation, vol. 12, no. 10, pp. 402\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/marchesin-simple-but-effective-21/index.html#abstract",
+    "href": "publications/marchesin-simple-but-effective-21/index.html#abstract",
+    "title": "Simple but Effective Knowledge-Based Query Reformulations for Precision Medicine Retrieval",
+    "section": "Abstract",
+    "text": "Abstract\nIn Information Retrieval (IR), the semantic gap represents the mismatch between users’ queries and how retrieval models answer to these queries. In this paper, we explore how to use external knowledge resources to enhance bag-of-words representations and reduce the effect of the semantic gap between queries and documents. In this regard, we propose several simple but effective knowledge-based query expansion and reduction techniques, and we evaluate them for the medical domain. The query reformulations proposed are used to increase the probability of retrieving relevant documents through the addition to, or the removal from, the original query of highly specific terms. The experimental analyses on different test collections for Precision Medicine IR show the effectiveness of the developed techniques. In particular, a specific subset of query reformulations allow retrieval models to achieve top performing results in all the considered test collections."
+  },
+  {
+    "objectID": "publications/martinelli-domain-specific-curated-26/index.html",
+    "href": "publications/martinelli-domain-specific-curated-26/index.html",
+    "title": "A Domain-Specific Curated Benchmark for Entity and Document-Level Relation Extraction",
+    "section": "",
+    "text": "Martinelli, M., Marchesin, S., Bonato, V., Di Nunzio, G. M., Ferro, N., Irrera, O., Menotti, L., Vezzani, F., & Silvello, G.\nFindings of the Association for Computational Linguistics: EACL 2026, pp. 5693–5711\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/martinelli-domain-specific-curated-26/index.html#abstract",
+    "href": "publications/martinelli-domain-specific-curated-26/index.html#abstract",
+    "title": "A Domain-Specific Curated Benchmark for Entity and Document-Level Relation Extraction",
+    "section": "Abstract",
+    "text": "Abstract\nInformation Extraction (IE), encompassing Named Entity Recognition (NER), Named Entity Linking (NEL), and Relation Extraction (RE), is critical for transforming the rapidly growing volume of scientific publications into structured, actionable knowledge. This need is especially evident in fast-evolving biomedical fields such as the gut-brain axis, where research investigates complex interactions between the gut microbiota and brain-related disorders. Existing biomedical IE benchmarks, however, are often narrow in scope and rely heavily on distantly supervised or automatically generated annotations, limiting their utility for advancing robust IE methods. We introduce GutBrainIE, a benchmark based on more than 1,600 PubMed abstracts, manually annotated by biomedical and terminological experts with fine-grained entities, concept-level links, and relations. While grounded in the gut-brain axis, the benchmark’s rich schema, multiple tasks, and combination of highly curated and weakly supervised data make it broadly applicable to the development and evaluation of biomedical IE systems across domains."
+  },
+  {
+    "objectID": "publications/maule-smte-ate-it-26/index.html",
+    "href": "publications/maule-smte-ate-it-26/index.html",
+    "title": "SMTE at ATE-IT: Ensemble Term Extraction with Italian BERT, spaCy, and Vocabulary-Based Filtering",
+    "section": "",
+    "text": "Maule, S. & Di Nunzio, G. M.\n\n\nProceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026), vol. 4195\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/milazzo-ornare-toward-digital-25/index.html",
+    "href": "publications/milazzo-ornare-toward-digital-25/index.html",
+    "title": "ORNARE: Toward a Digital Methodology for Onomastic Data in Medieval French Romance",
+    "section": "",
+    "text": "Milazzo, M. & Di Nunzio, G. M.\nUmanistica Digitale, no. 21, pp. 141-158\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/milazzo-ornare-toward-digital-25/index.html#abstract",
+    "href": "publications/milazzo-ornare-toward-digital-25/index.html#abstract",
+    "title": "ORNARE: Toward a Digital Methodology for Onomastic Data in Medieval French Romance",
+    "section": "Abstract",
+    "text": "Abstract\nThis paper presents ORNARE (Onomastic Repertoire of the Roman d’Alexandre), the first outcome of a broader research initiative aimed at developing a digital onomastic repertory for medieval French romance. After outlining the status quaestionis of medieval onomastic resources, particularly digital ones, the article explains the motivations behind the project, the criteria for constructing the research corpus, and the challenges of defining the category of anthroponym in a medieval context. It then details the methodological framework adopted for data modeling and annotation. The paper concludes by discussing the initial results produced by the ORNARE project, with a focus on the Roman d’Alexandre as a case study."
+  },
+  {
+    "objectID": "publications/nentidis-bioasq-clef2026-fourteenth-26/index.html",
+    "href": "publications/nentidis-bioasq-clef2026-fourteenth-26/index.html",
+    "title": "BioASQ at CLEF2026: The Fourteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge",
+    "section": "",
+    "text": "Nentidis, A., Katsimpras, G., Krithara, A., Krallinger, M., Rodriguez-Ortega, M., Rodriguez-Lopez, E., Loukachevitch, N., Rozhkov, I., Tutubalina, E., Tsoumakas, G., Giannakoulas, G., Dimitriadis, D., Bekiaridou, A., Samaras, A., Patsiou, V., Di Nunzio, G. M., Ferro, N., Marchesin, S., Martinelli, M., Silvello, G., & Paliouras, G.\nAdvances in Information Retrieval, pp. 315-324\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/nentidis-bioasq-clef2026-fourteenth-26/index.html#abstract",
+    "href": "publications/nentidis-bioasq-clef2026-fourteenth-26/index.html#abstract",
+    "title": "BioASQ at CLEF2026: The Fourteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge",
+    "section": "Abstract",
+    "text": "Abstract\nOver the past thirteen years, the large-scale biomedical semantic indexing and question-answering challenge (BioASQ) has consistently driven the advancement of methods and tools that enhance access to the rapidly growing body of scientific resources in the biomedical domain. BioASQ offers a unique common testbed where research teams worldwide can evaluate and compare innovative approaches for accessing biomedical knowledge by organizing shared tasks on an annual basis and providing respective benchmark datasets that represent the real information needs of biomedical experts."
+  },
+  {
+    "objectID": "publications/neves-findings-wmt-2024-24/index.html",
+    "href": "publications/neves-findings-wmt-2024-24/index.html",
+    "title": "Findings of the WMT 2024 Biomedical Translation Shared Task: Test Sets on Abstract Level",
+    "section": "",
+    "text": "Neves, M., Grozea, C., Thomas, P., Roller, R., Bawden, R., Névéol, A., Castle, S., Bonato, V., Di Nunzio, G. M., Vezzani, F., Vicente Navarro, M., Yeganova, L., & Jimeno Yepes, A.\nProceedings of the Ninth Conference on Machine Translation, pp. 124–138\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/neves-findings-wmt-2024-24/index.html#abstract",
+    "href": "publications/neves-findings-wmt-2024-24/index.html#abstract",
+    "title": "Findings of the WMT 2024 Biomedical Translation Shared Task: Test Sets on Abstract Level",
+    "section": "Abstract",
+    "text": "Abstract\nWe present the results of the ninth edition of the Biomedical Translation Task at WMT`24. We released test sets for six language pairs, namely, French, German, Italian, Portuguese, Russian, and Spanish, from and into English. Eachtest set consists of 50 abstracts from PubMed. Differently from previous years, we did not split abstracts into sentences. We received submissions from five teams, and for almost all language directions. We used a baseline/comparison system based on Llama 3.1 and share the source code at https://github.com/cgrozea/wmt24biomed-ref."
+  },
+  {
+    "objectID": "publications/piron-named-entity-recognition-25/index.html",
+    "href": "publications/piron-named-entity-recognition-25/index.html",
+    "title": "Named Entity Recognition with GLiNER and Relation Extraction with LLMs",
+    "section": "",
+    "text": "Piron, S. & Di Nunzio, G. M.\n\n\nWorking Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025), vol. 4038, pp. 509-519\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-linking-theory-practice-24/index.html",
+    "href": "publications/publication-linking-theory-practice-24/index.html",
+    "title": "Linking Theory and Practice of Digital Libraries: 28th International Conference on Theory and Practice of Digital Libraries, TPDL 2024, Ljubljana, Slovenia, September 24–27, 2024, Proceedings, Part I",
+    "section": "",
+    "text": "Springer Nature Switzerland, vol. 15177\n\nPDF DOI BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-detech-2026-26/index.html",
+    "href": "publications/publication-preface-detech-2026-26/index.html",
+    "title": "Preface (DETECH 2026)",
+    "section": "",
+    "text": "Proceedings of the DEfinition and Term Extraction CHallenge (DETECH 2026), vol. 4215\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-mdtt-2024-24/index.html",
+    "href": "publications/publication-preface-mdtt-2024-24/index.html",
+    "title": "Preface (MDTT 2024)",
+    "section": "",
+    "text": "Proceedings of the 3rd International Conference on Multilingual Digital Terminology Today (MDTT 2024), vol. 3703\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-mdtt-2026-26/index.html",
+    "href": "publications/publication-preface-mdtt-2026-26/index.html",
+    "title": "Preface (MDTT 2026)",
+    "section": "",
+    "text": "Proceedings of the 5th International Conference on Multilingual Digital Terminology Today (MDTT 2026), vol. 4219\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-preface-summary-there-23/index.html",
+    "href": "publications/publication-preface-summary-there-23/index.html",
+    "title": "Preface Summary: There were 17 short papers accepted in this conference. All papers were peer-reviewed by at least two members of the scientific committee.",
+    "section": "",
+    "text": "Proceedings of the 2nd International Conference on Multilingual Digital Terminology Today (MDTT 2023), vol. 3427\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/publication-proceedings-workshop-determit-24/index.html",
+    "href": "publications/publication-proceedings-workshop-determit-24/index.html",
+    "title": "Proceedings of the Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context @ LREC-COLING 2024",
+    "section": "",
+    "text": "ELRA and ICCL\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/smirnov-dsbkte-ate-it-26/index.html",
+    "href": "publications/smirnov-dsbkte-ate-it-26/index.html",
+    "title": "DSBKTE at ATE-IT: From Token Classification to Zero-Shot Generation: Two Approaches to Italian ATE at EVALITA 2026",
+    "section": "",
+    "text": "Smirnov, D., Khashechian, B., & Di Nunzio, G. M.\n\n\nProceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026), vol. 4195\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/vandervoort-vvte-ate-it-26/index.html",
+    "href": "publications/vandervoort-vvte-ate-it-26/index.html",
+    "title": "VVTE at ATE-IT: From Candidates to Terms: Hybrid Italian ATE with Dependency Heuristics, Gemini, and Random Forest Filtering",
+    "section": "",
+    "text": "Vandervoort, V. G. L. & Di Nunzio, G. M.\n\n\nProceedings of the 9th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026), vol. 4195\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/vezzani-le-sens-de-25/index.html",
+    "href": "publications/vezzani-le-sens-de-25/index.html",
+    "title": "Le sens de la polysémie en terminologie : propositions de représentation",
+    "section": "",
+    "text": "Vezzani, F., Costa, R., Di Nunzio, G. M., & Piccini, S.\nRepères-Dorif, no. 33\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "publications/vezzani-le-sens-de-25/index.html#abstract",
+    "href": "publications/vezzani-le-sens-de-25/index.html#abstract",
+    "title": "Le sens de la polysémie en terminologie : propositions de représentation",
+    "section": "Abstract",
+    "text": "Abstract\nContinue de lire…"
+  },
+  {
+    "objectID": "publications/vezzani-overview-internationalworkshop-definition-26/index.html",
+    "href": "publications/vezzani-overview-internationalworkshop-definition-26/index.html",
+    "title": "Overview of the InternationalWorkshop on Definition and Term Extraction Challenge (DETECH) 2026",
+    "section": "",
+    "text": "Vezzani, F., Di Nunzio, G. M., Bonato, V., & Silvello, G.\n\n\nProceedings of the DEfinition and Term Extraction CHallenge (DETECH 2026), vol. 4215\n\nPDF Source BibTeX"
+  },
+  {
+    "objectID": "teaching/advanced-text-analytics-2025-2026/index.html",
+    "href": "teaching/advanced-text-analytics-2025-2026/index.html",
+    "title": "Advanced Text Analytics",
+    "section": "",
+    "text": "Advanced Text Analytics is a Master’s-level course in Computer Engineering focusing on text analysis and information extraction."
+  },
+  {
+    "objectID": "teaching/advanced-text-analytics-2025-2026/index.html#course-description",
+    "href": "teaching/advanced-text-analytics-2025-2026/index.html#course-description",
+    "title": "Advanced Text Analytics",
+    "section": "",
+    "text": "Advanced Text Analytics is a Master’s-level course in Computer Engineering focusing on text analysis and information extraction."
+  }
+]

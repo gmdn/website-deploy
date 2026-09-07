@@ -1,0 +1,13 @@
+# Technology Assisted Review Systems: Current and Future Directions
+
+Conference Paper
+
+Published
+
+March 28, 2024
+
+**Di Nunzio, G. M.**
+
+*Proceedings of the 3rd Workshop on Augmented Intelligence for Technology-Assisted Reviews Systems (ALTARS 2024)*, vol. 3832
+
+[PDF](paper.pdf) [Source](https://ceur-ws.org/Vol-3832/#short4) [BibTeX](cite.bib)
